@@ -1,0 +1,2848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xml:id="mei-0000000551764948" meiversion="5.1" xmlns="http://www.music-encoding.org/ns/mei">
+   <meiHead xml:id="meiHead-0000001511361213">
+      <fileDesc xml:id="fileDesc-0000000784890293">
+         <titleStmt xml:id="titleStmt-0000000926231359">
+            <title xml:id="title-0000003041350431" n="14" type="score">14-Der_greise_Kopf</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt-0000003756076702">
+            <respStmt xml:id="respStmt-0000002627898767">
+               <persName xml:id="persName-0000003946365514" auth="ORCID" auth.uri="https://orcid.org/0000-0001-7970-5553" role="Principle Investigator">Neumann, Joshua</persName>
+               <corpName xml:id="corpName-0000002262167031" auth.uri="https://www.fritz-thyssen-stiftung.de/" role="Funder">Fritz
+                  Thyssen Stiftung für Wissenschaftsförderung</corpName>
+            </respStmt>
+            <availability xml:id="availability-0000000914648649">Open Source, CC-BY-NC-SA-4.0</availability>
+         </pubStmt>
+         <notesStmt xml:id="notesStmt-0000002708455008">
+            <annot xml:id="annot-0000002374252419">Part of the project "Creating Schubert's 'Die Winterreise' in performance with
+               Dietrich Fischer-Dieskau</annot>
+         </notesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e9qcycf">
+         <appInfo xml:id="a19v5t31">
+            <application xml:id="auglkwj2" enddate="2025-09-08T13:19:20" startdate="2024-09-17T15:09:58" version="1.2.8">
+               <name xml:id="nd5x0pa1">mei-friend</name>
+               <p xml:id="p0whlwx1">First edit by mei-friend 1.0.14p, 3 September 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <manifestationList xml:id="manifestationList-0000003662537845">
+         <manifestation xml:id="dwdfd0e63fb41-f2fa-46a2-b161-e3e8cf6ec03a" label="OpenLieder" n="1" type="basis">
+            <editionStmt xml:id="editionStmt-0000000261709731">
+               <edition xml:id="edition-0000004146808443">
+                  <bibl xml:id="bibl-0000000609365618">
+                     <identifier xml:id="identifier-0000001822999313" auth="OpenLieder" auth.uri="https://musescore.com/user/27638568/scores/5015378">Transcribed
+                        from the volume "Schubert's Werke, Serie XX: Sämtliche einstimmige Lieder
+                        und Gesänge Band 9", published in Leipzig by Breitkopf &amp; Härtel in 1895
+                        (Plate F.S. 878-904). This is a Public Domain score available as IMSLP
+                        #60822</identifier>
+                     <persName xml:id="persName-0000000007142137" auth="GND" auth.uri="https://d-nb.info/gnd/118610961" role="composer">Franz Schubert</persName>
+                     <persName xml:id="persName-0000000240424276" auth="GND" auth.uri="https://d-nb.info/gnd/11858524X" role="lyricist">Wilhelm Müller</persName>
+                     <persName xml:id="persName-0000002582278702" role="arranger">Transcribed by pental from IMSLP #60822. Source:
+                        http://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)</persName>
+                     <availability xml:id="availability-0000004126347340">OpenScore (CC0)</availability>
+                     <date xml:id="date-0000002248677217" isodate="201803">March 2018</date>
+                  </bibl>
+               </edition>
+            </editionStmt>
+         </manifestation>
+         <manifestation xml:id="dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30" label="Fischer-Dieskau/Budde Edition" n="2" type="Fischer-Dieskau">
+            <editionStmt xml:id="editionStmt-0000001776926676">
+               <edition xml:id="edition-0000000930277139">
+                  <bibl xml:id="bibl-0000003015537255">
+                     <identifier xml:id="identifier-0000000068049131">Edition Peters version based on Max Friedlaender, edited by
+                        Dietrich Fischer-Dieskau and Elmar Budde</identifier>
+                     <corpName xml:id="corpName-0000000504098039" role="publisher">Edition Peters</corpName>
+                     <title xml:id="title-0000002693284070">Schubert<lb xml:id="lb-0000000106040957"/>Lieder<lb xml:id="lb-0000003905738184"/>Neue Ausgabe / Band I<lb xml:id="lb-0000002710363071"/>Die Schöne
+                        Müllerin<lb xml:id="lb-0000002657393548"/>Winterreise<lb xml:id="lb-0000003682542834"/>Schwanengesang<lb xml:id="lb-0000002182177510"/>Hohe Stimme / High
+                        Vocice<lb xml:id="lb-0000000820396934"/>(Fischer-Dieskau / Budde)</title>
+                     <persName xml:id="persName-0000000561532454" auth="GND" auth.uri="https://d-nb.info/gnd/118610961" role="composer">Franz Schubert</persName>
+                     <persName xml:id="persName-0000000871627401" auth="GND" auth.uri="https://d-nb.info/gnd/11858524X" role="lyricist">Wilhelm Müller</persName>
+                     <persName xml:id="persName-0000000617308321" auth="GND" auth.uri="https://d-nb.info/gnd/118691457" role="editor">Fischer-Dieskau, Dietrich</persName>
+                     <persName xml:id="persName-0000000879124255" auth="GND" auth.uri="https://d-nb.info/gnd/124481809" role="editor">Budde, Elmar</persName>
+                     <persName xml:id="persName-0000001617026757" auth="GND" auth.uri="https://d-nb.info/gnd/116797673" role="first editor">Friedländer, Max</persName>
+                     <availability xml:id="availability-0000001531469604">
+                        <useRestrict xml:id="useRestrict-0000001584380696">Copyright Protected</useRestrict>
+                     </availability>
+                     <date xml:id="date-0000001871585993" isodate="1985">1985</date>
+                  </bibl>
+               </edition>
+            </editionStmt>
+         </manifestation>
+         <manifestation xml:id="dwdfd9eb224fd-7aed-4c53-b944-a6cf2d44ee8d" label="Schubert Winterreise Dataset" n="3" type="Winterreise_Dataset">
+            <editionStmt xml:id="editionStmt-0000002756586901">
+               <edition xml:id="edition-0000002548357957">
+                  <bibl xml:id="bibl-0000000928122851">
+                     <identifier xml:id="identifier-0000000989741494" auth="Zenodo" auth.uri="https://zenodo.org/records/10839767">Schubert Winterreise Dataset</identifier>
+                     <persName xml:id="persName-0000000347559687" auth="GND" auth.uri="https://d-nb.info/gnd/118610961" role="composer">Franz Schubert</persName>
+                     <persName xml:id="persName-0000003529078314" auth="GND" auth.uri="https://d-nb.info/gnd/11858524X" role="lyricist">Wilhelm Müller</persName>
+                     <persName xml:id="persName-0000000980088873" auth="ORCID" auth.uri="https://orcid.org/0000-0003-2143-4679" role="1st author">Weiß, Christoph</persName>
+                     <persName xml:id="persName-0000002154309104" auth="ORCID" auth.uri="https://orcid.org/0000-0003-1383-4541" role="2nd author">Zalkow, Frank</persName>
+                     <persName xml:id="persName-0000000887278402" role="3rd author"> Ariffi-Müller, Vlora</persName>
+                     <persName xml:id="persName-0000003149595613" auth="ORCID" auth.uri="https://orcid.org/0000-0001-6062-7524" role="4th author">Müller, Meinhard</persName>
+                     <persName xml:id="persName-0000001792665938" auth="ORCID" auth.uri="https://orcid.org/0000-0002-6980-7027" role="5th author">Koops, Hendrik Vincent</persName>
+                     <persName xml:id="persName-0000002149063035" role="6th author">Volk, Anja</persName>
+                     <persName xml:id="persName-0000001787859450" role="7th author">Grohganz, Harald G.</persName>
+                     <availability xml:id="availability-0000000924909048">
+                        <useRestrict xml:id="useRestrict-0000003251745250" auth="Creative_Commons" auth.uri="https://creativecommons.org/licenses/by/3.0/legalcode">Creative
+                           Commons Attribution 3.0 Unported</useRestrict>
+                     </availability>
+                     <date xml:id="date-0000002362205529" isodate="20240319">19 March 2024</date>
+                  </bibl>
+               </edition>
+            </editionStmt>
+         </manifestation>
+         <manifestation xml:id="dwdfddfdf8401-7618-45b6-90d4-c471946e6e19" label="Neue Ausgabe sämtlicher Werke" n="4" type="Neueausgabe">
+            <editionStmt xml:id="editionStmt-0000003141228125">
+               <edition xml:id="edition-0000004255979833">
+                  <bibl xml:id="bibl-0000000295345051">
+                     <title xml:id="title-0000001460822970">Neue Ausgabe sämtlicher Werke<lb xml:id="lb-0000000152119663"/>Serie IV: Lieder<lb xml:id="lb-0000004280831796"/>Band 4: Teil
+                        a</title>
+                     <identifier xml:id="identifier-0000001021162179" auth="Neue_Schubert_Ausgabe" auth.uri="https://schubert-ausgabe.de/en/edition/classification-and-status-of-edition/">Neue Schubert Ausgabe</identifier>
+                     <corpName xml:id="corpName-0000000381144747" auth="GND" auth.uri="https://d-nb.info/dnbn/330000764" role="publisher">Bärenreiter-Verlag</corpName>
+                     <persName xml:id="persName-0000001754308141" auth="GND" auth.uri="https://d-nb.info/gnd/118610961" role="composer">Franz Schubert</persName>
+                     <persName xml:id="persName-0000002856185452" auth="GND" auth.uri="https://d-nb.info/gnd/11858524X" role="lyricist">Wilhelm Müller</persName>
+                     <persName xml:id="persName-0000001481488919" auth="GND" auth.uri="https://d-nb.info/gnd/119035812" role="editor">Dürr, Walther</persName>
+                     <availability xml:id="availability-0000003855355026">
+                        <useRestrict xml:id="useRestrict-0000002462241780">Copyright Protected</useRestrict>
+                     </availability>
+                     <date xml:id="date-0000003577899417" isodate="1979">1979</date>
+                  </bibl>
+               </edition>
+            </editionStmt>
+         </manifestation>
+         <manifestation xml:id="dwdfd93072fd5-23ea-4775-9c62-947e4c93d7b9" label="Morgan Library Autograph" n="5" type="Autograph">
+            <editionStmt xml:id="editionStmt-0000001002336837">
+               <edition xml:id="edition-0000000407172309">
+                  <bibl xml:id="bibl-0000003117445346">
+                     <title xml:id="title-0000000082358678">Winterreise, von Wilh. Müller</title>
+                     <identifier xml:id="identifier-0000003748617867" auth="The Morgan Library and Museum" auth.uri="http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=115668">The Morgan Library and Museum Autograph</identifier>
+                     <corpName xml:id="corpName-0000003467477753" auth="GND" auth.uri="https://explore.gnd.network/gnd/10156282-2" role="holding institution"/>
+                     <persName xml:id="persName-0000000702305568" auth="GND" auth.uri="https://d-nb.info/gnd/118610961" role="composer">Franz Schubert</persName>
+                     <persName xml:id="persName-0000003341819905" auth="GND" auth.uri="https://d-nb.info/gnd/11858524X" role="lyricist">Wilhelm Müller</persName>
+                     <persName xml:id="persName-0000000728230916" auth="GND" auth.uri="https://explore.gnd.network/gnd/116513772" role="former owner">Carl Haslinger</persName>
+                     <persName xml:id="persName-0000001645593890" auth="GND" auth.uri="https://explore.gnd.network/gnd/1329186737" role="former owner">Carl Meinert</persName>
+                     <persName xml:id="persName-0000000939852790" auth="GND" auth.uri="https://explore.gnd.network/gnd/130394858" role="former owner">Siegfried Ochs</persName>
+                     <persName xml:id="persName-0000001701252266" auth="GND" auth.uri="https://explore.gnd.network/gnd/116273038" role="former owner">Louis Koch</persName>
+                     <availability xml:id="availability-0000002266772011">
+                        <accessRestrict xml:id="accessRestrict-0000003446150739">Physical item in room use only; digitized facsimile available at http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=115668</accessRestrict>
+                     </availability>
+                  </bibl>
+               </edition>
+            </editionStmt>
+         </manifestation>
+         <manifestation xml:id="dwdfdc9075d0e-7aaa-4a82-bfa0-06eb81584587" label="Fischer-Dieskau's copy with annotations" n="6" type="Fischer-Dieskau">
+            <editionStmt xml:id="editionStmt-0000001375039196">
+               <edition xml:id="edition-0000002837981505">
+                  <bibl xml:id="bibl-0000003246031032">
+                     <title xml:id="title-0000004127514117">Schubert-Album<lb xml:id="lb-0000000121383084"/>Sammlung<lb xml:id="lb-0000000256723446"/>DER<lb xml:id="lb-0000003015562315"/>LIEDER<lb xml:id="lb-0000002727374695"/>für eine Singstimme mit Pianofrtebegleitung<lb xml:id="lb-0000000076035768"/>von<lb xml:id="lb-0000000395257920"/>
+                        FRANZ SCHUBERT<lb xml:id="lb-0000003878218506"/>kritisch revidirt<lb xml:id="lb-0000004004927516"/>von<lb xml:id="lb-0000002252894404"/>MAX FRIEDLAENDER<lb xml:id="lb-0000002249873820"/>Die Resultate der kritischen<lb xml:id="lb-0000002748345255"/>Revision sind Eigentum des Verlegers<lb xml:id="lb-0000001531021119"/>
+                        Band I.<lb xml:id="lb-0000002838170968"/>Ausgabe für mittlere Stimme.
+                     </title>
+                     <identifier xml:id="identifier-0000004076098543" auth="Fischer-Dieskau Nachlass" auth.uri="https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-BF-93520" type="plate number">7482, 7483</identifier>
+                     <corpName xml:id="corpName-0000004264729237" auth="Staatsbibliothek zu Berlin" auth.uri="https://d-nb.info/gnd/5036103-X">Staatsbibliothek zu Berlin</corpName>
+                     <persName xml:id="persName-0000000057708395" auth="GND" auth.uri="https://d-nb.info/gnd/118610961" role="composer">Franz Schubert</persName>
+                     <persName xml:id="persName-0000003206237123" auth="GND" auth.uri="https://d-nb.info/gnd/11858524X" role="lyricist">Wilhelm Müller</persName>
+                     <persName xml:id="persName-0000002302777345" auth="GND" auth.uri="https://d-nb.info/gnd/116797673" role="editor">Friedländer, Max</persName>
+                     <annot xml:id="annot-0000003935595282">Score with Dietrich Fischer-Dieskau's handwritten annotations</annot>
+                  </bibl>
+               </edition>
+            </editionStmt>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music xml:id="m0chl9k1">
+      <facsimile>
+         <surface xml:id="surface_01K49YX93FX8J7HSF8AFBXJA1Z" n="1" ulx="0" uly="0" lrx="1199" lry="1711">
+            <graphic xml:id="graphic_01K49YX93FWVBD57NDEMCZZ9S4" target="https://content.staatsbibliothek-berlin.de/dms/PPN1919822208/1200/0/00000108.jpg" width="1200" height="1712"/>
+            <zone xml:id="zone_01K49YX93FD6MPX61Y0EDM63PQ" type="measure" ulx="236" uly="190" lrx="398" lry="481"/>
+            <zone xml:id="zone_01K49YX93GWA2EYGXX3MBXTSKZ" type="measure" ulx="377" uly="197" lrx="534" lry="482"/>
+            <zone xml:id="zone_01K49YX93GMJZP05FDHP07F12H" type="measure" ulx="517" uly="201" lrx="690" lry="490"/>
+            <zone xml:id="zone_01K49YX93GB2VPDD19W6TCFWG0" type="measure" ulx="672" uly="200" lrx="908" lry="491"/>
+            <zone xml:id="zone_01K49YX93G57BRZWDCHJJ6VZPQ" type="measure" ulx="891" uly="196" lrx="1107" lry="489"/>
+            <zone xml:id="zone_01K49YX93GXGQ3FXXZZBSA3YT3" type="measure" ulx="79" uly="458" lrx="345" lry="764"/>
+            <zone xml:id="zone_01K49YX93GCJRGGHQ11BGWHTCE" type="measure" ulx="326" uly="458" lrx="539" lry="766"/>
+            <zone xml:id="zone_01K49YX93GXHGYY2D0AX7G8FNA" type="measure" ulx="520" uly="464" lrx="760" lry="765"/>
+            <zone xml:id="zone_01K49YX93GDPZYS37NR77RH0Q5" type="measure" ulx="742" uly="464" lrx="901" lry="762"/>
+            <zone xml:id="zone_01K49YX93G5W3NN0HQ2KPG9Q1H" type="measure" ulx="883" uly="460" lrx="1109" lry="763"/>
+            <zone xml:id="zone_01K49YX93GWXYRCQ2EBQSP9SQF" type="measure" ulx="75" uly="739" lrx="407" lry="1052"/>
+            <zone xml:id="zone_01K49YX93H04NYK55BR387AZW8" type="measure" ulx="386" uly="741" lrx="613" lry="1050"/>
+            <zone xml:id="zone_01K49YX93HQ0FMDEXYJDQRKNRX" type="measure" ulx="593" uly="741" lrx="849" lry="1047"/>
+            <zone xml:id="zone_01K49YX93HTBCHF2EAHRZHPX2F" type="measure" ulx="829" uly="738" lrx="1105" lry="1050"/>
+            <zone xml:id="zone_01K49YX93HNAYA3W142TC88KJH" type="measure" ulx="80" uly="1030" lrx="399" lry="1356"/>
+            <zone xml:id="zone_01K49YX93H18MMTG15D05JWXKG" type="measure" ulx="376" uly="1028" lrx="655" lry="1352"/>
+            <zone xml:id="zone_01K49YX93HQ9MKFVB1S5DT3N1D" type="measure" ulx="636" uly="1025" lrx="874" lry="1347"/>
+            <zone xml:id="zone_01K49YX93HBVMNEGVAQZD8V5M0" type="measure" ulx="856" uly="1023" lrx="1106" lry="1346"/>
+            <zone xml:id="zone_01K49YX93HQY6891E03JZ0A9PW" type="measure" ulx="77" uly="1331" lrx="408" lry="1631"/>
+            <zone xml:id="zone_01K49YX93HT6YD13V511EK33R3" type="measure" ulx="388" uly="1327" lrx="650" lry="1630"/>
+            <zone xml:id="zone_01K49YX93HDQSGPCAAAZH3KPZE" type="measure" ulx="629" uly="1323" lrx="845" lry="1629"/>
+            <zone xml:id="zone_01K49YX93J269V45VPMCWYMJDM" type="measure" ulx="823" uly="1328" lrx="1106" lry="1627"/>
+         </surface>
+         <surface xml:id="surface_01K49YX93K8PPBPK3M34JGHED5" n="2" ulx="0" uly="0" lrx="1199" lry="1686">
+            <graphic xml:id="graphic_01K49YX93K99DBP6KZABPM8P8D" target="https://content.staatsbibliothek-berlin.de/dms/PPN1919822208/1200/0/00000109.jpg" width="1200" height="1687"/>
+            <zone xml:id="zone_01K49YX93KYAGZZXRZ2Z6JE1R1" type="measure" ulx="92" uly="75" lrx="383" lry="413"/>
+            <zone xml:id="zone_01K49YX93KRN5E6EF7EF07T5YA" type="measure" ulx="362" uly="78" lrx="459" lry="407"/>
+            <zone xml:id="zone_01K49YX93MJY7972X82F80EXC2" type="measure" ulx="438" uly="68" lrx="665" lry="409"/>
+            <zone xml:id="zone_01K49YX93MZ7HVK2TFS006WCFT" type="measure" ulx="641" uly="71" lrx="892" lry="408"/>
+            <zone xml:id="zone_01K49YX93MSY35MRRYP77GA6CF" type="measure" ulx="868" uly="73" lrx="1101" lry="404"/>
+            <zone xml:id="zone_01K49YX93M3A90PFQVQSH8K6PZ" type="measure" ulx="91" uly="392" lrx="421" lry="723"/>
+            <zone xml:id="zone_01K49YX93MG1KWFVGD8FGKQ6KP" type="measure" ulx="398" uly="390" lrx="575" lry="721"/>
+            <zone xml:id="zone_01K49YX93MG0FSXP4JVTBG3V3H" type="measure" ulx="549" uly="389" lrx="725" lry="725"/>
+            <zone xml:id="zone_01K49YX93MR5RRH73Z7X0P13WQ" type="measure" ulx="704" uly="384" lrx="896" lry="723"/>
+            <zone xml:id="zone_01K49YX93MM8BXN1F1PGQTEB7R" type="measure" ulx="874" uly="381" lrx="1110" lry="723"/>
+            <zone xml:id="zone_01K49YX93MV168PSH1J25X4NAV" type="measure" ulx="96" uly="703" lrx="489" lry="1013"/>
+            <zone xml:id="zone_01K49YX93M4FRPCPNDXNJMRPC9" type="measure" ulx="469" uly="706" lrx="679" lry="1009"/>
+            <zone xml:id="zone_01K49YX93M3MRKVMW00Q97BCZR" type="measure" ulx="659" uly="704" lrx="908" lry="1010"/>
+            <zone xml:id="zone_01K49YX93NWE33HK7T8N5RPMSA" type="measure" ulx="889" uly="698" lrx="1111" lry="1013"/>
+            <zone xml:id="zone_01K49YX93ND25VE99AHPCYKN93" type="measure" ulx="98" uly="984" lrx="414" lry="1304"/>
+            <zone xml:id="zone_01K49YX93NEH7CYMJ5YEJBX75D" type="measure" ulx="390" uly="985" lrx="641" lry="1307"/>
+            <zone xml:id="zone_01K49YX93NTMY9919Q3G68HV9S" type="measure" ulx="619" uly="983" lrx="918" lry="1308"/>
+            <zone xml:id="zone_01K49YX93N93P6WZX8ZA9XSFK5" type="measure" ulx="897" uly="986" lrx="1110" lry="1308"/>
+            <zone xml:id="zone_01K49YX93NCFTHFY4143BCEWRE" type="measure" ulx="98" uly="1279" lrx="437" lry="1598"/>
+            <zone xml:id="zone_01K49YX93NHN5FB4138F3FSDR3" type="measure" ulx="416" uly="1278" lrx="588" lry="1594"/>
+            <zone xml:id="zone_01K49YX93N3ZNPCGV28PKDWXJG" type="measure" ulx="568" uly="1282" lrx="732" lry="1592"/>
+            <zone xml:id="zone_01K49YX93NK1NCABMAYGN1N0TE" type="measure" ulx="713" uly="1282" lrx="951" lry="1592"/>
+            <zone xml:id="zone_01K49YX93NMF1JSBH7BC5R6TBW" type="measure" ulx="932" uly="1283" lrx="1109" lry="1591"/>
+         </surface>
+      </facsimile>
+      <facsimile>
+         <surface xml:id="surface_01K49YX93FX8J7HSF8AFBXJA1Z" n="1" ulx="0" uly="0" lrx="1199" lry="1711">
+            <graphic xml:id="graphic_01K49YX93FWVBD57NDEMCZZ9S4" target="https://content.staatsbibliothek-berlin.de/dms/PPN1919822208/1200/0/00000108.jpg" width="1200" height="1712"/>
+            <zone xml:id="zone_01K49YX93FD6MPX61Y0EDM63PQ" type="measure" ulx="236" uly="190" lrx="398" lry="481"/>
+            <zone xml:id="zone_01K49YX93GWA2EYGXX3MBXTSKZ" type="measure" ulx="377" uly="197" lrx="534" lry="482"/>
+            <zone xml:id="zone_01K49YX93GMJZP05FDHP07F12H" type="measure" ulx="517" uly="201" lrx="690" lry="490"/>
+            <zone xml:id="zone_01K49YX93GB2VPDD19W6TCFWG0" type="measure" ulx="672" uly="200" lrx="908" lry="491"/>
+            <zone xml:id="zone_01K49YX93G57BRZWDCHJJ6VZPQ" type="measure" ulx="891" uly="196" lrx="1107" lry="489"/>
+            <zone xml:id="zone_01K49YX93GXGQ3FXXZZBSA3YT3" type="measure" ulx="79" uly="458" lrx="345" lry="764"/>
+            <zone xml:id="zone_01K49YX93GCJRGGHQ11BGWHTCE" type="measure" ulx="326" uly="458" lrx="539" lry="766"/>
+            <zone xml:id="zone_01K49YX93GXHGYY2D0AX7G8FNA" type="measure" ulx="520" uly="464" lrx="760" lry="765"/>
+            <zone xml:id="zone_01K49YX93GDPZYS37NR77RH0Q5" type="measure" ulx="742" uly="464" lrx="901" lry="762"/>
+            <zone xml:id="zone_01K49YX93G5W3NN0HQ2KPG9Q1H" type="measure" ulx="883" uly="460" lrx="1109" lry="763"/>
+            <zone xml:id="zone_01K49YX93GWXYRCQ2EBQSP9SQF" type="measure" ulx="75" uly="739" lrx="407" lry="1052"/>
+            <zone xml:id="zone_01K49YX93H04NYK55BR387AZW8" type="measure" ulx="386" uly="741" lrx="613" lry="1050"/>
+            <zone xml:id="zone_01K49YX93HQ0FMDEXYJDQRKNRX" type="measure" ulx="593" uly="741" lrx="849" lry="1047"/>
+            <zone xml:id="zone_01K49YX93HTBCHF2EAHRZHPX2F" type="measure" ulx="829" uly="738" lrx="1105" lry="1050"/>
+            <zone xml:id="zone_01K49YX93HNAYA3W142TC88KJH" type="measure" ulx="80" uly="1030" lrx="399" lry="1356"/>
+            <zone xml:id="zone_01K49YX93H18MMTG15D05JWXKG" type="measure" ulx="376" uly="1028" lrx="655" lry="1352"/>
+            <zone xml:id="zone_01K49YX93HQ9MKFVB1S5DT3N1D" type="measure" ulx="636" uly="1025" lrx="874" lry="1347"/>
+            <zone xml:id="zone_01K49YX93HBVMNEGVAQZD8V5M0" type="measure" ulx="856" uly="1023" lrx="1106" lry="1346"/>
+            <zone xml:id="zone_01K49YX93HQY6891E03JZ0A9PW" type="measure" ulx="77" uly="1331" lrx="408" lry="1631"/>
+            <zone xml:id="zone_01K49YX93HT6YD13V511EK33R3" type="measure" ulx="388" uly="1327" lrx="650" lry="1630"/>
+            <zone xml:id="zone_01K49YX93HDQSGPCAAAZH3KPZE" type="measure" ulx="629" uly="1323" lrx="845" lry="1629"/>
+            <zone xml:id="zone_01K49YX93J269V45VPMCWYMJDM" type="measure" ulx="823" uly="1328" lrx="1106" lry="1627"/>
+         </surface>
+         <surface xml:id="surface_01K49YX93K8PPBPK3M34JGHED5" n="2" ulx="0" uly="0" lrx="1199" lry="1686">
+            <graphic xml:id="graphic_01K49YX93K99DBP6KZABPM8P8D" target="https://content.staatsbibliothek-berlin.de/dms/PPN1919822208/1200/0/00000109.jpg" width="1200" height="1687"/>
+            <zone xml:id="zone_01K49YX93KYAGZZXRZ2Z6JE1R1" type="measure" ulx="92" uly="75" lrx="383" lry="413"/>
+            <zone xml:id="zone_01K49YX93KRN5E6EF7EF07T5YA" type="measure" ulx="362" uly="78" lrx="459" lry="407"/>
+            <zone xml:id="zone_01K49YX93MJY7972X82F80EXC2" type="measure" ulx="438" uly="68" lrx="665" lry="409"/>
+            <zone xml:id="zone_01K49YX93MZ7HVK2TFS006WCFT" type="measure" ulx="641" uly="71" lrx="892" lry="408"/>
+            <zone xml:id="zone_01K49YX93MSY35MRRYP77GA6CF" type="measure" ulx="868" uly="73" lrx="1101" lry="404"/>
+            <zone xml:id="zone_01K49YX93M3A90PFQVQSH8K6PZ" type="measure" ulx="91" uly="392" lrx="421" lry="723"/>
+            <zone xml:id="zone_01K49YX93MG1KWFVGD8FGKQ6KP" type="measure" ulx="398" uly="390" lrx="575" lry="721"/>
+            <zone xml:id="zone_01K49YX93MG0FSXP4JVTBG3V3H" type="measure" ulx="549" uly="389" lrx="725" lry="725"/>
+            <zone xml:id="zone_01K49YX93MR5RRH73Z7X0P13WQ" type="measure" ulx="704" uly="384" lrx="896" lry="723"/>
+            <zone xml:id="zone_01K49YX93MM8BXN1F1PGQTEB7R" type="measure" ulx="874" uly="381" lrx="1110" lry="723"/>
+            <zone xml:id="zone_01K49YX93MV168PSH1J25X4NAV" type="measure" ulx="96" uly="703" lrx="489" lry="1013"/>
+            <zone xml:id="zone_01K49YX93M4FRPCPNDXNJMRPC9" type="measure" ulx="469" uly="706" lrx="679" lry="1009"/>
+            <zone xml:id="zone_01K49YX93M3MRKVMW00Q97BCZR" type="measure" ulx="659" uly="704" lrx="908" lry="1010"/>
+            <zone xml:id="zone_01K49YX93NWE33HK7T8N5RPMSA" type="measure" ulx="889" uly="698" lrx="1111" lry="1013"/>
+            <zone xml:id="zone_01K49YX93ND25VE99AHPCYKN93" type="measure" ulx="98" uly="984" lrx="414" lry="1304"/>
+            <zone xml:id="zone_01K49YX93NEH7CYMJ5YEJBX75D" type="measure" ulx="390" uly="985" lrx="641" lry="1307"/>
+            <zone xml:id="zone_01K49YX93NTMY9919Q3G68HV9S" type="measure" ulx="619" uly="983" lrx="918" lry="1308"/>
+            <zone xml:id="zone_01K49YX93N93P6WZX8ZA9XSFK5" type="measure" ulx="897" uly="986" lrx="1110" lry="1308"/>
+            <zone xml:id="zone_01K49YX93NCFTHFY4143BCEWRE" type="measure" ulx="98" uly="1279" lrx="437" lry="1598"/>
+            <zone xml:id="zone_01K49YX93NHN5FB4138F3FSDR3" type="measure" ulx="416" uly="1278" lrx="588" lry="1594"/>
+            <zone xml:id="zone_01K49YX93N3ZNPCGV28PKDWXJG" type="measure" ulx="568" uly="1282" lrx="732" lry="1592"/>
+            <zone xml:id="zone_01K49YX93NK1NCABMAYGN1N0TE" type="measure" ulx="713" uly="1282" lrx="951" lry="1592"/>
+            <zone xml:id="zone_01K49YX93NMF1JSBH7BC5R6TBW" type="measure" ulx="932" uly="1283" lrx="1109" lry="1591"/>
+         </surface>
+      </facsimile>
+      <body xml:id="bipn3ad1">
+         <mdiv xml:id="m0bspdt2">
+            <score xml:id="s55978v1">
+               <scoreDef xml:id="sb2o6h81">
+                  <pgHead xml:id="pfnxl2c">
+                     <rend xml:id="rylks3a1" halign="center" valign="middle">
+                        <rend xml:id="r1v5g701" type="user_1">Winterreise, D.911</rend>
+                        <lb xml:id="lgxqnmq2"/>
+                        <rend xml:id="rbjxr1k2" type="user_2">14. Der greise Kopf</rend>
+                     </rend>
+                     <rend xml:id="rvs77d21" halign="left" valign="bottom">
+                        <rend xml:id="rgemkjc" type="poet">Wilhelm Müller</rend>
+                     </rend>
+                     <rend xml:id="r2a8ss7" halign="right" valign="bottom">
+                        <rend xml:id="rizvn8x2" type="composer">Franz Schubert</rend>
+                     </rend>
+                  </pgHead>
+                  <staffGrp xml:id="sgs9wix2">
+                     <staffDef xml:id="sctuayv1" keysig="3f" lines="5" meter.count="3" meter.unit="4" n="1">
+                        <label xml:id="l6152cf1">Singstimme</label>
+                        <clef xml:id="c6vdja91" line="2" shape="G"/>
+                     </staffDef>
+                     <staffGrp xml:id="s8g0bbu2" bar.thru="true" symbol="brace">
+                        <label xml:id="ldurs3g1">Pianoforte</label>
+                        <staffDef xml:id="segz33i2" keysig="3f" lines="5" meter.count="3" meter.unit="4" n="2">
+                           <clef xml:id="cn8vgxq1" line="2" shape="G"/>
+                        </staffDef>
+                        <staffDef xml:id="skillf7" keysig="3f" lines="5" meter.count="3" meter.unit="4" n="3">
+                           <clef xml:id="chh8ukr1" line="4" shape="F"/>
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb xml:id="pb-0000001621242994" n="1"/>
+                  <measure xml:id="m1m3ybuj" facs="#zone_01K49YX93FD6MPX61Y0EDM63PQ" metcon="false" n="0">
+<staff xml:id="m1s1" n="1">
+<layer xml:id="m1s1l1" n="1">
+<rest xml:id="rt2gqcl" dur="16" type="mscore-beam-none"/>
+</layer>
+</staff>
+<staff xml:id="m1s2" n="2">
+<layer xml:id="m1s2l1" n="1">
+<note xml:id="nmipzi1" dur="16" oct="4" pname="c"/>
+</layer>
+</staff>
+<staff xml:id="m1s3" n="3">
+<layer xml:id="m1s3l1" n="1">
+<rest xml:id="rz4updv" dur="16" type="mscore-beam-none"/>
+</layer>
+</staff>
+<tempo xml:id="t3a50cs" startid="#rt2gqcl">Etwas langsam</tempo>
+<dynam xml:id="d3auwny" label="p" place="above" startid="#rz4updv">p</dynam>
+</measure>
+                  <measure xml:id="myt2plh" facs="#zone_01K49YX93GWA2EYGXX3MBXTSKZ" n="1">
+<staff xml:id="m2s1" n="1">
+<layer xml:id="m2s1l1" n="1">
+<mRest xml:id="m13slrrh"/>
+</layer>
+</staff>
+<staff xml:id="m2s2" n="2">
+<layer xml:id="m2s2l1" n="1">
+<beam xml:id="bkqdtbq2">
+<note xml:id="n7swx1t" dots="1" dur="8" oct="4" pname="c"/>
+<note xml:id="no79z70" dur="16" oct="4" pname="e">
+<accid xml:id="aupnx5k1" accid.ges="f"/>
+</note>
+</beam>
+<note xml:id="nk3lr1o" dots="2" dur="4" oct="4" pname="g"/>
+<note xml:id="n3r9wlh" dur="16" oct="4" pname="a">
+<accid xml:id="avpsuxh" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m2s3" n="3">
+<layer xml:id="m2s3l1" n="1">
+<chord xml:id="czu23dy" dots="1" dur="2">
+<note xml:id="n94m2yh" oct="3" pname="c"/>
+<note xml:id="nhic57u" oct="3" pname="e">
+<accid xml:id="ae5hoo11" accid.ges="f"/>
+</note>
+<note xml:id="n1p28hi2" oct="3" pname="g"/>
+</chord>
+</layer>
+</staff>
+<slur xml:id="s1x2pero" endid="#nk3lr1o" startid="#n7swx1t"/>
+<slur xml:id="stk1c7y" endid="#nk0wf4i" startid="#n3r9wlh"/>
+</measure>
+                  <measure xml:id="m1t4hftk" facs="#zone_01K49YX93GMJZP05FDHP07F12H" n="2">
+<staff xml:id="m3s1" n="1">
+<layer xml:id="m3s1l1" n="1">
+<mRest xml:id="mbn298"/>
+</layer>
+</staff>
+<staff xml:id="m3s2" n="2">
+<layer xml:id="m3s2l1" n="1">
+<beam xml:id="bckfkg41">
+<note xml:id="nk0wf4i" dots="1" dur="8" oct="4" pname="g"/>
+<note xml:id="n4b6g4r" dur="16" oct="4" pname="b">
+<accid xml:id="anmjwjs2" accid="n"/>
+</note>
+</beam>
+<note xml:id="npmebwt" dots="2" dur="4" oct="5" pname="d"/>
+<note xml:id="n1k461p5" dur="16" oct="5" pname="d"/>
+</layer>
+</staff>
+<staff xml:id="m3s3" n="3">
+<layer xml:id="m3s3l1" n="1">
+<chord xml:id="c1w6ftnc" dots="1" dur="2">
+<note xml:id="ndpo73n" oct="3" pname="c"/>
+<note xml:id="n11yxqfe" oct="3" pname="f"/>
+<note xml:id="n1obolhl" oct="3" pname="g"/>
+<note xml:id="njyij64" oct="3" pname="b">
+<accid xml:id="ahypvzv1" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<slur xml:id="s1a1dlkd" endid="#npmebwt" startid="#nk0wf4i"/>
+<hairpin xml:id="h1p5k335" dur="16" endid="#n1k461p5" form="cres" startid="#n1k461p5"/>
+<slur xml:id="s1coh964" endid="#nrek9b4" startid="#n1k461p5"/>
+<supplied xml:id="sel1a1k1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="ho5vfyg" endid="#nrek9b4" form="cres" staff="2" startid="#n1k461p5"/>
+</supplied>
+</measure>
+                  <measure xml:id="mur6ng6" facs="#zone_01K49YX93GB2VPDD19W6TCFWG0" n="3">
+<staff xml:id="m4s1" n="1">
+<layer xml:id="m4s1l1" n="1">
+<mRest xml:id="m8w8jhp"/>
+</layer>
+</staff>
+<staff xml:id="m4s2" n="2">
+<layer xml:id="m4s2l1" n="1">
+<note xml:id="nrek9b4" dur="4" oct="5" pname="a">
+<accid xml:id="a6quapx1" accid.ges="f"/>
+<supplied xml:id="s6q0evi2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<artic xml:id="a4m806k2" artic="acc"/>
+</supplied>
+</note>
+<beam xml:id="bvqollt2">
+<tuplet xml:id="tjzc0k4" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="ntz9h67" dur="8" oct="5" pname="a">
+<accid xml:id="a28znt51" accid.ges="f"/>
+</note>
+<note xml:id="n6s1bgi" dur="8" oct="5" pname="f"/>
+<note xml:id="ntrdlbl" dur="8" oct="5" pname="d"/>
+</tuplet>
+</beam>
+<beam xml:id="bbqv116">
+<tuplet xml:id="t9f1l2k" num="3" numbase="2">
+<note xml:id="norsqgd" dur="8" oct="4" pname="b">
+<accid xml:id="aibv8vl2" accid="n"/>
+</note>
+<note xml:id="nbuma38" dur="8" oct="4" pname="a">
+<accid xml:id="ajso0d1" accid.ges="f"/>
+</note>
+<note xml:id="n1j62e1h" dur="8" oct="4" pname="f"/>
+</tuplet>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m4s3" n="3">
+<layer xml:id="m4s3l1" n="1">
+<chord xml:id="ckngr34" dots="1" dur="2">
+<note xml:id="nympskb" oct="3" pname="c"/>
+<note xml:id="nskngd4" oct="3" pname="d"/>
+<note xml:id="nmu255s" oct="3" pname="f"/>
+<note xml:id="n17vkmme" oct="3" pname="a">
+<accid xml:id="au0lmr31" accid.ges="f"/>
+</note>
+<note xml:id="nvi6bk8" oct="3" pname="b">
+<accid xml:id="acauqdq2" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<tie xml:id="t1ch8ojw" endid="#ntz9h67" startid="#nrek9b4"/>
+<del xml:id="dmtdfmm1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="hzrn9ca" endid="#ntrdlbl" form="dim" startid="#ntz9h67"/>
+</del>
+<slur xml:id="s8fohbn" endid="#n1j62e1h" startid="#ntz9h67"/>
+</measure>
+                  <measure xml:id="m1sfmmec" facs="#zone_01K49YX93G57BRZWDCHJJ6VZPQ" n="4">
+<staff xml:id="m5s1" n="1">
+<layer xml:id="m5s1l1" n="1">
+<rest xml:id="rg8718a" dur="4"/>
+<rest xml:id="rcebutr" dur="4"/>
+<rest xml:id="r18yhyyj" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1mwxl6x" dur="8" oct="4" pname="c">
+<verse xml:id="vd9jzu61" n="1">
+<syl xml:id="sl1k866">Der
+                                 </syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m5s2" n="2">
+<layer xml:id="m5s2l1" n="1">
+<graceGrp xml:id="gt3xnnz2" grace="acc">
+<beam xml:id="bzu3tdq1">
+<note xml:id="n1fghm9a" dur="32" oct="4" pname="d"/>
+<note xml:id="n1pipk9r" dur="32" oct="4" pname="e">
+<accid xml:id="aiif21s2" accid.ges="f"/>
+</note>
+<note xml:id="niys4df" dur="32" oct="4" pname="f"/>
+</beam>
+</graceGrp>
+<beam xml:id="bcwmhyc">
+<note xml:id="ne9nbiy" dots="1" dur="8" oct="4" pname="e">
+<accid xml:id="a334nk1" accid.ges="f"/>
+</note>
+<note xml:id="nbjycxd" dur="16" oct="4" pname="d"/>
+</beam>
+<note xml:id="n93frud" dur="4" oct="4" pname="c"/>
+<rest xml:id="rk7j5cv" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m5s3" n="3">
+<layer xml:id="m5s3l1" n="1">
+<chord xml:id="c9q5jyu" dur="2">
+<note xml:id="n1ck0tpt" oct="3" pname="c"/>
+<note xml:id="n1pi0obi" oct="3" pname="e">
+<accid xml:id="a3ub1es1" accid.ges="f"/>
+</note>
+<note xml:id="n13xh3rs" oct="3" pname="g"/>
+<note xml:id="noaqnhh" oct="4" pname="c"/>
+</chord>
+<rest xml:id="r1hd9jr" dur="4"/>
+</layer>
+</staff>
+<del xml:id="dotfk8t2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="su3bror" endid="#n1pipk9r" startid="#n1fghm9a"/>
+</del>
+<slur xml:id="s15xdwci" endid="#n93frud" startid="#ne9nbiy"/>
+<supplied xml:id="s4vbo41" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="sldyn9f" endid="#niys4df" staff="2" startid="#n1fghm9a"/>
+</supplied>
+</measure>
+                  <measure xml:id="m1x0qq8g" facs="#zone_01K49YX93GXGQ3FXXZZBSA3YT3" n="5">
+<staff xml:id="m6s1" n="1">
+<layer xml:id="m6s1l1" n="1">
+<note xml:id="nqsuot1" dots="1" dur="8" oct="4" pname="c">
+<verse xml:id="v8rt015" n="1">
+<syl xml:id="sui1no81">Reif</syl>
+</verse>
+</note>
+<note xml:id="n1eo5zbe" dur="16" oct="4" pname="e" type="mscore-beam-none">
+<verse xml:id="vgltnlf1" n="1">
+<syl xml:id="sdfeezz1">hat</syl>
+</verse>
+<accid xml:id="ajohz5c1" accid.ges="f"/>
+</note>
+<note xml:id="nwgbp3l" dots="1" dur="4" oct="4" pname="g">
+<verse xml:id="v4gsrxw2" n="1">
+<syl xml:id="snanu0h1" con="d" wordpos="i">ei</syl>
+</verse>
+</note>
+<note xml:id="n1e29w1y" dur="8" oct="4" pname="a">
+<verse xml:id="vk9ghc1" n="1">
+<syl xml:id="swrsddn1" wordpos="t">nen</syl>
+</verse>
+<accid xml:id="af0634w1" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m6s2" n="2">
+<layer xml:id="m6s2l1" n="1">
+<mRest xml:id="m25i2np"/>
+</layer>
+</staff>
+<staff xml:id="m6s3" n="3">
+<layer xml:id="m6s3l1" n="1">
+<chord xml:id="c1rer7tc" dots="1" dur="2">
+<note xml:id="n125rn4o" oct="3" pname="c"/>
+<note xml:id="n1pwiqpc" oct="3" pname="e">
+<accid xml:id="a376dyk2" accid.ges="f"/>
+</note>
+<note xml:id="n1gicgm7" oct="3" pname="g"/>
+<note xml:id="n1hlnh7c" oct="4" pname="c"/>
+</chord>
+</layer>
+</staff>
+</measure>
+                  <measure xml:id="m1d1t8rt" facs="#zone_01K49YX93GCJRGGHQ11BGWHTCE" n="6">
+<staff xml:id="m7s1" n="1">
+<layer xml:id="m7s1l1" n="1">
+<note xml:id="neh7rhb" dots="1" dur="8" oct="4" pname="g">
+<verse xml:id="vwwb2yu2" n="1">
+<syl xml:id="sioaoke1" con="d" wordpos="i">weis</syl>
+</verse>
+</note>
+<note xml:id="n1py9jnx" dur="16" oct="4" pname="b" type="mscore-beam-none">
+<verse xml:id="vz3730n1" n="1">
+<syl xml:id="sw9ovw41" wordpos="t">sen</syl>
+</verse>
+<accid xml:id="a8ll1v41" accid="n"/>
+</note>
+<note xml:id="nszog1d" dots="1" dur="4" oct="5" pname="d">
+<verse xml:id="vj6v4a81" n="1">
+<syl xml:id="s42hrne1">Schein</syl>
+</verse>
+</note>
+<note xml:id="n199ppmg" dur="8" oct="4" pname="b">
+<verse xml:id="vr12r2o1" n="1">
+<syl xml:id="s64bine">mir</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m7s2" n="2">
+<layer xml:id="m7s2l1" n="1">
+<mRest xml:id="mzrcciq"/>
+</layer>
+</staff>
+<staff xml:id="m7s3" n="3">
+<layer xml:id="m7s3l1" n="1">
+<chord xml:id="c1nwb088" dots="1" dur="2">
+<note xml:id="n1pusged" oct="3" pname="c"/>
+<note xml:id="n7p8kws" oct="3" pname="f"/>
+<note xml:id="nri23zo" oct="3" pname="g"/>
+<note xml:id="ne36eyn" oct="3" pname="b">
+<accid xml:id="a0mdmor2" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+</measure>
+                  <measure xml:id="mqh9gv5" facs="#zone_01K49YX93GXHGYY2D0AX7G8FNA" n="7">
+<staff xml:id="m8s1" n="1">
+<layer xml:id="m8s1l1" n="1">
+<note xml:id="n1l205mv" dur="4" oct="5" pname="f">
+<verse xml:id="vp9pdv4" n="1">
+<syl xml:id="srqyyzk1" con="d" wordpos="i">ü</syl>
+</verse>
+</note>
+<tuplet xml:id="tsu1jqq" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="bw056v7">
+<note xml:id="n1m0lfo2" dur="8" oct="5" pname="f"/>
+<note xml:id="n2vdtit" dur="8" oct="5" pname="d"/>
+</beam>
+<note xml:id="n2ss436" dur="8" oct="4" pname="b" type="mscore-beam-begin">
+<verse xml:id="v4b0ndk1" n="1">
+<syl xml:id="same787">ber’s</syl>
+</verse>
+<accid xml:id="ag8d8461" accid="n"/>
+</note>
+</tuplet>
+<tuplet xml:id="ti4pr4z" num="3" numbase="2">
+<beam xml:id="bhl6adn2">
+<note xml:id="nwynuwo" dur="8" oct="4" pname="a">
+<verse xml:id="v1v6qsh1" n="1">
+<syl xml:id="s6imb2x2">Haupt</syl>
+</verse>
+<accid xml:id="a4ro9wn2" accid="f"/>
+</note>
+<note xml:id="ncmf3sl" dur="8" oct="4" pname="g"/>
+</beam>
+<note xml:id="n1utgsg4" dur="8" oct="4" pname="f" type="mscore-beam-begin">
+<verse xml:id="vt0z4vk2" n="1">
+<syl xml:id="s78b2dn1" con="d" wordpos="i">ge</syl>
+</verse>
+</note>
+</tuplet>
+</layer>
+</staff>
+<staff xml:id="m8s2" n="2">
+<layer xml:id="m8s2l1" n="1">
+<mRest xml:id="ms8ooje"/>
+</layer>
+</staff>
+<staff xml:id="m8s3" n="3">
+<layer xml:id="m8s3l1" n="1">
+<chord xml:id="c1tipt4q" dots="1" dur="2">
+<note xml:id="nn8m86w" oct="3" pname="c"/>
+<note xml:id="n1p7wpvs" oct="3" pname="d"/>
+<note xml:id="n1ktnt3k" oct="3" pname="f"/>
+<note xml:id="njzkl2q" oct="3" pname="a">
+<accid xml:id="awijjja" accid.ges="f"/>
+</note>
+<note xml:id="n1fp0ufv" oct="3" pname="b">
+<accid xml:id="ayp1zmr2" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<slur xml:id="sevhyuo" endid="#n1m0lfo2" startid="#n1l205mv"/>
+<del xml:id="de4ygec1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<mordent xml:id="m1rvniaq" accidupper="n" form="upper" startid="#nwynuwo"/>
+</del>
+<supplied xml:id="syqblzl2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<mordent xml:id="mh323z9" accidupper="f" form="upper" staff="1" startid="#nwynuwo"/>
+</supplied>
+</measure>
+                  <measure xml:id="mpkrmvm" facs="#zone_01K49YX93GDPZYS37NR77RH0Q5" n="8">
+<staff xml:id="m9s1" n="1">
+<layer xml:id="m9s1l1" n="1">
+<beam xml:id="bf945hc1">
+<note xml:id="n1d052uv" dots="1" dur="8" oct="4" pname="e">
+<verse xml:id="v48v50i1" n="1">
+<syl xml:id="si12m6b" con="d" wordpos="m">streu</syl>
+</verse>
+<accid xml:id="alnepwm1" accid.ges="f"/>
+</note>
+<note xml:id="n15lv07q" dur="16" oct="4" pname="d"/>
+</beam>
+<note xml:id="n16leweu" dur="4" oct="4" pname="c">
+<verse xml:id="vinf9t41" n="1">
+<syl xml:id="sc9lrer1" wordpos="t">et;</syl>
+</verse>
+</note>
+<rest xml:id="r1apj0l5" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m9s2" n="2">
+<layer xml:id="m9s2l1" n="1">
+<rest xml:id="rmnlngf" dur="4"/>
+<rest xml:id="r1nuf04k" dur="4"/>
+<rest xml:id="rm2jies" dur="8" type="mscore-beam-none"/>
+<note xml:id="ninrjub" dur="8" oct="5" pname="g"/>
+</layer>
+</staff>
+<staff xml:id="m9s3" n="3">
+<layer xml:id="m9s3l1" n="1">
+<chord xml:id="c1gjs44g" dots="1" dur="2">
+<note xml:id="nhba4oa" oct="3" pname="c"/>
+<note xml:id="n3el3s6" oct="3" pname="e">
+<accid xml:id="afpyp9w2" accid.ges="f"/>
+</note>
+<note xml:id="n1wcfd4e" oct="3" pname="g"/>
+<note xml:id="n1q0zx1z" oct="4" pname="c"/>
+</chord>
+</layer>
+</staff>
+<mordent xml:id="moeqf62" form="upper" startid="#n1d052uv"/>
+<hairpin xml:id="h16w81tp" dur="8" endid="#ninrjub" form="cres" startid="#ninrjub"/>
+<slur xml:id="s16nn6a2" endid="#n99f59x" startid="#ninrjub"/>
+<supplied xml:id="s9u4zc7" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="h42n684" endid="#n99f59x" form="cres" staff="2" startid="#ninrjub"/>
+</supplied>
+</measure>
+                  <measure xml:id="me17v9h" facs="#zone_01K49YX93G5W3NN0HQ2KPG9Q1H" n="9">
+<staff xml:id="m10s1" n="1">
+<layer xml:id="m10s1l1" n="1">
+<mRest xml:id="m27v0fh"/>
+</layer>
+</staff>
+<staff xml:id="m10s2" n="2">
+<layer xml:id="m10s2l1" n="1">
+<note xml:id="n99f59x" dur="4" oct="5" pname="a">
+<accid xml:id="avcusla1" accid.ges="f"/>
+<supplied xml:id="s9y6fsm1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<artic xml:id="a106ksz2" artic="acc"/>
+</supplied>
+</note>
+<beam xml:id="bzk7bo8">
+<tuplet xml:id="t1ot6szt" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="ntj414p" dur="8" oct="5" pname="a">
+<accid xml:id="a98pw171" accid.ges="f"/>
+</note>
+<note xml:id="nq5q83a" dur="8" oct="5" pname="f"/>
+<note xml:id="nd302hl" dur="8" oct="5" pname="d"/>
+</tuplet>
+</beam>
+<beam xml:id="b6i9uyx1">
+<tuplet xml:id="t15159fo" num="3" numbase="2">
+<note xml:id="nz7va70" dur="8" oct="4" pname="b">
+<accid xml:id="aoaa6v9" accid="n"/>
+</note>
+<note xml:id="nqccmh7" dur="8" oct="4" pname="a">
+<accid xml:id="a8e1ner2" accid.ges="f"/>
+</note>
+<note xml:id="n1jhnca5" dur="8" oct="4" pname="f"/>
+</tuplet>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m10s3" n="3">
+<layer xml:id="m10s3l1" n="1">
+<chord xml:id="c1koj63i" dots="1" dur="2">
+<note xml:id="n1oot8sa" oct="3" pname="c"/>
+<note xml:id="ndk2ntw" oct="3" pname="d"/>
+<note xml:id="nrlh79u" oct="3" pname="f"/>
+<note xml:id="n7zjflt" oct="3" pname="a">
+<accid xml:id="aa4c1kz2" accid.ges="f"/>
+</note>
+<note xml:id="n1j9t96j" oct="3" pname="b">
+<accid xml:id="ai3r3qf" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<slur xml:id="s3o5jl7" endid="#ntj414p" startid="#n99f59x"/>
+<del xml:id="dv3ikc" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="h1d16lmm" endid="#nz7va70" form="dim" startid="#ntj414p"/>
+</del>
+<slur xml:id="sz9yhxq" endid="#n1jhnca5" startid="#ntj414p"/>
+</measure>
+                  <measure xml:id="mcrxaum" facs="#zone_01K49YX93GWXYRCQ2EBQSP9SQF" n="10">
+<staff xml:id="m11s1" n="1">
+<layer xml:id="m11s1l1" n="1">
+<rest xml:id="r19xls0r" dur="4"/>
+<rest xml:id="r1cfjjp9" dur="4"/>
+<rest xml:id="r1ywmemb" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1hbn0yu" dur="8" oct="4" pname="g">
+<verse xml:id="vxqfgy2" n="1">
+<syl xml:id="sriq9ss1">da</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m11s2" n="2">
+<layer xml:id="m11s2l1" n="1">
+<graceGrp xml:id="glayf881" grace="acc">
+<beam xml:id="bca6obd1">
+<note xml:id="n1u4y359" dur="32" oct="4" pname="d"/>
+<note xml:id="n103nqq3" dur="32" oct="4" pname="e">
+<accid xml:id="a6cms731" accid.ges="f"/>
+</note>
+<note xml:id="n4e2blf" dur="32" oct="4" pname="f"/>
+</beam>
+</graceGrp>
+<beam xml:id="bp6bisl2">
+<note xml:id="nq63o9z" dots="1" dur="8" oct="4" pname="e">
+<accid xml:id="a0xfa7e" accid.ges="f"/>
+</note>
+<note xml:id="n1fnkqv7" dur="16" oct="4" pname="d"/>
+</beam>
+<note xml:id="nh2qz22" dur="4" oct="4" pname="c"/>
+<rest xml:id="r17xf8f4" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m11s3" n="3">
+<layer xml:id="m11s3l1" n="1">
+<chord xml:id="c1ffwg1v" dur="2">
+<note xml:id="nalm7g3" oct="3" pname="c"/>
+<note xml:id="n1432wdc" oct="3" pname="e">
+<accid xml:id="a9g86nr1" accid.ges="f"/>
+</note>
+<note xml:id="n94uc3g" oct="3" pname="g"/>
+<note xml:id="nuvtlm5" oct="4" pname="c"/>
+</chord>
+<rest xml:id="r1srwc7t" dur="4"/>
+</layer>
+</staff>
+<del xml:id="d6sy6zc1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="d16z80lb" label="mp" startid="#n1u4y359">mp</dynam>
+</del>
+<slur xml:id="s1yeoods" endid="#n4e2blf" startid="#n1u4y359"/>
+<del xml:id="dxgz41v2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30"/>
+<del xml:id="dmn34uq2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30"/>
+<del xml:id="d7dzkx61" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30"/>
+<slur xml:id="s5aqj6q" endid="#nh2qz22" startid="#nq63o9z"/>
+</measure>
+                  <measure xml:id="m1ic4r0" facs="#zone_01K49YX93H04NYK55BR387AZW8" n="11">
+<staff xml:id="m12s1" n="1">
+<layer xml:id="m12s1l1" n="1">
+<note xml:id="n1fyn9oy" dots="1" dur="4" oct="4" pname="g">
+<verse xml:id="vfah4hq2" n="1">
+<syl xml:id="sjhdnd9">glaubt’</syl>
+</verse>
+</note>
+<note xml:id="n1onib6z" dur="8" oct="4" pname="g">
+<verse xml:id="vhgeqhy1" n="1">
+<syl xml:id="staf5o31">ich</syl>
+</verse>
+</note>
+<note xml:id="ntd02wl" dur="8" oct="4" pname="g">
+<verse xml:id="v6mtk0k1" n="1">
+<syl xml:id="sqou431">schon</syl>
+</verse>
+</note>
+<note xml:id="n1hmi26v" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vj328mu1" n="1">
+<syl xml:id="srorssu1">ein</syl>
+</verse>
+<accid xml:id="ar71uth" accid="s"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m12s2" n="2">
+<layer xml:id="m12s2l1" n="1">
+<note xml:id="nzemn7i" dots="1" dur="2" oct="4" pname="d" stem.dir="down"/>
+</layer>
+<layer xml:id="m12s2l2" n="2">
+<note xml:id="nufahed" dur="2" oct="4" pname="g" stem.dir="up"/>
+<beam xml:id="bxwoh1u1">
+<note xml:id="n1i2lpgw" dur="8" oct="4" pname="g"/>
+<note xml:id="nvmyjnb" dur="8" oct="4" pname="g">
+<accid xml:id="a1g5xi11" accid="s"/>
+</note>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m12s3" n="3">
+<layer xml:id="m12s3l1" n="1">
+<note xml:id="n5im6o1" dur="2" oct="3" pname="g"/>
+<beam xml:id="b08l0o5">
+<note xml:id="n1sq9mw6" dur="8" oct="3" pname="g"/>
+<note xml:id="n1ckldol" dur="8" oct="3" pname="f"/>
+</beam>
+</layer>
+<layer xml:id="m12s3l2" n="2">
+<note xml:id="nf4or2z" dots="1" dur="2" oct="2" pname="b">
+<accid xml:id="a5bf7t1" accid="n"/>
+</note>
+</layer>
+</staff>
+<del xml:id="di2bpiq1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="sg6kcgm" endid="#n1i2lpgw" startid="#nufahed"/>
+</del>
+<slur xml:id="s172mmsa" endid="#nvmyjnb" startid="#n1i2lpgw"/>
+<del xml:id="dprg5ky1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="s18lcx8y" endid="#n1sq9mw6" startid="#n5im6o1"/>
+</del>
+<slur xml:id="sapuhj6" endid="#n1ckldol" startid="#n1sq9mw6"/>
+<supplied xml:id="s11rtng" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<tie xml:id="tb3803z1" endid="#n1i2lpgw" staff="2" startid="#nufahed"/>
+</supplied>
+<supplied xml:id="su5l6wj2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<tie xml:id="thtz6eh" endid="#n1sq9mw6" staff="3" startid="#n5im6o1"/>
+</supplied>
+</measure>
+                  <measure xml:id="m1r0k4g6" facs="#zone_01K49YX93HQ0FMDEXYJDQRKNRX" n="12">
+<staff xml:id="m13s1" n="1">
+<layer xml:id="m13s1l1" n="1">
+<note xml:id="nwteil7" dots="1" dur="8" oct="4" pname="b">
+<verse xml:id="vrxh7ct1" n="1">
+<syl xml:id="s09rh7y1">Greis</syl>
+</verse>
+<accid xml:id="abz8pjq1" accid="n"/>
+</note>
+<note xml:id="n1kfsj7a" dur="16" oct="4" pname="a" type="mscore-beam-none">
+<verse xml:id="v709d0b" n="1">
+<syl xml:id="snsuxg6">zu</syl>
+</verse>
+<accid xml:id="a170ode" accid="n"/>
+</note>
+<note xml:id="n1fehraz" dur="4" oct="4" pname="a">
+<verse xml:id="vl06dqe1" n="1">
+<syl xml:id="s6ww8zy2">sein,</syl>
+</verse>
+</note>
+<rest xml:id="rsu6vn8" dur="8" type="mscore-beam-none"/>
+<note xml:id="n12h0ixb" dur="8" oct="5" pname="e">
+<verse xml:id="ve7az001" n="1">
+<syl xml:id="ss4k1fs1">und</syl>
+</verse>
+<accid xml:id="a6cue35" accid="n"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m13s2" n="2">
+<layer xml:id="m13s2l1" n="1">
+<note xml:id="n3w7jnd" dur="4" oct="4" pname="b">
+<accid xml:id="acqufv5" accid="n"/>
+</note>
+<note xml:id="nw2fajh" dur="4" oct="4" pname="a">
+<accid xml:id="aruhdkn2" accid="n"/>
+</note>
+<rest xml:id="rysnaku" dur="8" type="mscore-beam-none"/>
+<note xml:id="n17q43bk" dur="8" oct="4" pname="e"/>
+</layer>
+<layer xml:id="m13s2l2" n="2">
+<note xml:id="nvt0x18" dur="2" oct="4" pname="e">
+<accid xml:id="at1ux4i1" accid="n"/>
+</note>
+<space xml:id="sh2tqp3" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m13s3" n="3">
+<layer xml:id="m13s3l1" n="1">
+<note xml:id="nsoe7bd" dur="4" oct="3" pname="e">
+<accid xml:id="ayuvh6g1" accid="n"/>
+</note>
+<note xml:id="n17qpp7i" dur="4" oct="3" pname="a">
+<accid xml:id="a40d0zx2" accid="n"/>
+</note>
+<rest xml:id="r108h8an" dur="8" type="mscore-beam-none"/>
+<note xml:id="n298ccp" dur="8" oct="3" pname="g">
+<accid xml:id="a9ppsvn1" accid="s"/>
+</note>
+</layer>
+<layer xml:id="m13s3l2" n="2">
+<note xml:id="nv7y1qd" dur="2" oct="3" pname="c"/>
+<space xml:id="sxsuyh9" dur="8" type="mscore-beam-none"/>
+<note xml:id="n9fi419" dur="8" oct="2" pname="b">
+<accid xml:id="aglu0t4" accid="n"/>
+</note>
+</layer>
+</staff>
+<slur xml:id="saw5snp" endid="#nw2fajh" startid="#n3w7jnd"/>
+<del xml:id="duot8ks2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="s1cc17be" curvedir="below" endid="#nuye45m" startid="#n17q43bk"/>
+</del>
+<slur xml:id="s1z12sse" endid="#n17qpp7i" startid="#nsoe7bd"/>
+<slur xml:id="s12yoq5z" endid="#nffhq0z" startid="#n298ccp"/>
+<slur xml:id="s1s1ltan" endid="#n1chyq11" startid="#n9fi419"/>
+<supplied xml:id="s42x6ga" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<tie xml:id="texyi7n1" endid="#nuye45m" staff="2" startid="#n17q43bk"/>
+</supplied>
+</measure>
+                  <measure xml:id="mmvzw6p" facs="#zone_01K49YX93HTBCHF2EAHRZHPX2F" n="13">
+<staff xml:id="m14s1" n="1">
+<layer xml:id="m14s1l1" n="1">
+<note xml:id="n1wcuo04" dur="4" oct="5" pname="e">
+<verse xml:id="vm6thx6" n="1">
+<syl xml:id="ssrl4w3" con="u">hab’</syl>
+</verse>
+<accid xml:id="a29zrhh1" accid="n"/>
+</note>
+<tuplet xml:id="t1spvoiv" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="b0vsllp2">
+<note xml:id="nropvqg" dur="8" oct="5" pname="e"/>
+<note xml:id="nvrmwly" dur="8" oct="5" pname="d"/>
+</beam>
+<note xml:id="n1ni93l9" dur="8" oct="5" pname="c" type="mscore-beam-begin">
+<verse xml:id="v4tthk61" n="1">
+<syl xml:id="s83tt6h1">mich</syl>
+</verse>
+</note>
+</tuplet>
+<tuplet xml:id="t11sqig2" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="b58fito1">
+<note xml:id="n1kg5ftb" dur="8" oct="5" pname="c">
+<verse xml:id="vcxllrh" n="1">
+<syl xml:id="shfxu6w2">sehr</syl>
+</verse>
+</note>
+<note xml:id="n1l6bvdy" dur="8" oct="4" pname="b">
+<accid xml:id="ab6pqci1" accid="n"/>
+</note>
+</beam>
+<note xml:id="nj8ztzd" dur="8" oct="4" pname="a" type="mscore-beam-begin">
+<verse xml:id="vrwelp5" n="1">
+<syl xml:id="slcjwip1" con="d" wordpos="i">ge</syl>
+</verse>
+<accid xml:id="a9rrse1" accid="n"/>
+</note>
+</tuplet>
+</layer>
+</staff>
+<staff xml:id="m14s2" n="2">
+<layer xml:id="m14s2l1" n="1">
+<note xml:id="nuye45m" dur="2" oct="4" pname="e">
+<accid xml:id="a9vkmmx1" accid="n"/>
+</note>
+<chord xml:id="c1eh3hzb" dur="4">
+<note xml:id="nuprqt8" oct="4" pname="d"/>
+<note xml:id="ni39rh4" oct="4" pname="f">
+<accid xml:id="aia2c2k2" accid="s"/>
+</note>
+</chord>
+</layer>
+</staff>
+<staff xml:id="m14s3" n="3">
+<layer xml:id="m14s3l1" n="1">
+<note xml:id="nffhq0z" dur="2" oct="3" pname="a">
+<accid xml:id="a0auogg1" accid="n"/>
+</note>
+<beam xml:id="b0nxt0c">
+<tuplet xml:id="tx8lqnk" num="3" numbase="2">
+<note xml:id="n12icdrj" dur="8" oct="3" pname="a"/>
+<note xml:id="npdi9li" dur="8" oct="3" pname="b">
+<accid xml:id="aq7p2jx1" accid="n"/>
+</note>
+<note xml:id="n1qf4vvi" dur="8" oct="4" pname="c"/>
+</tuplet>
+</beam>
+</layer>
+<layer xml:id="m14s3l2" n="2">
+<note xml:id="n1chyq11" dur="2" oct="3" pname="c"/>
+<note xml:id="nhpk39h" dur="4" oct="3" pname="d"/>
+</layer>
+</staff>
+<slur xml:id="s13hmhby" endid="#nropvqg" startid="#n1wcuo04"/>
+<slur xml:id="sfd3b4d" endid="#n1qf4vvi" startid="#n12icdrj"/>
+</measure>
+                  <measure xml:id="m1nyl4vy" facs="#zone_01K49YX93HNAYA3W142TC88KJH" n="14">
+<staff xml:id="m15s1" n="1">
+<layer xml:id="m15s1l1" n="1">
+<graceGrp xml:id="g6ze0jb1" grace="acc">
+<note xml:id="no6pvhz" dur="8" oct="4" pname="a">
+<accid xml:id="a9ekn741" accid="n"/>
+</note>
+</graceGrp>
+<note xml:id="n1ldjb0i" dur="4" oct="4" pname="g">
+<verse xml:id="v9x0xx3" n="1">
+<syl xml:id="sqq2817" con="d" wordpos="m">freu</syl>
+</verse>
+</note>
+<note xml:id="n1a9y604" dur="4" oct="4" pname="g">
+<verse xml:id="vlj624v2" n="1">
+<syl xml:id="s97iroa" wordpos="t">et.</syl>
+</verse>
+</note>
+<rest xml:id="r158jsp0" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m15s2" n="2">
+<layer xml:id="m15s2l1" n="1">
+<chord xml:id="c13a556n" dur="4">
+<note xml:id="nrr3li8" oct="4" pname="d"/>
+<note xml:id="n1e26rh" oct="4" pname="f">
+<accid xml:id="agxedmk2" accid="s"/>
+</note>
+</chord>
+<chord xml:id="c8nza6q" dur="8">
+<note xml:id="n1pgth2r" oct="4" pname="d"/>
+<note xml:id="n15mihht" oct="4" pname="g"/>
+</chord>
+<rest xml:id="rf0is9q" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r9gz4uu" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1bw0878" dur="8" oct="5" pname="f">
+<accid xml:id="a325a8o1" accid="n"/>
+</note>
+</layer>
+<layer xml:id="m15s2l2" n="2">
+<space xml:id="s196s0b3" dur="4"/>
+<space xml:id="s1wwjw7t" dur="4"/>
+<space xml:id="s8dscet" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1ubqewm" dur="8" oct="4" pname="f">
+<accid xml:id="a79kidu2" accid="n"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m15s3" n="3">
+<layer xml:id="m15s3l1" n="1">
+<note xml:id="nmqdtqz" dur="4" oct="4" pname="c"/>
+<note xml:id="n15i4w9g" dur="8" oct="3" pname="b">
+<accid xml:id="af9gf1a1" accid="n"/>
+</note>
+<rest xml:id="r1m19y6g" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r1v4au3o" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1hwfnbb" dur="8" oct="3" pname="g">
+<accid xml:id="a9xbs68" accid="s"/>
+</note>
+</layer>
+<layer xml:id="m15s3l2" n="2">
+<note xml:id="n1ipofj7" dur="4" oct="3" pname="d"/>
+<note xml:id="n1wcsxhz" dur="8" oct="3" pname="g"/>
+<space xml:id="s1oo9fzs" dur="8" type="mscore-beam-none"/>
+<space xml:id="st9gk2h" dur="8" type="mscore-beam-none"/>
+<note xml:id="ngs004z" dur="8" oct="2" pname="b">
+<accid xml:id="abms8zi2" accid="n"/>
+</note>
+</layer>
+</staff>
+<slur xml:id="sxwmm45" curvedir="above" endid="#c8nza6q" startid="#c13a556n"/>
+<slur xml:id="s120p9fr" endid="#nkztivk" startid="#n1bw0878"/>
+<slur xml:id="s10jruoq" endid="#n1uibm9" startid="#n1ubqewm"/>
+<slur xml:id="szoj55a" endid="#n15i4w9g" startid="#nmqdtqz"/>
+<slur xml:id="s9kti2l" endid="#n18eq2y8" startid="#n1hwfnbb"/>
+<slur xml:id="sfvs4n5" endid="#n1wcsxhz" startid="#n1ipofj7"/>
+<slur xml:id="sggiels" endid="#n1kecd3v" startid="#ngs004z"/>
+<slur xml:id="s85o2mm1" endid="#n1e26rh" staff="2" startid="#nrr3li8"/>
+<del xml:id="dx5pyek2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="sygdm781" endid="#n1pgth2r" staff="2" startid="#nrr3li8"/>
+</del>
+<supplied xml:id="sm8gg6a1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<tie xml:id="thgm884" endid="#n1pgth2r" staff="2" startid="#nrr3li8"/>
+</supplied>
+</measure>
+                  <measure xml:id="mezpi6u" facs="#zone_01K49YX93H18MMTG15D05JWXKG" n="15">
+<staff xml:id="m16s1" n="1">
+<layer xml:id="m16s1l1" n="1">
+<mRest xml:id="m38g1b"/>
+</layer>
+</staff>
+<staff xml:id="m16s2" n="2">
+<layer xml:id="m16s2l1" n="1">
+<note xml:id="nkztivk" dur="4" oct="5" pname="e" stem.dir="up">
+<accid xml:id="ay4mlfx1" accid="n"/>
+</note>
+<beam xml:id="brx2r3i2">
+<tuplet xml:id="t5ld4iy" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="n1a6m6sz" dur="8" oct="5" pname="e"/>
+<note xml:id="nmvsgqe" dur="8" oct="5" pname="d"/>
+<note xml:id="nbhpq1f" dur="8" oct="5" pname="c"/>
+</tuplet>
+</beam>
+<beam xml:id="b8nux8r2">
+<tuplet xml:id="t1pupd7w" num="3" numbase="2">
+<note xml:id="n1eanole" dur="8" oct="5" pname="c"/>
+<note xml:id="n1d6ibxs" dur="8" oct="4" pname="b">
+<accid xml:id="ajnp8wx1" accid="n"/>
+</note>
+<note xml:id="nrbp41w" dur="8" oct="4" pname="a">
+<accid xml:id="a0oz0h6" accid="n"/>
+</note>
+</tuplet>
+</beam>
+</layer>
+<layer xml:id="m16s2l2" n="2">
+<note xml:id="n1uibm9" dur="2" oct="4" pname="e" stem.dir="down">
+<accid xml:id="a57r1u71" accid="n"/>
+</note>
+<note xml:id="n10nicv3" dur="4" oct="4" pname="f">
+<accid xml:id="a3ji5js1" accid="s"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m16s3" n="3">
+<layer xml:id="m16s3l1" n="1">
+<note xml:id="n18eq2y8" dur="2" oct="3" pname="a">
+<accid xml:id="avy8ule1" accid="n"/>
+</note>
+<beam xml:id="bsfrenv2">
+<tuplet xml:id="tq1k2nd" num="3" numbase="2">
+<note xml:id="n1wmhnhg" dur="8" oct="3" pname="a"/>
+<note xml:id="no6sffp" dur="8" oct="3" pname="b">
+<accid xml:id="apm1cdk1" accid="n"/>
+</note>
+<note xml:id="nwljb5n" dur="8" oct="4" pname="c"/>
+</tuplet>
+</beam>
+</layer>
+<layer xml:id="m16s3l2" n="2">
+<note xml:id="n1kecd3v" dur="2" oct="3" pname="c"/>
+<note xml:id="na4x9d4" dur="4" oct="3" pname="d"/>
+</layer>
+</staff>
+<slur xml:id="s18lmr04" endid="#n1a6m6sz" startid="#nkztivk"/>
+<slur xml:id="sqc8xby" endid="#nbhpq1f" startid="#n1a6m6sz"/>
+<slur xml:id="stup01d" endid="#nrbp41w" startid="#n1eanole"/>
+<slur xml:id="svi3rmv" endid="#nwljb5n" startid="#n1wmhnhg"/>
+</measure>
+                  <measure xml:id="m1rdqaa7" facs="#zone_01K49YX93HQ9MKFVB1S5DT3N1D" n="16">
+<staff xml:id="m17s1" n="1">
+<layer xml:id="m17s1l1" n="1">
+<rest xml:id="rj1afch" dur="4"/>
+<rest xml:id="rzpj9u7" dur="4"/>
+<rest xml:id="rud7t72" dur="8" type="mscore-beam-none"/>
+<note xml:id="npp6ny4" dur="8" oct="4" pname="g">
+<verse xml:id="vjj3qdo2" n="1">
+<syl xml:id="sdqrwzx2">Doch</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m17s2" n="2">
+<layer xml:id="m17s2l1" n="1">
+<note xml:id="n1lapqj2" dur="4" oct="4" pname="a">
+<accid xml:id="acafb401" accid="n"/>
+</note>
+<note xml:id="nuttmfs" dur="8" oct="4" pname="g"/>
+<rest xml:id="rg17sjg" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r5u4nrf" dur="4"/>
+</layer>
+<layer xml:id="m17s2l2" n="2">
+<note xml:id="n13lez9u" dur="4" oct="4" pname="f">
+<accid xml:id="ayi6ssz2" accid="s"/>
+</note>
+<note xml:id="n1lqld0e" dur="8" oct="4" pname="g"/>
+<space xml:id="su65436" dur="8" type="mscore-beam-none"/>
+<space xml:id="szoo3kw" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m17s3" n="3">
+<layer xml:id="m17s3l1" n="1">
+<note xml:id="n1opws4t" dur="4" oct="4" pname="c"/>
+<note xml:id="nu59sve" dur="8" oct="3" pname="b">
+<accid xml:id="ae7ytiw1" accid="n"/>
+</note>
+<rest xml:id="rzt0tqw" dur="8" type="mscore-beam-none"/>
+<rest xml:id="rcn3q0" dur="4"/>
+</layer>
+<layer xml:id="m17s3l2" n="2">
+<note xml:id="n17v40r6" dur="4" oct="3" pname="d"/>
+<note xml:id="n1xic7yu" dur="8" oct="3" pname="g"/>
+<space xml:id="s12bu6o6" dur="8" type="mscore-beam-none"/>
+<space xml:id="sqhv0ur" dur="4"/>
+</layer>
+</staff>
+<slur xml:id="s1j0291w" endid="#nuttmfs" startid="#n1lapqj2"/>
+<slur xml:id="sgni6kt" endid="#n1lqld0e" startid="#n13lez9u"/>
+<slur xml:id="sxadf77" endid="#nu59sve" startid="#n1opws4t"/>
+<slur xml:id="stfe6mr" endid="#n1xic7yu" startid="#n17v40r6"/>
+</measure>
+                  <measure xml:id="m1mxwbue" facs="#zone_01K49YX93HBVMNEGVAQZD8V5M0" n="17">
+<staff xml:id="m18s1" n="1">
+<layer xml:id="m18s1l1" n="1">
+<note xml:id="n1u4avhv" dots="1" dur="4" oct="4" pname="g">
+<verse xml:id="vcytbba1" n="1">
+<syl xml:id="sbm51391">bald</syl>
+</verse>
+</note>
+<note xml:id="nz8mwr1" dur="8" oct="4" pname="g">
+<verse xml:id="vox0le" n="1">
+<syl xml:id="snhtyh3">ist</syl>
+</verse>
+</note>
+<note xml:id="n1rlqkb1" dur="8" oct="4" pname="g">
+<verse xml:id="vaocgob" n="1">
+<syl xml:id="spwt4di1">er</syl>
+</verse>
+</note>
+<note xml:id="np2heus" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vmpeuxa1" n="1">
+<syl xml:id="skx6olp1" con="d" wordpos="i">hin</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m18s2" n="2">
+<layer xml:id="m18s2l1" n="1">
+<rest xml:id="r3fx4pp" dur="4"/>
+<chord xml:id="c1cz1aiq" dur="8">
+<note xml:id="n1gast7f" oct="3" pname="g"/>
+<note xml:id="n1tas2cp" oct="4" pname="d"/>
+<note xml:id="n1qwvg92" oct="4" pname="g"/>
+</chord>
+<rest xml:id="radu16v" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r4yi6j5" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m18s3" n="3">
+<layer xml:id="m18s3l1" n="1">
+<rest xml:id="rp8i9pw" dur="4"/>
+<chord xml:id="cc0z1gf" dur="8">
+<note xml:id="n1yfygh4" oct="2" pname="b">
+<accid xml:id="aempeo4" accid="n"/>
+</note>
+<note xml:id="nkshpx5" oct="3" pname="d"/>
+</chord>
+<rest xml:id="rmu8cs5" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r1kxo9nj" dur="4"/>
+</layer>
+</staff>
+<del xml:id="d882lgr2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<arpeg xml:id="a1yntgup" startid="#c1cz1aiq"/>
+</del>
+<dynam xml:id="d1pmat4s" label="p" place="above" startid="#cc0z1gf">p</dynam>
+<del xml:id="djme5ao2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<arpeg xml:id="au7blu5" startid="#cc0z1gf"/>
+</del>
+<supplied xml:id="shcucs81" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<arpeg xml:id="aurruum1" order="up" plist="#n1yfygh4 #n1qwvg92" staff="2 3"/>
+</supplied>
+</measure>
+                  <measure xml:id="mzc2eo9" facs="#zone_01K49YX93HQY6891E03JZ0A9PW" n="18">
+<staff xml:id="m19s1" n="1">
+<layer xml:id="m19s1l1" n="1">
+<note xml:id="n1wuyfo4" dots="1" dur="8" oct="4" pname="e">
+<verse xml:id="vd8hqd91" n="1">
+<syl xml:id="stxhvut1" con="d" wordpos="m">weg</syl>
+</verse>
+<accid xml:id="ae311tx2" accid="f"/>
+</note>
+<note xml:id="nzh7s0i" dur="16" oct="4" pname="f" type="mscore-beam-none">
+<verse xml:id="vzogvix1" n="1">
+<syl xml:id="stimjz9" con="d" wordpos="m">ge</syl>
+</verse>
+</note>
+<note xml:id="n13yrwv6" dur="4" oct="4" pname="e">
+<verse xml:id="vlrju591" n="1">
+<syl xml:id="sn1fdr8" wordpos="t">taut,</syl>
+</verse>
+<accid xml:id="alk4de11" accid.ges="f"/>
+</note>
+<rest xml:id="r1h3q7fo" dur="8" type="mscore-beam-none"/>
+<note xml:id="n105mhvy" dur="8" oct="4" pname="e">
+<verse xml:id="vbixu4o1" n="1">
+<syl xml:id="smtvusb">hab’</syl>
+</verse>
+<accid xml:id="avtbhoe" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m19s2" n="2">
+<layer xml:id="m19s2l1" n="1">
+<rest xml:id="r15mhsj" dur="4"/>
+<chord xml:id="cd8ufbr" dur="8">
+<note xml:id="n1e780r4" oct="3" pname="g"/>
+<note xml:id="n4al0g6" oct="4" pname="c"/>
+<note xml:id="n1v525qy" oct="4" pname="e">
+<accid xml:id="at42s78" accid="f"/>
+</note>
+</chord>
+<rest xml:id="r2sod97" dur="8" type="mscore-beam-none"/>
+<rest xml:id="rr3qm1r" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m19s3" n="3">
+<layer xml:id="m19s3l1" n="1">
+<rest xml:id="rtd0cy2" dur="4"/>
+<chord xml:id="c8nba7s" dur="8">
+<note xml:id="nn7mhn5" oct="3" pname="c"/>
+<note xml:id="n1y5r85e" oct="3" pname="e">
+<accid xml:id="acpphcw1" accid="f"/>
+</note>
+</chord>
+<rest xml:id="rnbkwqz" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r1ypm07k" dur="4"/>
+</layer>
+</staff>
+<del xml:id="dw8ror01" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="d2qnihu" label="mf" place="above" startid="#n105mhvy">mf</dynam>
+</del>
+<del xml:id="d9cmrd71" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<arpeg xml:id="aoct3oi" startid="#cd8ufbr"/>
+</del>
+<del xml:id="d9u5mwq2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<arpeg xml:id="a11i6lv0" startid="#c8nba7s"/>
+</del>
+<supplied xml:id="sezvusd" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<arpeg xml:id="ajt2b7x2" order="up" plist="#nn7mhn5 #n1v525qy" staff="2 3"/>
+</supplied>
+</measure>
+                  <measure xml:id="m1w8g80n" facs="#zone_01K49YX93HT6YD13V511EK33R3" n="19">
+<staff xml:id="m20s1" n="1">
+<layer xml:id="m20s1l1" n="1">
+<note xml:id="nl11979" dots="1" dur="4" oct="4" pname="e">
+<verse xml:id="vlhsq5g" n="1">
+<syl xml:id="sfg4ual1" con="d" wordpos="i">wie</syl>
+</verse>
+<accid xml:id="axr7t641" accid.ges="f"/>
+</note>
+<note xml:id="n180vxcx" dur="8" oct="4" pname="g">
+<verse xml:id="vxj7kpq2" n="1">
+<syl xml:id="sqebogz1" wordpos="t">der</syl>
+</verse>
+</note>
+<tuplet xml:id="t1ows7ln" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="bzcuov81">
+<note xml:id="n6dnjev" dur="8" oct="4" pname="b">
+<verse xml:id="vm3k3f31" n="1">
+<syl xml:id="svxdl3j1" con="d" wordpos="i">schwar</syl>
+</verse>
+<accid xml:id="aoh635j1" accid.ges="f"/>
+</note>
+<note xml:id="n1yie1m1" dur="8" oct="5" pname="e">
+<accid xml:id="agcz77m1" accid.ges="f"/>
+</note>
+</beam>
+<note xml:id="ncukt4m" dur="8" oct="5" pname="d" type="mscore-beam-begin">
+<verse xml:id="vtophhl1" n="1">
+<syl xml:id="skie3oe1" wordpos="t">ze</syl>
+</verse>
+<accid xml:id="ahsipua1" accid="f"/>
+</note>
+</tuplet>
+</layer>
+</staff>
+<staff xml:id="m20s2" n="2">
+<layer xml:id="m20s2l1" n="1">
+<rest xml:id="r19r2eq" dur="4"/>
+<chord xml:id="c1sx2vh8" dur="8">
+<note xml:id="ny1ul3f" oct="4" pname="e">
+<accid xml:id="arvhxdw1" accid.ges="f"/>
+</note>
+<note xml:id="n1ojhk6c" oct="4" pname="b">
+<accid xml:id="aeaipmk1" accid.ges="f"/>
+</note>
+<note xml:id="ndww11e" oct="5" pname="d">
+<accid xml:id="anzwh371" accid="f"/>
+</note>
+</chord>
+<rest xml:id="r169ar66" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r44gocg" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m20s3" n="3">
+<layer xml:id="m20s3l1" n="1">
+<rest xml:id="r1g5dq5c" dur="4"/>
+<chord xml:id="c142pwf6" dur="8">
+<note xml:id="n1960if6" oct="2" pname="g"/>
+<note xml:id="nubj8k7" oct="3" pname="e">
+<accid xml:id="a7uboo5" accid.ges="f"/>
+</note>
+<note xml:id="n67shg1" oct="3" pname="g"/>
+</chord>
+<rest xml:id="r1yojmoj" dur="8" type="mscore-beam-none"/>
+<rest xml:id="rxjc4ru" dur="4"/>
+</layer>
+</staff>
+<dynam xml:id="dady5t8" label="f" startid="#c1sx2vh8">f</dynam>
+</measure>
+                  <measure xml:id="mq35dmh" facs="#zone_01K49YX93HDQSGPCAAAZH3KPZE" n="20">
+<staff xml:id="m21s1" n="1">
+<layer xml:id="m21s1l1" n="1">
+<note xml:id="nusbw0h" dur="4" oct="4" pname="b">
+<verse xml:id="v7xxjal2" n="1">
+<syl xml:id="s27khcb1" con="d" wordpos="i">Haa</syl>
+</verse>
+<accid xml:id="aozkdqg1" accid="n"/>
+</note>
+<note xml:id="n1qgt24h" dur="4" oct="5" pname="c">
+<verse xml:id="voxm06v2" n="1">
+<syl xml:id="sx6reie" wordpos="t">re,</syl>
+</verse>
+</note>
+<rest xml:id="r1pmbygx" dur="8" type="mscore-beam-none"/>
+<note xml:id="nnpsn3u" dur="8" oct="5" pname="c">
+<verse xml:id="vswdnb21" n="1">
+<syl xml:id="shnp70z2">dass</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m21s2" n="2">
+<layer xml:id="m21s2l1" n="1">
+<rest xml:id="radqfi7" dur="4"/>
+<chord xml:id="c1rslhye" dur="8">
+<note xml:id="nj9zg7g" oct="4" pname="e">
+<accid xml:id="aczsvfx2" accid.ges="f"/>
+</note>
+<note xml:id="nczu69z" oct="4" pname="a">
+<accid xml:id="a0mojwq2" accid.ges="f"/>
+</note>
+<note xml:id="n1uxk7qh" oct="5" pname="c"/>
+</chord>
+<rest xml:id="rx5v4ax" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r1tg0w8t" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m21s3" n="3">
+<layer xml:id="m21s3l1" n="1">
+<rest xml:id="r1sy5kfv" dur="4"/>
+<chord xml:id="c1njeoe1" dur="8">
+<note xml:id="n1iyzwtt" oct="2" pname="a">
+<accid xml:id="akiuhqn1" accid.ges="f"/>
+</note>
+<note xml:id="nf9zs76" oct="3" pname="e">
+<accid xml:id="a00do2x2" accid.ges="f"/>
+</note>
+<note xml:id="n1l9wfom" oct="3" pname="a">
+<accid xml:id="akc63xz2" accid.ges="f"/>
+</note>
+</chord>
+<rest xml:id="r16jlctj" dur="8" type="mscore-beam-none"/>
+<rest xml:id="r1hrjncg" dur="4"/>
+</layer>
+</staff>
+<del xml:id="dc4qjzx1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="d19mbpec" label="p" place="above" startid="#nnpsn3u">p</dynam>
+</del>
+</measure>
+                  <measure xml:id="m1z0978z" facs="#zone_01K49YX93J269V45VPMCWYMJDM" n="21">
+<staff xml:id="m22s1" n="1">
+<layer xml:id="m22s1l1" n="1">
+<note xml:id="ndlmnwv" dots="1" dur="8" oct="5" pname="c" type="mscore-beam-none">
+<verse xml:id="v1bno781" n="1">
+<syl xml:id="swstu301">mir’s</syl>
+</verse>
+</note>
+<note xml:id="n1enfbej" dur="16" oct="5" pname="c" type="mscore-beam-none">
+<verse xml:id="vvhgys2" n="1">
+<syl xml:id="s21dtg6">vor</syl>
+</verse>
+</note>
+<note xml:id="nppxfm1" dots="1" dur="8" oct="5" pname="d" type="mscore-beam-none">
+<verse xml:id="v92doz01" n="1">
+<syl xml:id="schgrtk1" con="d" wordpos="i">mei</syl>
+</verse>
+<accid xml:id="a3uprfm2" accid="f"/>
+</note>
+<note xml:id="n1mz5zc1" dur="16" oct="5" pname="d" type="mscore-beam-none">
+<verse xml:id="vnao1z91" n="1">
+<syl xml:id="s1avkku2" wordpos="t">ner</syl>
+</verse>
+<accid xml:id="ahbkwtf" accid.ges="f"/>
+</note>
+<note xml:id="ntmnao1" dots="1" dur="8" oct="5" pname="d" type="mscore-beam-none">
+<verse xml:id="v9f6s0n1" n="1">
+<syl xml:id="snozppv1" con="d" wordpos="i">Ju</syl>
+</verse>
+<accid xml:id="ay0ieqo2" accid="n"/>
+</note>
+<note xml:id="n10tcywp" dur="16" oct="5" pname="d" type="mscore-beam-none">
+<verse xml:id="vf0qz5h1" n="1">
+<syl xml:id="s7x6hih" wordpos="t">gend</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m22s2" n="2">
+<layer xml:id="m22s2l1" n="1">
+<chord xml:id="c79o7gf" dur="8">
+<note xml:id="n1vif8t7" oct="3" pname="a">
+<accid xml:id="apn6dd5" accid.ges="f"/>
+</note>
+<note xml:id="n1ink0wo" oct="4" pname="c"/>
+</chord>
+<rest xml:id="r1dpwgeh" dur="8" type="mscore-beam-none"/>
+<chord xml:id="co23r0i" dur="8">
+<note xml:id="n14iuh6s" oct="3" pname="a">
+<accid xml:id="axnaeqf1" accid.ges="f"/>
+</note>
+<note xml:id="n1uchicu" oct="4" pname="d">
+<accid xml:id="azdi2mj1" accid="f"/>
+</note>
+</chord>
+<rest xml:id="r1t634v4" dur="8" type="mscore-beam-none"/>
+<chord xml:id="cb1he0b" dur="8">
+<note xml:id="nv4t21e" oct="3" pname="a">
+<accid xml:id="ahkb81d1" accid.ges="f"/>
+</note>
+<note xml:id="nnob8y2" oct="4" pname="d">
+<accid xml:id="a8asbhd" accid="n"/>
+</note>
+</chord>
+<rest xml:id="rm62l1w" dur="8" type="mscore-beam-none"/>
+</layer>
+</staff>
+<staff xml:id="m22s3" n="3">
+<layer xml:id="m22s3l1" n="1">
+<note xml:id="nsrvjou" dur="8" oct="3" pname="g">
+<accid xml:id="au2i7hg1" accid="f"/>
+</note>
+<rest xml:id="r16qz13z" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1ak2kh0" dur="8" oct="3" pname="f"/>
+<rest xml:id="ryyazq8" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1y85ht2" dur="8" oct="3" pname="f">
+<accid xml:id="a2yve3e1" accid="f"/>
+</note>
+<rest xml:id="rexc0qb" dur="8" type="mscore-beam-none"/>
+</layer>
+</staff>
+<del xml:id="d1c3jj7" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="h1ditcvf" endid="#cb1he0b" form="cres" startid="#r1dpwgeh"/>
+</del>
+<dynam xml:id="dmlprtw" label="p" place="above" startid="#nsrvjou">p</dynam>
+<supplied xml:id="sbo94g71" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="hy97cjk1" endid="#nv4t21e" form="cres" staff="2" startid="#n1vif8t7"/>
+</supplied>
+</measure>
+                  <measure xml:id="mx92puu" facs="#zone_01K49YX93KYAGZZXRZ2Z6JE1R1" n="22">
+<staff xml:id="m23s1" n="1">
+<layer xml:id="m23s1l1" n="1">
+<note xml:id="nx4oe0h" dur="2" oct="5" pname="e">
+<verse xml:id="v7q3o9s2" n="1">
+<syl xml:id="sgwoooi2" con="u">graut</syl>
+</verse>
+<accid xml:id="atppb4x1" accid.ges="f"/>
+</note>
+<rest xml:id="r1x2pmx9" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m23s2" n="2">
+<layer xml:id="m23s2l1" n="1">
+<note xml:id="n195g71n" dots="1" dur="2" oct="4" pname="e">
+<accid xml:id="az7bldn2" accid.ges="f"/>
+<supplied xml:id="sel9ymt1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<artic xml:id="a3t1ltz1" artic="acc"/>
+</supplied>
+</note>
+</layer>
+<layer xml:id="m23s2l2" n="2">
+<chord xml:id="c1lpa4po" dur="2">
+<note xml:id="njx7w8h" oct="3" pname="g"/>
+<note xml:id="n10dvksm" oct="3" pname="b">
+<accid xml:id="akii2a81" accid.ges="f"/>
+</note>
+</chord>
+<chord xml:id="cwcsxjr" dur="4">
+<note xml:id="nz397ab" oct="3" pname="a">
+<accid xml:id="apmtao61" accid.ges="f"/>
+</note>
+<note xml:id="n1jnsxs0" oct="4" pname="c">
+<accid xml:id="axn5ydn1" accid="f"/>
+</note>
+</chord>
+</layer>
+</staff>
+<staff xml:id="m23s3" n="3">
+<layer xml:id="m23s3l1" n="1">
+<note xml:id="n7ng6li" dots="2" dur="4" oct="3" pname="e">
+<accid xml:id="az5xpqj1" accid.ges="f"/>
+</note>
+<note xml:id="ng2oh4c" dur="16" oct="3" pname="d">
+<accid xml:id="axpqhwt2" accid="f"/>
+</note>
+<beam xml:id="b6v7jy2">
+<note xml:id="n770ion" dots="1" dur="8" oct="3" pname="c">
+<accid xml:id="a4aupza" accid="f"/>
+</note>
+<note xml:id="n1m80gr3" dur="16" oct="2" pname="a">
+<accid xml:id="ad5r42q1" accid.ges="f"/>
+</note>
+</beam>
+</layer>
+</staff>
+<dynam xml:id="dz8pem0" label="fz" startid="#n195g71n">fz</dynam>
+<hairpin xml:id="h7gokq2" endid="#c1lpa4po" form="dim" startid="#n195g71n"/>
+<slur xml:id="s1nbd51o" endid="#c6h0pjy" startid="#n195g71n"/>
+<del xml:id="dxd3iuw2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="d137q8p" label="p" startid="#cwcsxjr">p</dynam>
+</del>
+<slur xml:id="sebirnk" endid="#n10arw20" startid="#n7ng6li"/>
+<dynam xml:id="d0ecw9m1" place="above" staff="3" startid="#ng2oh4c">p</dynam>
+</measure>
+                  <measure xml:id="m1da4a7r" facs="#zone_01K49YX93KRN5E6EF7EF07T5YA" n="23">
+<staff xml:id="m24s1" n="1">
+<layer xml:id="m24s1l1" n="1">
+<mRest xml:id="m1ec5gpz"/>
+</layer>
+</staff>
+<staff xml:id="m24s2" n="2">
+<layer xml:id="m24s2l1" n="1">
+<chord xml:id="c6h0pjy" dots="1" dur="2">
+<note xml:id="n1wst3ev" oct="3" pname="g"/>
+<note xml:id="n4zxyra" oct="3" pname="b">
+<accid xml:id="ayg7xcq1" accid.ges="f"/>
+</note>
+<note xml:id="n2rocic" oct="4" pname="e">
+<accid xml:id="adppnf61" accid.ges="f"/>
+</note>
+</chord>
+<clef xml:id="c1ox5lm1" line="4" shape="F"/>
+</layer>
+</staff>
+<staff xml:id="m24s3" n="3">
+<layer xml:id="m24s3l1" n="1">
+<note xml:id="n10arw20" dots="1" dur="2" oct="3" pname="e">
+<accid xml:id="a7dn70e1" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+</measure>
+                  <measure xml:id="m1jzp8p4" facs="#zone_01K49YX93MJY7972X82F80EXC2" n="24">
+<staff xml:id="m25s1" n="1">
+<layer xml:id="m25s1l1" n="1">
+<rest xml:id="rbarahf" dur="4"/>
+<rest xml:id="r1ue4j5r" dur="4"/>
+<rest xml:id="r1881xyz" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1deyc1q" dur="8" oct="4" pname="b">
+<verse xml:id="vl9awjt1" n="1">
+<syl xml:id="sd3f6a51">wie</syl>
+</verse>
+<accid xml:id="a7ev267" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m25s2" n="2">
+<layer xml:id="m25s2l1" n="1">
+<rest xml:id="r1xhabl" dur="8" type="mscore-beam-mid"/>
+<beam xml:id="bh7h5k41">
+<note xml:id="n13j1vhx" dur="8" oct="3" pname="e" type="mscore-beam-begin">
+<accid xml:id="a8m4n77" accid.ges="f"/>
+</note>
+<note xml:id="nvnmzb1" dur="8" oct="3" pname="f" type="mscore-beam-mid"/>
+<note xml:id="nl3sfxp" dur="8" oct="3" pname="g" type="mscore-beam-mid"/>
+<note xml:id="nq0ajxm" dur="8" oct="3" pname="a" type="mscore-beam-mid">
+<accid xml:id="aq0hgfe1" accid.ges="f"/>
+</note>
+<note xml:id="nnj77io" dur="8" oct="3" pname="b" type="mscore-beam-mid">
+<accid xml:id="aoqgwv91" accid.ges="f"/>
+</note>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m25s3" n="3">
+<layer xml:id="m25s3l1" n="1">
+<rest xml:id="r3l3kbz" dur="8" type="mscore-beam-mid"/>
+<beam xml:id="bz3hjgu1">
+<note xml:id="n1r2tjhl" dur="8" oct="2" pname="e" type="mscore-beam-begin">
+<accid xml:id="a0nvm091" accid.ges="f"/>
+</note>
+<note xml:id="nin3b13" dur="8" oct="2" pname="f" type="mscore-beam-mid"/>
+<note xml:id="nfbojnw" dur="8" oct="2" pname="g" type="mscore-beam-mid"/>
+<note xml:id="no6l3p5" dur="8" oct="2" pname="a" type="mscore-beam-mid">
+<accid xml:id="abwmqjn1" accid.ges="f"/>
+</note>
+<note xml:id="n1fjhaof" dur="8" oct="2" pname="b" type="mscore-beam-mid">
+<accid xml:id="a4pzwrr1" accid.ges="f"/>
+</note>
+</beam>
+</layer>
+</staff>
+<slur xml:id="ss1i9n" endid="#nnj77io" startid="#n13j1vhx"/>
+<dynam xml:id="d1mwlvk1" label="p" place="above" startid="#n1r2tjhl">p</dynam>
+<slur xml:id="sxdh3du" endid="#n1fjhaof" startid="#n1r2tjhl"/>
+</measure>
+                  <measure xml:id="mxt311k" facs="#zone_01K49YX93MZ7HVK2TFS006WCFT" n="25">
+<staff xml:id="m26s1" n="1">
+<layer xml:id="m26s1l1" n="1">
+<note xml:id="n1s26sv2" dots="1" dur="4" oct="5" pname="c">
+<verse xml:id="v7n22uz1" n="1">
+<syl xml:id="sebdbmv1">weit</syl>
+</verse>
+</note>
+<note xml:id="n5xg0se" dur="8" oct="4" pname="b" type="mscore-beam-none">
+<verse xml:id="vos2abb1" n="1">
+<syl xml:id="sdjnj9l2">noch</syl>
+</verse>
+<accid xml:id="apgf26t1" accid.ges="f"/>
+</note>
+<note xml:id="npg8ymq" dots="1" dur="8" oct="4" pname="a" type="mscore-beam-none">
+<verse xml:id="vo6mdpx1" n="1">
+<syl xml:id="s99ahan2">bis</syl>
+</verse>
+<accid xml:id="a0qyh8x1" accid.ges="f"/>
+</note>
+<note xml:id="n17v8avy" dur="16" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="v258nxg1" n="1">
+<syl xml:id="simzqr6">zur</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m26s2" n="2">
+<layer xml:id="m26s2l1" n="1">
+<graceGrp xml:id="gs9qxx6" grace="acc">
+<beam xml:id="b9llq0v1">
+<note xml:id="n9jbhxi" dur="32" oct="3" pname="a">
+<accid xml:id="a9sasxl2" accid.ges="f"/>
+</note>
+<note xml:id="n1r1tcuq" dur="32" oct="3" pname="b">
+<accid xml:id="akvqbdb" accid.ges="f"/>
+</note>
+</beam>
+</graceGrp>
+<note xml:id="n11lbwf9" dots="1" dur="4" oct="4" pname="c">
+<artic xml:id="amdfljn" artic="acc"/>
+</note>
+<beam xml:id="bejsex61">
+<note xml:id="n1tl0azw" dur="8" oct="3" pname="b" type="mscore-beam-mid">
+<accid xml:id="a32gsi51" accid.ges="f"/>
+</note>
+<note xml:id="n1d8wuz" dots="1" dur="8" oct="3" pname="a" type="mscore-beam-mid">
+<accid xml:id="ab2ktqm2" accid.ges="f"/>
+</note>
+<note xml:id="n1kwyamv" dur="16" oct="3" pname="g" type="mscore-beam-mid"/>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m26s3" n="3">
+<layer xml:id="m26s3l1" n="1">
+<graceGrp xml:id="gianyaw1" grace="acc">
+<beam xml:id="bbz2lcc1">
+<note xml:id="n1wzyd25" dur="32" oct="2" pname="a">
+<accid xml:id="a6htwvf1" accid.ges="f"/>
+</note>
+<note xml:id="nasgfj8" dur="32" oct="2" pname="b">
+<accid xml:id="akqih4w1" accid.ges="f"/>
+</note>
+</beam>
+</graceGrp>
+<note xml:id="n1xvs0f8" dots="1" dur="4" oct="3" pname="c">
+<artic xml:id="ab3vyb7" artic="acc"/>
+</note>
+<beam xml:id="bckijjg">
+<note xml:id="nf0qe94" dur="8" oct="2" pname="b" type="mscore-beam-mid">
+<accid xml:id="ajkzpna" accid.ges="f"/>
+</note>
+<note xml:id="najiz3b" dots="1" dur="8" oct="2" pname="a" type="mscore-beam-mid">
+<accid xml:id="a47cuse" accid.ges="f"/>
+</note>
+<note xml:id="ne6uasq" dur="16" oct="2" pname="g" type="mscore-beam-mid"/>
+</beam>
+</layer>
+</staff>
+<slur xml:id="s1j76753" endid="#n11lbwf9" startid="#n1r1tcuq"/>
+<slur xml:id="sppcw0q" endid="#n13s2j40" startid="#n11lbwf9"/>
+<slur xml:id="s122njiy" endid="#n1xvs0f8" startid="#nasgfj8"/>
+<slur xml:id="skadtnf" curvedir="below" endid="#n1egbpxo" startid="#n1xvs0f8"/>
+</measure>
+                  <measure xml:id="m1h00hl" facs="#zone_01K49YX93MSY35MRRYP77GA6CF" n="26">
+<staff xml:id="m27s1" n="1">
+<layer xml:id="m27s1l1" n="1">
+<graceGrp xml:id="gkilwdh1" grace="acc">
+<note xml:id="nryt4hf" dur="16" oct="4" pname="g"/>
+</graceGrp>
+<note xml:id="n3funb5" dur="8" oct="4" pname="f" type="mscore-beam-none">
+<verse xml:id="v2y4xhu2" n="1">
+<syl xml:id="ss9fo3w2" con="d" wordpos="i">Bah</syl>
+</verse>
+<accid xml:id="a21wt59" accid="s"/>
+</note>
+<note xml:id="nw784i6" dur="8" oct="4" pname="f" type="mscore-beam-none">
+<verse xml:id="v3y5wto2" n="1">
+<syl xml:id="s4ccl4s1" wordpos="t">re!</syl>
+</verse>
+<accid xml:id="ayl6i96" accid.ges="s"/>
+</note>
+<rest xml:id="r1eeda90" dur="4"/>
+<rest xml:id="rrgg4by" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1fjkm3p" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vo50nt31" n="1">
+<syl xml:id="sgvxwml1">wie</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m27s2" n="2">
+<layer xml:id="m27s2l1" n="1">
+<note xml:id="n1l47p3w" dur="2" oct="3" pname="f">
+<accid xml:id="alo68js2" accid="s"/>
+</note>
+<note xml:id="n13s2j40" dur="4" oct="3" pname="g"/>
+</layer>
+</staff>
+<staff xml:id="m27s3" n="3">
+<layer xml:id="m27s3l1" n="1">
+<note xml:id="nilai74" dur="2" oct="2" pname="f">
+<accid xml:id="ah5nzlu2" accid="s"/>
+</note>
+<note xml:id="n1egbpxo" dur="4" oct="2" pname="g"/>
+</layer>
+</staff>
+</measure>
+                  <measure xml:id="motwuxe" facs="#zone_01K49YX93M3A90PFQVQSH8K6PZ" n="27">
+<staff xml:id="m28s1" n="1">
+<layer xml:id="m28s1l1" n="1">
+<note xml:id="n16ah1dw" dots="1" dur="4" oct="4" pname="a">
+<verse xml:id="vi4hnl7" n="1">
+<syl xml:id="sp7d6mz2">weit</syl>
+</verse>
+<accid xml:id="ae36kah1" accid.ges="f"/>
+</note>
+<note xml:id="nr35oxf" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vn8jja9" n="1">
+<syl xml:id="so278ke1">noch</syl>
+</verse>
+</note>
+<note xml:id="n1j98oua" dots="1" dur="8" oct="4" pname="f" type="mscore-beam-none">
+<verse xml:id="v47tbjf" n="1">
+<syl xml:id="sy43bh51">bis</syl>
+</verse>
+</note>
+<note xml:id="n6fyeuj" dur="16" oct="4" pname="e" type="mscore-beam-none">
+<verse xml:id="vew24it1" n="1">
+<syl xml:id="sz6y3k6">zur</syl>
+</verse>
+<accid xml:id="ah195ty2" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m28s2" n="2">
+<layer xml:id="m28s2l1" n="1">
+<graceGrp xml:id="g052dja" grace="acc">
+<beam xml:id="bhofthc">
+<note xml:id="n4mjay1" dur="32" oct="3" pname="f">
+<accid xml:id="ankgo351" accid="n"/>
+</note>
+<note xml:id="ntflho6" dur="32" oct="3" pname="g"/>
+</beam>
+</graceGrp>
+<note xml:id="nhmwcmm" dots="1" dur="4" oct="3" pname="a">
+<artic xml:id="asxecrk" artic="acc" place="below"/>
+<accid xml:id="arbv6f81" accid.ges="f"/>
+</note>
+<beam xml:id="b2nttrx1">
+<note xml:id="n1bs2pal" dur="8" oct="3" pname="g" type="mscore-beam-mid"/>
+<note xml:id="nsm149u" dots="1" dur="8" oct="3" pname="f" type="mscore-beam-mid"/>
+<note xml:id="nnzxp7y" dur="16" oct="3" pname="e" type="mscore-beam-mid">
+<accid xml:id="agvb9h31" accid.ges="f"/>
+</note>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m28s3" n="3">
+<layer xml:id="m28s3l1" n="1">
+<graceGrp xml:id="g7gai47" grace="acc">
+<beam xml:id="bvwn9nx1">
+<note xml:id="n17raeq8" dur="32" oct="2" pname="f">
+<accid xml:id="ae9kd891" accid="n"/>
+</note>
+<note xml:id="n19h75y3" dur="32" oct="2" pname="g"/>
+</beam>
+</graceGrp>
+<note xml:id="nhfqur8" dots="1" dur="4" oct="2" pname="a">
+<artic xml:id="a1gmfei3" artic="acc"/>
+<accid xml:id="ahtxxui2" accid.ges="f"/>
+</note>
+<beam xml:id="boq7l6o2">
+<note xml:id="njp5co4" dur="8" oct="2" pname="g" type="mscore-beam-mid"/>
+<note xml:id="n1tlo8ct" dots="1" dur="8" oct="2" pname="f" type="mscore-beam-mid"/>
+<note xml:id="n81heta" dur="16" oct="2" pname="e" type="mscore-beam-mid">
+<accid xml:id="a715oz11" accid.ges="f"/>
+</note>
+</beam>
+</layer>
+</staff>
+<slur xml:id="sbgf7jb" endid="#nhmwcmm" startid="#ntflho6"/>
+<slur xml:id="s1ljk1d6" endid="#nwc5bh5" startid="#nhmwcmm"/>
+<slur xml:id="sj1ihmj" endid="#nhfqur8" startid="#n19h75y3"/>
+<slur xml:id="svwgtsl" endid="#n1j87aha" startid="#nhfqur8"/>
+</measure>
+                  <measure xml:id="mgxpuwx" facs="#zone_01K49YX93MG1KWFVGD8FGKQ6KP" n="28">
+<staff xml:id="m29s1" n="1">
+<layer xml:id="m29s1l1" n="1">
+<graceGrp xml:id="gepuuxl2" grace="acc">
+<note xml:id="n1wzzh1l" dur="16" oct="4" pname="e">
+<accid xml:id="a4t0jm21" accid.ges="f"/>
+</note>
+</graceGrp>
+<note xml:id="n58iii" dur="8" oct="4" pname="d" type="mscore-beam-none">
+<verse xml:id="vla0n5s2" n="1">
+<syl xml:id="spywghg1" con="d" wordpos="i">Bah</syl>
+</verse>
+</note>
+<note xml:id="n151gwsv" dur="8" oct="4" pname="d" type="mscore-beam-none">
+<verse xml:id="vxybqzm2" n="1">
+<syl xml:id="s60gz4p1" wordpos="t">re!</syl>
+</verse>
+</note>
+<rest xml:id="rn8v1wa" dur="4"/>
+<rest xml:id="r1sh43id" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m29s2" n="2">
+<layer xml:id="m29s2l1" n="1">
+<note xml:id="nwc5bh5" dots="1" dur="2" oct="3" pname="d"/>
+</layer>
+</staff>
+<staff xml:id="m29s3" n="3">
+<layer xml:id="m29s3l1" n="1">
+<note xml:id="n1j87aha" dots="1" dur="2" oct="2" pname="d"/>
+</layer>
+</staff>
+<slur xml:id="se8uxty" endid="#cmn9rfc" startid="#nwc5bh5"/>
+<slur xml:id="s19nkhlv" endid="#c1l7ttco" startid="#n1j87aha"/>
+</measure>
+                  <measure xml:id="m1jfrqgm" facs="#zone_01K49YX93MG0FSXP4JVTBG3V3H" n="29">
+<staff xml:id="m30s1" n="1">
+<layer xml:id="m30s1l1" n="1">
+<rest xml:id="r1agu3pz" dur="4"/>
+<rest xml:id="r1e6fy3t" dur="4"/>
+<rest xml:id="r130l42x" dur="8" type="mscore-beam-none"/>
+<note xml:id="nieck1y" dur="8" oct="4" pname="c">
+<verse xml:id="v7fbjl01" n="1">
+<syl xml:id="sz4jndh1">Vom</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m30s2" n="2">
+<layer xml:id="m30s2l1" n="1">
+<chord xml:id="cmn9rfc" dur="2">
+<note xml:id="n1sr2yca" oct="2" pname="b">
+<accid xml:id="aaurobx1" accid="n"/>
+</note>
+<note xml:id="n9n2yn6" oct="3" pname="f"/>
+<note xml:id="n1nf048u" oct="3" pname="g"/>
+</chord>
+<rest xml:id="r1d4l0qu" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m30s3" n="3">
+<layer xml:id="m30s3l1" n="1">
+<chord xml:id="c1l7ttco" dur="2">
+<note xml:id="n17o0w09" oct="1" pname="g"/>
+<note xml:id="n1b9w0jl" oct="2" pname="d"/>
+<note xml:id="n1llyv0m" oct="2" pname="g"/>
+</chord>
+<rest xml:id="r10mm8ya" dur="4"/>
+</layer>
+</staff>
+<dynam xml:id="d1xfxo2o" label="pp" startid="#cmn9rfc">pp</dynam>
+</measure>
+                  <measure xml:id="meytbx4" facs="#zone_01K49YX93MR5RRH73Z7X0P13WQ" n="30">
+<staff xml:id="m31s1" n="1">
+<layer xml:id="m31s1l1" n="1">
+<note xml:id="n1p4yapl" dots="1" dur="8" oct="4" pname="c" type="mscore-beam-none">
+<verse xml:id="vuxd7jl2" n="1">
+<syl xml:id="s2t10na" con="d" wordpos="i">A</syl>
+</verse>
+</note>
+<note xml:id="n1uzf1df" dots="1" dur="8" oct="4" pname="e" type="mscore-beam-none">
+<verse xml:id="v6viigs1" n="1">
+<syl xml:id="sa5p77j2" con="d" wordpos="m">bend</syl>
+</verse>
+<accid xml:id="avcbqry1" accid.ges="f"/>
+</note>
+<note xml:id="nkmyy9o" dur="4" oct="4" pname="g">
+<verse xml:id="v1ffrlh1" n="1">
+<syl xml:id="sattham1" wordpos="t">rot</syl>
+</verse>
+</note>
+<note xml:id="nv80bzc" dur="8" oct="4" pname="a" type="mscore-beam-none">
+<verse xml:id="vq421ke" n="1">
+<syl xml:id="smwk4qn2">zum</syl>
+</verse>
+<accid xml:id="anf7ugm1" accid.ges="f"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m31s2" n="2">
+<layer xml:id="m31s2l1" n="1">
+<mRest xml:id="m16fvmlx"/>
+<clef xml:id="ci6cp0d" line="2" shape="G"/>
+</layer>
+</staff>
+<staff xml:id="m31s3" n="3">
+<layer xml:id="m31s3l1" n="1">
+<chord xml:id="c1fj05ku" dots="1" dur="2">
+<note xml:id="n1dl1uep" oct="3" pname="c"/>
+<note xml:id="nwgsq4x" oct="3" pname="e">
+<accid xml:id="a8x0q8u1" accid.ges="f"/>
+</note>
+<note xml:id="nfuucof" oct="3" pname="g"/>
+<note xml:id="ngke21m" oct="4" pname="c"/>
+</chord>
+</layer>
+</staff>
+<dynam xml:id="d1knk2q1" label="p" place="above" startid="#c1fj05ku">p</dynam>
+</measure>
+                  <measure xml:id="msxjgzd" facs="#zone_01K49YX93MM8BXN1F1PGQTEB7R" n="31">
+<staff xml:id="m32s1" n="1">
+<layer xml:id="m32s1l1" n="1">
+<note xml:id="n1qge705" dots="1" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vr0yju7" n="1">
+<syl xml:id="sx9bvmb" con="d" wordpos="i">Mor</syl>
+</verse>
+</note>
+<note xml:id="ndzh1hf" dur="16" oct="4" pname="b" type="mscore-beam-none">
+<verse xml:id="vwrk4bm2" n="1">
+<syl xml:id="sd57pcv2" con="d" wordpos="m">gen</syl>
+</verse>
+<accid xml:id="atx10pd" accid="n"/>
+</note>
+<note xml:id="n1a38cog" dots="1" dur="4" oct="5" pname="d">
+<verse xml:id="v2hs8rv2" n="1">
+<syl xml:id="se4ghpn2" wordpos="t">licht</syl>
+</verse>
+</note>
+<note xml:id="nvslh3h" dur="8" oct="4" pname="b" type="mscore-beam-none">
+<verse xml:id="vcxdkyp1" n="1">
+<syl xml:id="svw0y3w2">ward</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m32s2" n="2">
+<layer xml:id="m32s2l1" n="1">
+<mRest xml:id="mgeblhh"/>
+</layer>
+</staff>
+<staff xml:id="m32s3" n="3">
+<layer xml:id="m32s3l1" n="1">
+<chord xml:id="c7cxsct" dots="1" dur="2">
+<note xml:id="n1o6ytgt" oct="3" pname="c"/>
+<note xml:id="n1vmn2ig" oct="3" pname="f"/>
+<note xml:id="nreg7iw" oct="3" pname="g"/>
+<note xml:id="nw9dbf1" oct="3" pname="b">
+<accid xml:id="alsax8r2" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+</measure>
+                  <measure xml:id="m1thzn4r" facs="#zone_01K49YX93MV168PSH1J25X4NAV" n="32">
+<staff xml:id="m33s1" n="1">
+<layer xml:id="m33s1l1" n="1">
+<note xml:id="n1l76c42" dur="4" oct="5" pname="f">
+<verse xml:id="vt7xjoj1" n="1">
+<syl xml:id="sbh2r111" con="d" wordpos="i">man</syl>
+</verse>
+</note>
+<tuplet xml:id="t1ddqb8i" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="bl0vxu41">
+<note xml:id="nhzx8fl" dur="8" oct="5" pname="f"/>
+<note xml:id="nux9vtc" dur="8" oct="5" pname="d"/>
+</beam>
+<note xml:id="n1if3hhz" dur="8" oct="4" pname="b" type="mscore-beam-begin">
+<verse xml:id="vhzwmh81" n="1">
+<syl xml:id="sus2aaq1" wordpos="t">cher</syl>
+</verse>
+<accid xml:id="afc8gzt1" accid="n"/>
+</note>
+</tuplet>
+<tuplet xml:id="t38jrwf" num="3" numbase="2">
+<beam xml:id="bsbj01k2">
+<note xml:id="njuh8wl" dur="8" oct="4" pname="a">
+<verse xml:id="v26qcxi1" n="1">
+<syl xml:id="siiuhph1">Kopf</syl>
+</verse>
+<accid xml:id="a0mqgos1" accid.ges="f"/>
+</note>
+<note xml:id="nwgimxt" dur="8" oct="4" pname="g"/>
+</beam>
+<note xml:id="n1bn1fgf" dur="8" oct="4" pname="f" type="mscore-beam-begin">
+<verse xml:id="vzv4vkg1" n="1">
+<syl xml:id="sj06sdd1">zum</syl>
+</verse>
+</note>
+</tuplet>
+</layer>
+</staff>
+<staff xml:id="m33s2" n="2">
+<layer xml:id="m33s2l1" n="1">
+<mRest xml:id="m1w7uy3e"/>
+</layer>
+</staff>
+<staff xml:id="m33s3" n="3">
+<layer xml:id="m33s3l1" n="1">
+<chord xml:id="c1i841u7" dots="1" dur="2">
+<note xml:id="n11h5poi" oct="3" pname="c"/>
+<note xml:id="nqewjba" oct="3" pname="d"/>
+<note xml:id="n1k1dy5w" oct="3" pname="f"/>
+<note xml:id="n1398p3w" oct="3" pname="a">
+<accid xml:id="ahsowwn2" accid.ges="f"/>
+</note>
+<note xml:id="nutgz3n" oct="3" pname="b">
+<accid xml:id="aqri9lg1" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<tie xml:id="tb635sv" endid="#nhzx8fl" startid="#n1l76c42"/>
+<del xml:id="dprvhgt2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<mordent xml:id="m1ldsk45" form="upper" startid="#njuh8wl"/>
+</del>
+<supplied xml:id="set2ryf1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<mordent xml:id="m9xkwhx2" accidupper="f" form="upper" staff="1" startid="#njuh8wl"/>
+</supplied>
+</measure>
+                  <measure xml:id="m1jpptke" facs="#zone_01K49YX93M4FRPCPNDXNJMRPC9" n="33">
+<staff xml:id="m34s1" n="1">
+<layer xml:id="m34s1l1" n="1">
+<beam xml:id="be00guq1">
+<note xml:id="nkr0d5f" dots="1" dur="8" oct="4" pname="e">
+<verse xml:id="vdwexyy2" n="1">
+<syl xml:id="s9kytq61" con="d" wordpos="i">Grei</syl>
+</verse>
+<accid xml:id="a0fqvck1" accid.ges="f"/>
+</note>
+<note xml:id="n9oxlv7" dur="16" oct="4" pname="d"/>
+</beam>
+<note xml:id="n1ckqcfo" dur="4" oct="4" pname="c">
+<verse xml:id="vntx6e81" n="1">
+<syl xml:id="saqnkmh" wordpos="t">se.</syl>
+</verse>
+</note>
+<rest xml:id="r1e4spj2" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m34s2" n="2">
+<layer xml:id="m34s2l1" n="1">
+<rest xml:id="r1aq5zps" dur="4"/>
+<rest xml:id="ry4f0nh" dur="4"/>
+<rest xml:id="rvmthuy" dur="8" type="mscore-beam-none"/>
+<note xml:id="nzhuv41" dur="8" oct="5" pname="g"/>
+</layer>
+</staff>
+<staff xml:id="m34s3" n="3">
+<layer xml:id="m34s3l1" n="1">
+<chord xml:id="c1sk749b" dots="1" dur="2">
+<note xml:id="n13p9j3s" oct="3" pname="c"/>
+<note xml:id="n1vhq6le" oct="3" pname="e">
+<accid xml:id="awqwt1" accid.ges="f"/>
+</note>
+<note xml:id="n1qu20j7" oct="3" pname="g"/>
+<note xml:id="neoftfk" oct="4" pname="c"/>
+</chord>
+</layer>
+</staff>
+<mordent xml:id="m1gaxuxt" form="upper" startid="#nkr0d5f"/>
+<hairpin xml:id="h9xu1ut" dur="8" endid="#nzhuv41" form="cres" startid="#nzhuv41"/>
+<slur xml:id="s1i1b52o" endid="#n1iy99kk" startid="#nzhuv41"/>
+<supplied xml:id="swxnyn41" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="hf87k8y2" endid="#n1iy99kk" form="cres" staff="2" startid="#nzhuv41"/>
+</supplied>
+</measure>
+                  <measure xml:id="m1sbvwsx" facs="#zone_01K49YX93M3MRKVMW00Q97BCZR" n="34">
+<staff xml:id="m35s1" n="1">
+<layer xml:id="m35s1l1" n="1">
+<mRest xml:id="m24iid3"/>
+</layer>
+</staff>
+<staff xml:id="m35s2" n="2">
+<layer xml:id="m35s2l1" n="1">
+<note xml:id="n1iy99kk" dur="4" oct="5" pname="a">
+<accid xml:id="amo1jao1" accid.ges="f"/>
+</note>
+<beam xml:id="b957gdp1">
+<tuplet xml:id="tdie6b3" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="nhfws62" dur="8" oct="5" pname="a">
+<accid xml:id="a5eaayg1" accid.ges="f"/>
+</note>
+<note xml:id="nupho4l" dur="8" oct="5" pname="f"/>
+<note xml:id="n11wxy3s" dur="8" oct="5" pname="d"/>
+</tuplet>
+</beam>
+<beam xml:id="b4q7exj1">
+<tuplet xml:id="t1461nzl" bracket.place="below" num="3" num.place="below" numbase="2">
+<note xml:id="n9rdkdm" dur="8" oct="4" pname="b">
+<accid xml:id="afs0r1w2" accid="n"/>
+</note>
+<note xml:id="njfdq98" dur="8" oct="4" pname="a">
+<accid xml:id="a7ipcyw1" accid.ges="f"/>
+</note>
+<note xml:id="nus8was" dur="8" oct="4" pname="f"/>
+</tuplet>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m35s3" n="3">
+<layer xml:id="m35s3l1" n="1">
+<chord xml:id="c19u1ri" dots="1" dur="2">
+<note xml:id="n94gstu" oct="3" pname="c"/>
+<note xml:id="n1lztdgr" oct="3" pname="d"/>
+<note xml:id="njlnoo5" oct="3" pname="f"/>
+<note xml:id="n1y9ly5l" oct="3" pname="a">
+<accid xml:id="a7ph1v61" accid.ges="f"/>
+</note>
+<note xml:id="n1a9jkts" oct="3" pname="b">
+<accid xml:id="ay17g431" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<del xml:id="dei1acy1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="hxjzx8e" endid="#nupho4l" form="dim" startid="#n1iy99kk"/>
+</del>
+<tie xml:id="t1jo5oby" endid="#nhfws62" startid="#n1iy99kk"/>
+<slur xml:id="s1irxqhz" endid="#nus8was" startid="#nhfws62"/>
+</measure>
+                  <measure xml:id="m1oa7saj" facs="#zone_01K49YX93NWE33HK7T8N5RPMSA" n="35">
+<staff xml:id="m36s1" n="1">
+<layer xml:id="m36s1l1" n="1">
+<rest xml:id="rbjd3fh" dur="4"/>
+<rest xml:id="r1a16jpk" dur="4"/>
+<rest xml:id="r86nbz0" dur="8" type="mscore-beam-none"/>
+<note xml:id="n17jhjkp" dur="8" oct="4" pname="g">
+<verse xml:id="ve5v1b7" n="1">
+<syl xml:id="scw8ilo2">Wer</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m36s2" n="2">
+<layer xml:id="m36s2l1" n="1">
+<graceGrp xml:id="g3bs2o6" grace="acc">
+<beam xml:id="bxlvm2y2">
+<note xml:id="nejsima" dur="32" oct="4" pname="d"/>
+<note xml:id="nmd0uo6" dur="32" oct="4" pname="e">
+<accid xml:id="aqqqzt9" accid.ges="f"/>
+</note>
+<note xml:id="nb9lxrh" dur="32" oct="4" pname="f"/>
+</beam>
+</graceGrp>
+<beam xml:id="b3sovvo2">
+<note xml:id="nol69bk" dots="1" dur="8" oct="4" pname="e">
+<accid xml:id="ab22sfl2" accid.ges="f"/>
+</note>
+<note xml:id="ngdyvq9" dur="16" oct="4" pname="d"/>
+</beam>
+<note xml:id="naz07h5" dur="4" oct="4" pname="c"/>
+<rest xml:id="r1iml8j9" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m36s3" n="3">
+<layer xml:id="m36s3l1" n="1">
+<chord xml:id="c1fq9ag3" dur="2">
+<note xml:id="n3npjjw" oct="3" pname="c"/>
+<note xml:id="n14aimh7" oct="3" pname="e">
+<accid xml:id="amt6mha1" accid.ges="f"/>
+</note>
+<note xml:id="n163779" oct="3" pname="g"/>
+<note xml:id="n1uberin" oct="4" pname="c"/>
+</chord>
+<rest xml:id="rfioi4b" dur="4"/>
+</layer>
+</staff>
+<slur xml:id="s1ukqf1k" endid="#nb9lxrh" startid="#nejsima"/>
+<slur xml:id="srw06be" endid="#naz07h5" startid="#nol69bk"/>
+</measure>
+                  <measure xml:id="m128vb5d" facs="#zone_01K49YX93ND25VE99AHPCYKN93" n="36">
+<staff xml:id="m37s1" n="1">
+<layer xml:id="m37s1l1" n="1">
+<note xml:id="n17lph6h" dots="1" dur="4" oct="5" pname="c">
+<verse xml:id="v99tly41" n="1">
+<syl xml:id="s88c3gz1">glaubt’s?</syl>
+</verse>
+</note>
+<note xml:id="nkd19dl" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vl1jmdr2" n="1">
+<syl xml:id="sjogs0f">und</syl>
+</verse>
+</note>
+<note xml:id="nlw0h9z" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vb0hco5" n="1">
+<syl xml:id="snmj9ug" con="d" wordpos="i">mei</syl>
+</verse>
+</note>
+<note xml:id="nc1rx29" dur="8" oct="4" pname="g" type="mscore-beam-none">
+<verse xml:id="vp7q7ag1" n="1">
+<syl xml:id="sy5sm561" wordpos="t">ner</syl>
+</verse>
+<accid xml:id="au6ttgq2" accid="s"/>
+</note>
+</layer>
+</staff>
+<staff xml:id="m37s2" n="2">
+<layer xml:id="m37s2l1" n="1">
+<note xml:id="n1cgxwgb" dur="2" oct="4" pname="g"/>
+<beam xml:id="btvtu9i2">
+<note xml:id="nlcpjt5" dur="8" oct="4" pname="g"/>
+<note xml:id="nuiijmb" dur="8" oct="4" pname="g">
+<accid xml:id="a6c35s41" accid="s"/>
+</note>
+</beam>
+</layer>
+<layer xml:id="m37s2l2" n="2">
+<note xml:id="nxfoddp" dots="1" dur="2" oct="4" pname="c"/>
+</layer>
+</staff>
+<staff xml:id="m37s3" n="3">
+<layer xml:id="m37s3l1" n="1">
+<note xml:id="nvmrpis" dots="1" dur="2" oct="3" pname="e">
+<accid xml:id="a07c0y1" accid="n"/>
+</note>
+</layer>
+</staff>
+<slur xml:id="se7eywt" endid="#nlcpjt5" startid="#n1cgxwgb"/>
+<del xml:id="d24scjh" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="sx299gx" endid="#nuiijmb" startid="#nlcpjt5"/>
+</del>
+</measure>
+                  <measure xml:id="m1ylqmpp" facs="#zone_01K49YX93NEH7CYMJ5YEJBX75D" n="37">
+<staff xml:id="m38s1" n="1">
+<layer xml:id="m38s1l1" n="1">
+<note xml:id="n1ybie4r" dots="1" dur="8" oct="4" pname="b" type="mscore-beam-none">
+<verse xml:id="v5uvk0s1" n="1">
+<syl xml:id="s3blilm1">ward</syl>
+</verse>
+<accid xml:id="a9yyi16" accid="n"/>
+</note>
+<note xml:id="n1a6umf6" dur="16" oct="4" pname="a" type="mscore-beam-none">
+<verse xml:id="v95rb6o2" n="1">
+<syl xml:id="sbsupi91">es</syl>
+</verse>
+<accid xml:id="ak7329l2" accid="n"/>
+</note>
+<note xml:id="nuohr85" dur="4" oct="4" pname="a">
+<verse xml:id="vndju13" n="1">
+<syl xml:id="stujukx2">nicht</syl>
+</verse>
+</note>
+<rest xml:id="r1rq9rh7" dur="8" type="mscore-beam-none"/>
+<note xml:id="n24qzi1" dur="8" oct="4" pname="a" type="mscore-beam-none">
+<verse xml:id="v9r245q1" n="1">
+<syl xml:id="s6p1pz7">auf</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m38s2" n="2">
+<layer xml:id="m38s2l1" n="1">
+<chord xml:id="c1wsnumf" dur="4">
+<note xml:id="n4fob4e" oct="4" pname="d"/>
+<note xml:id="n1u95s3n" oct="4" pname="g">
+<accid xml:id="ahlloym1" accid="s"/>
+</note>
+</chord>
+<chord xml:id="c1fk7djt" dur="4">
+<note xml:id="n1brlw21" oct="4" pname="c"/>
+<note xml:id="n11563gm" oct="4" pname="a">
+<accid xml:id="aeof9wm1" accid="n"/>
+</note>
+</chord>
+<rest xml:id="r10vngey" dur="4"/>
+<clef xml:id="c1uc2zz8" line="4" shape="F"/>
+</layer>
+</staff>
+<staff xml:id="m38s3" n="3">
+<layer xml:id="m38s3l1" n="1">
+<note xml:id="n1yioc7b" dur="2" oct="3" pname="f"/>
+<rest xml:id="r10jmbbe" dur="4"/>
+</layer>
+</staff>
+<slur xml:id="s101g4sd" endid="#c1fk7djt" startid="#c1wsnumf"/>
+<supplied xml:id="sm31vww2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="sjdhnfr1" endid="#n1brlw21" staff="2" startid="#n1u95s3n"/>
+</supplied>
+</measure>
+                  <measure xml:id="mznf4ga" facs="#zone_01K49YX93NTMY9919Q3G68HV9S" n="38">
+<staff xml:id="m39s1" n="1">
+<layer xml:id="m39s1l1" n="1">
+<note xml:id="n17bixid" dur="4" oct="5" pname="f">
+<verse xml:id="v7tr7sy1" n="1">
+<syl xml:id="szjs5gr2" con="d" wordpos="i">die</syl>
+</verse>
+</note>
+<tuplet xml:id="t1h24qbb" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="bst01w1">
+<note xml:id="n1upo7v3" dur="8" oct="5" pname="f"/>
+<note xml:id="ni02z0x" dur="8" oct="5" pname="e">
+<accid xml:id="askd0vt2" accid="n"/>
+</note>
+</beam>
+<note xml:id="n235f6x" dur="8" oct="5" pname="d" type="mscore-beam-begin">
+<verse xml:id="vwtz31j1" n="1">
+<syl xml:id="sn2z8f8" wordpos="t">ser</syl>
+</verse>
+</note>
+</tuplet>
+<tuplet xml:id="to7qc91" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="bpcxk101">
+<note xml:id="n1lunbif" dur="8" oct="5" pname="d">
+<verse xml:id="v67wd8m1" n="1">
+<syl xml:id="safydw61" con="d" wordpos="i">gan</syl>
+</verse>
+</note>
+<note xml:id="nm3cvcy" dur="8" oct="5" pname="c"/>
+</beam>
+<note xml:id="n15kj8nf" dur="8" oct="4" pname="b" type="mscore-beam-begin">
+<verse xml:id="v2pbbjk1" n="1">
+<syl xml:id="s15ms431" wordpos="t">zen</syl>
+</verse>
+<accid xml:id="a2qbjlg" accid="n"/>
+</note>
+</tuplet>
+</layer>
+</staff>
+<staff xml:id="m39s2" n="2">
+<layer xml:id="m39s2l1" n="1">
+<note xml:id="n1o7n09" dur="4" oct="3" pname="d" stem.dir="down"/>
+<beam xml:id="bcwzlom1">
+<tuplet xml:id="tbz4ayn" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="nst4b19" dur="8" oct="3" pname="d"/>
+<note xml:id="n8f9ma6" dur="8" oct="3" pname="e">
+<accid xml:id="a49oca41" accid="n"/>
+</note>
+<note xml:id="nqwrdmh" dur="8" oct="3" pname="f"/>
+</tuplet>
+</beam>
+<beam xml:id="b9m3x221">
+<tuplet xml:id="t1hxpys3" num="3" numbase="2">
+<note xml:id="n1vfnpz5" dur="8" oct="3" pname="b">
+<accid xml:id="aaetige1" accid="n"/>
+</note>
+<note xml:id="n1j9zxg" dur="8" oct="4" pname="c"/>
+<note xml:id="n1tjlihu" dur="8" oct="4" pname="d"/>
+</tuplet>
+</beam>
+</layer>
+<layer xml:id="m39s2l2" n="2">
+<note xml:id="nmdd5rh" dur="2" oct="3" pname="a" stem.dir="up">
+<accid xml:id="ahtw9vv1" accid="n"/>
+</note>
+<chord xml:id="ce645jf" dur="4">
+<note xml:id="nflka5t" oct="3" pname="f"/>
+<note xml:id="nilvowe" oct="3" pname="g"/>
+</chord>
+</layer>
+</staff>
+<staff xml:id="m39s3" n="3">
+<layer xml:id="m39s3l1" n="1">
+<note xml:id="n1cdrfop" dur="2" oct="2" pname="d"/>
+<note xml:id="n11mgo3h" dur="4" oct="2" pname="g"/>
+</layer>
+</staff>
+<slur xml:id="stvbkto" endid="#n1upo7v3" startid="#n17bixid"/>
+<del xml:id="d8c2wqd" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<slur xml:id="s1nq6twf" endid="#nst4b19" startid="#n1o7n09"/>
+</del>
+<slur xml:id="sdzshwb" endid="#n1tjlihu" startid="#nst4b19"/>
+<slur xml:id="s1p1s8p9" endid="#n11mgo3h" startid="#n1cdrfop"/>
+<supplied xml:id="sozf4zv1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<tie xml:id="t4u6vim1" endid="#nst4b19" staff="2" startid="#n1o7n09"/>
+</supplied>
+</measure>
+                  <measure xml:id="m1r32abc" facs="#zone_01K49YX93N93P6WZX8ZA9XSFK5" n="39">
+<staff xml:id="m40s1" n="1">
+<layer xml:id="m40s1l1" n="1">
+<note xml:id="nlzsmwv" dur="4" oct="5" pname="d">
+<verse xml:id="v2i554d1" n="1">
+<syl xml:id="suserph" con="d" wordpos="i">Rei</syl>
+</verse>
+</note>
+<note xml:id="n1w964w" dur="4" oct="5" pname="c">
+<verse xml:id="vkbcns41" n="1">
+<syl xml:id="suw0l161" wordpos="t">se,</syl>
+</verse>
+</note>
+<rest xml:id="r1f2bkrb" dur="8" type="mscore-beam-none"/>
+<note xml:id="nqpb58s" dur="8" oct="5" pname="c">
+<verse xml:id="vm2sqc31" n="1">
+<syl xml:id="shadwob1">auf</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m40s2" n="2">
+<layer xml:id="m40s2l1" n="1">
+<chord xml:id="c73e7ls" dur="4">
+<note xml:id="n8dnemp" oct="3" pname="b">
+<accid xml:id="axyg7vi1" accid="n"/>
+</note>
+<note xml:id="nioo7jn" oct="4" pname="d"/>
+</chord>
+<note xml:id="nmhs1tu" dur="4" oct="4" pname="c"/>
+<rest xml:id="rs71c76" dur="4"/>
+<clef xml:id="cx7j03o" line="2" shape="G"/>
+</layer>
+<layer xml:id="m40s2l2" n="2">
+<note xml:id="nfra7c4" dur="2" oct="3" pname="g"/>
+<space xml:id="s8rvz3v" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m40s3" n="3">
+<layer xml:id="m40s3l1" n="1">
+<chord xml:id="c1r6wc99" dur="4">
+<note xml:id="nlxq6h1" oct="2" pname="g"/>
+<note xml:id="n1wjoznl" oct="3" pname="f"/>
+</chord>
+<chord xml:id="c1386bau" dur="4" stem.dir="up">
+<note xml:id="nmsw97j" oct="3" pname="c"/>
+<note xml:id="n5sf7ha" oct="3" pname="e">
+<accid xml:id="ajiaxbw2" accid="n"/>
+</note>
+</chord>
+<rest xml:id="rryzquv" dur="4"/>
+</layer>
+</staff>
+<del xml:id="demcrvx2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="df2mlr5" label="f" place="above" startid="#nqpb58s">f</dynam>
+</del>
+<slur xml:id="sza8vo4" endid="#nmhs1tu" startid="#c73e7ls"/>
+<slur xml:id="siodo1t" endid="#c1386bau" startid="#c1r6wc99"/>
+<slur xml:id="skrz9sv" curvedir="below" endid="#c1386bau" startid="#c1r6wc99"/>
+</measure>
+                  <measure xml:id="mvdjvbs" facs="#zone_01K49YX93NCFTHFY4143BCEWRE" n="40">
+<staff xml:id="m41s1" n="1">
+<layer xml:id="m41s1l1" n="1">
+<note xml:id="ntaet0" dur="4" oct="5" pname="c">
+<verse xml:id="v01b8gu2" n="1">
+<syl xml:id="s3k9be51" con="d" wordpos="i">die</syl>
+</verse>
+</note>
+<tuplet xml:id="tzmrxz2" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="b5ysqh31">
+<note xml:id="n1t91f23" dur="8" oct="5" pname="c"/>
+<note xml:id="n1smb5ea" dur="8" oct="4" pname="a">
+<accid xml:id="asa5k3v2" accid="f"/>
+</note>
+</beam>
+<note xml:id="nw3d0ga" dur="8" oct="4" pname="f" type="mscore-beam-begin">
+<verse xml:id="vztrnq01" n="1">
+<syl xml:id="sudyirf1" wordpos="t">ser</syl>
+</verse>
+</note>
+</tuplet>
+<tuplet xml:id="t1030bo4" bracket.place="above" num="3" num.place="above" numbase="2">
+<beam xml:id="bo6js7m1">
+<note xml:id="n19pz4iv" dur="8" oct="5" pname="c">
+<verse xml:id="vxbghx01" n="1">
+<syl xml:id="sek8aem1" con="d" wordpos="i">gan</syl>
+</verse>
+</note>
+<note xml:id="n18joyro" dur="8" oct="4" pname="a">
+<accid xml:id="akatexb" accid.ges="f"/>
+</note>
+</beam>
+<note xml:id="n1uamfmh" dur="8" oct="4" pname="f" type="mscore-beam-begin">
+<verse xml:id="v8ntqi1" n="1">
+<syl xml:id="s7tp2e91" wordpos="t">zen</syl>
+</verse>
+</note>
+</tuplet>
+</layer>
+</staff>
+<staff xml:id="m41s2" n="2">
+<layer xml:id="m41s2l1" n="1">
+<mRest xml:id="m16gx78h"/>
+</layer>
+</staff>
+<staff xml:id="m41s3" n="3">
+<layer xml:id="m41s3l1" n="1">
+<chord xml:id="c1npdqk7" dur="2" stem.dir="up">
+<note xml:id="no4lkeg" oct="3" pname="a">
+<accid xml:id="aditvhi2" accid="f"/>
+</note>
+<note xml:id="n1pjmsca" oct="4" pname="c"/>
+</chord>
+<chord xml:id="c149bm8a" dur="4" stem.dir="up">
+<note xml:id="n18jiimo" oct="3" pname="f"/>
+<note xml:id="nh15p70" oct="4" pname="c"/>
+</chord>
+</layer>
+<layer xml:id="m41s3l2" n="2">
+<chord xml:id="c1by6cag" dur="2">
+<note xml:id="nmov7c7" oct="2" pname="f"/>
+<note xml:id="nu56yxn" oct="3" pname="d"/>
+</chord>
+<chord xml:id="c4rqu75" dur="4">
+<note xml:id="nzeedxe" oct="2" pname="a">
+<accid xml:id="adztqde" accid="f"/>
+</note>
+<note xml:id="n1vm5rex" oct="3" pname="d"/>
+</chord>
+</layer>
+</staff>
+<tie xml:id="tvw7bzm" endid="#n1t91f23" startid="#ntaet0"/>
+<del xml:id="dojuk5n1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="dwevdgk" label="f" startid="#m16gx78h">f</dynam>
+</del>
+<supplied xml:id="svh0qw21" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="ddkqn4i1" place="above" staff="3" startid="#n1pjmsca">f</dynam>
+</supplied>
+</measure>
+                  <measure xml:id="m1xc0na7" facs="#zone_01K49YX93NHN5FB4138F3FSDR3" n="41">
+<staff xml:id="m42s1" n="1">
+<layer xml:id="m42s1l1" n="1">
+<note xml:id="n7ppe4i" dots="1" dur="2" oct="4" pname="g">
+<verse xml:id="vygxrjp1" n="1">
+<syl xml:id="s3pd4ca1" con="d" wordpos="i">Rei</syl>
+</verse>
+</note>
+</layer>
+</staff>
+<staff xml:id="m42s2" n="2">
+<layer xml:id="m42s2l1" n="1">
+<mRest xml:id="m13it1s8"/>
+</layer>
+</staff>
+<staff xml:id="m42s3" n="3">
+<layer xml:id="m42s3l1" n="1">
+<note xml:id="n1p75iun" dur="4" oct="4" pname="c"/>
+<beam xml:id="b9lyapz1">
+<note xml:id="nx1sxr9" dur="8" oct="3" pname="b">
+<accid xml:id="at6iu47" accid="n"/>
+</note>
+<note xml:id="n1oajzyk" dur="8" oct="3" pname="a">
+<accid xml:id="amlsy991" accid="n"/>
+</note>
+</beam>
+<note xml:id="n1k4od8p" dur="4" oct="3" pname="b"/>
+</layer>
+<layer xml:id="m42s3l2" n="2">
+<chord xml:id="c1ipzpgo" dots="1" dur="2">
+<note xml:id="nvq10eq" oct="2" pname="g"/>
+<note xml:id="n136ervx" oct="3" pname="d"/>
+</chord>
+</layer>
+<layer xml:id="m42s3l3" n="3">
+<note xml:id="n10lxknk" dots="1" dur="2" oct="3" pname="g"/>
+</layer>
+</staff>
+<hairpin xml:id="hz98g43" dur="2" endid="#n7ppe4i" form="dim" place="above" startid="#n7ppe4i"/>
+<slur xml:id="s1on33zv" endid="#n1k4od8p" startid="#n1p75iun"/>
+</measure>
+                  <measure xml:id="m1r6xh48" facs="#zone_01K49YX93N3ZNPCGV28PKDWXJG" n="42">
+<staff xml:id="m43s1" n="1">
+<layer xml:id="m43s1l1" n="1">
+<note xml:id="nw7v69p" dur="4" oct="4" pname="c">
+<verse xml:id="vgf3lir2" n="1">
+<syl xml:id="srieaeb" wordpos="t">se!</syl>
+</verse>
+</note>
+<rest xml:id="r75clc4" dur="4"/>
+<rest xml:id="ri0bby" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m43s2" n="2">
+<layer xml:id="m43s2l1" n="1">
+<rest xml:id="r19jpfiy" dur="4"/>
+<rest xml:id="r1cxat4u" dur="4"/>
+<rest xml:id="rtyka43" dur="8" type="mscore-beam-none"/>
+<note xml:id="n1v6lg5r" dur="8" oct="5" pname="g"/>
+</layer>
+</staff>
+<staff xml:id="m43s3" n="3">
+<layer xml:id="m43s3l1" n="1">
+<chord xml:id="cgvmmjm" dots="1" dur="2">
+<note xml:id="n1pfxtag" oct="3" pname="g"/>
+<note xml:id="npqlic1" oct="4" pname="c"/>
+</chord>
+</layer>
+<layer xml:id="m43s3l2" n="2">
+<chord xml:id="c1czymos" dots="1" dur="2">
+<note xml:id="nyipvud" oct="3" pname="c"/>
+<note xml:id="n1r8avzc" oct="3" pname="e">
+<accid xml:id="aklkrzo2" accid="f"/>
+</note>
+</chord>
+</layer>
+</staff>
+<del xml:id="d9nyjmj1" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<dynam xml:id="d202dh6" label="mp" place="above" startid="#nw7v69p">mp</dynam>
+</del>
+<dynam xml:id="d19b8mwl" label="p" startid="#r19jpfiy">p</dynam>
+<hairpin xml:id="hjlgyz1" dur="8" endid="#n1v6lg5r" form="cres" startid="#n1v6lg5r"/>
+<slur xml:id="s1ipqc2g" endid="#nowhvx7" startid="#n1v6lg5r"/>
+<supplied xml:id="sdeqqq7" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<hairpin xml:id="h1kc6ye1" endid="#nowhvx7" form="cres" staff="2" startid="#n1v6lg5r"/>
+</supplied>
+</measure>
+                  <measure xml:id="mg590qx" facs="#zone_01K49YX93NK1NCABMAYGN1N0TE" n="43">
+<staff xml:id="m44s1" n="1">
+<layer xml:id="m44s1l1" n="1">
+<mRest xml:id="m1snf05k"/>
+</layer>
+</staff>
+<staff xml:id="m44s2" n="2">
+<layer xml:id="m44s2l1" n="1">
+<note xml:id="nowhvx7" dur="4" oct="5" pname="a">
+<accid xml:id="a1e9ju6" accid="f"/>
+<supplied xml:id="sshsicm2" source="#dwdfd93012b6f-2724-4fb5-95f4-82bf3c316a30">
+<artic xml:id="aznffsq1" artic="acc"/>
+</supplied>
+</note>
+<beam xml:id="btgvqt5">
+<tuplet xml:id="t4weu0t" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="nfwc70n" dur="8" oct="5" pname="a">
+<accid xml:id="azj7x291" accid.ges="f"/>
+</note>
+<note xml:id="n1zbhvj" dur="8" oct="5" pname="f"/>
+<note xml:id="n176s3a" dur="8" oct="5" pname="d"/>
+</tuplet>
+</beam>
+<beam xml:id="b8197y7">
+<tuplet xml:id="t1tj0dg" bracket.place="above" num="3" num.place="above" numbase="2">
+<note xml:id="n5shciz" dur="8" oct="4" pname="b">
+<accid xml:id="axblce71" accid="n"/>
+</note>
+<note xml:id="n8ner5b" dur="8" oct="4" pname="a">
+<accid xml:id="a3z486j1" accid.ges="f"/>
+</note>
+<note xml:id="n1m4brpe" dur="8" oct="4" pname="f"/>
+</tuplet>
+</beam>
+</layer>
+</staff>
+<staff xml:id="m44s3" n="3">
+<layer xml:id="m44s3l1" n="1">
+<chord xml:id="c1amjiye" dots="1" dur="2">
+<note xml:id="ntfrg92" oct="3" pname="c"/>
+<note xml:id="ny6vner" oct="3" pname="d"/>
+<note xml:id="npm8sz3" oct="3" pname="f"/>
+<note xml:id="n14hzy9d" oct="3" pname="a">
+<accid xml:id="ah3npun2" accid.ges="f"/>
+</note>
+<note xml:id="n1nmd24r" oct="3" pname="b">
+<accid xml:id="axixeb61" accid="n"/>
+</note>
+</chord>
+</layer>
+</staff>
+<hairpin xml:id="h3gtv3k" dur="4" endid="#nowhvx7" form="dim" startid="#nowhvx7"/>
+<tie xml:id="t1nkdtyf" endid="#nfwc70n" startid="#nowhvx7"/>
+<dynam xml:id="da7wztf" label="pp" startid="#nfwc70n">pp</dynam>
+<slur xml:id="sgwbc9f" endid="#n1m4brpe" startid="#nfwc70n"/>
+</measure>
+                  <measure xml:id="m1r2w4m2" facs="#zone_01K49YX93NMF1JSBH7BC5R6TBW" n="44" right="end">
+<staff xml:id="m45s1" n="1">
+<layer xml:id="m45s1l1" n="1">
+<mRest xml:id="mdlwh8h"/>
+</layer>
+</staff>
+<staff xml:id="m45s2" n="2">
+<layer xml:id="m45s2l1" n="1">
+<graceGrp xml:id="gcypmok2" grace="acc">
+<beam xml:id="b2l81c91">
+<note xml:id="n1ii9rf6" dur="32" oct="4" pname="d"/>
+<note xml:id="nuofw6m" dur="32" oct="4" pname="e">
+<accid xml:id="ai6e26j1" accid.ges="f"/>
+</note>
+<note xml:id="n1p59ckv" dur="32" oct="4" pname="f"/>
+</beam>
+</graceGrp>
+<beam xml:id="b5w5oem2">
+<note xml:id="norghfb" dots="1" dur="8" oct="4" pname="e">
+<accid xml:id="avc903r1" accid.ges="f"/>
+</note>
+<note xml:id="n18wf90k" dur="16" oct="4" pname="d"/>
+</beam>
+<note xml:id="nltqjv5" dur="4" oct="4" pname="c"/>
+<rest xml:id="rii2w68" dur="4"/>
+</layer>
+</staff>
+<staff xml:id="m45s3" n="3">
+<layer xml:id="m45s3l1" n="1">
+<chord xml:id="c6yb40e" dur="2">
+<note xml:id="n1m09uqx" oct="3" pname="c"/>
+<note xml:id="na0jv6i" oct="3" pname="e">
+<accid xml:id="avd408v2" accid.ges="f"/>
+</note>
+<note xml:id="n10z8v8z" oct="3" pname="g"/>
+<note xml:id="nl7bc4t" oct="4" pname="c"/>
+</chord>
+<rest xml:id="r1qvab4l" dur="4"/>
+</layer>
+</staff>
+<slur xml:id="s1gs7jgr" endid="#nuofw6m" startid="#n1ii9rf6"/>
+<slur xml:id="s1hkhkze" endid="#nltqjv5" startid="#norghfb"/>
+</measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
