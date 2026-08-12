@@ -1,0 +1,68 @@
+name: Build statistics
+
+# Recompute the normalization statistics whenever performance data changes.
+# A full run takes seconds because the repository is checked out locally —
+# no incremental caching is needed.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'performances/**'
+      - 'stats/build_stats.py'
+      - '.github/workflows/build-stats.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # If several pushes arrive in quick succession, only the last one matters.
+  group: build-stats
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          # Pinned so that results cannot change through a runtime update.
+          python-version: '3.12'
+
+      - name: Build statistics
+        run: python stats/build_stats.py .
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats/
+          if git diff --staged --quiet; then
+            echo "Statistics unchanged — nothing to commit."
+          else
+            git commit -m "chore(stats): rebuild normalization statistics [skip ci]"
+            git push
+          fi
+
+      - name: Surface data-quality warnings
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p = pathlib.Path("stats/report.json")
+          if not p.exists():
+              raise SystemExit(0)
+          r = json.loads(p.read_text())
+          for problem in r["problems"]:
+              print(f"::error::{problem}")
+          for warning in r["warnings"]:
+              print(f"::warning::{warning}")
+          PY

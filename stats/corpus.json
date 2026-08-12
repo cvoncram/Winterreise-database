@@ -1,0 +1,23 @@
+{
+  "generated": "2026-08-12T12:30:50+00:00",
+  "madScaleFactor": 1.4826,
+  "tempo": {
+    "logMedian": 4.016022595446631,
+    "mad": 0.45306822721154405
+  },
+  "dynamics": {
+    "madVsPiece": 5.589401999999999,
+    "madVsPerformance": 6.945980999999998
+  },
+  "timbre": {
+    "madVsPiece": 0.2860436259477872,
+    "madVsPerformance": 0.32415405351992704
+  },
+  "counts": {
+    "recordings": 26,
+    "pieces": 620,
+    "tempoValues": 93773,
+    "dynamicsResiduals": 93781,
+    "timbreResiduals": 93778
+  }
+}
