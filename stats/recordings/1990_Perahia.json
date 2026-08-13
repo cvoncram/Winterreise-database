@@ -3,7 +3,6 @@
     "1": {
       "dynamicsMedian": -22.8,
       "timbreLogMedian": 6.8289284984361664,
-      "tempoLogMedian": 3.9651845535423784,
       "beats": 274,
       "usable": {
         "tempo": 273,
@@ -14,7 +13,6 @@
     "2": {
       "dynamicsMedian": -21.89,
       "timbreLogMedian": 7.1067208852419155,
-      "tempoLogMedian": 4.144562278382718,
       "beats": 104,
       "usable": {
         "tempo": 101,
@@ -25,7 +23,6 @@
     "3": {
       "dynamicsMedian": -28.47,
       "timbreLogMedian": 6.900901847781122,
-      "tempoLogMedian": 3.9308447596687337,
       "beats": 112,
       "usable": {
         "tempo": 109,
@@ -36,7 +33,6 @@
     "4": {
       "dynamicsMedian": -24.44,
       "timbreLogMedian": 6.97914527506881,
-      "tempoLogMedian": 5.099744469168032,
       "beats": 436,
       "usable": {
         "tempo": 435,
@@ -47,7 +43,6 @@
     "5": {
       "dynamicsMedian": -26.72,
       "timbreLogMedian": 6.662941106757532,
-      "tempoLogMedian": 3.9939715880753135,
       "beats": 246,
       "usable": {
         "tempo": 245,
@@ -58,7 +53,6 @@
     "6": {
       "dynamicsMedian": -31.87,
       "timbreLogMedian": 6.741440920653971,
-      "tempoLogMedian": 3.9444901955656477,
       "beats": 180,
       "usable": {
         "tempo": 179,
@@ -69,7 +63,6 @@
     "7": {
       "dynamicsMedian": -28.95,
       "timbreLogMedian": 6.968586938188381,
-      "tempoLogMedian": 3.8450281366038674,
       "beats": 148,
       "usable": {
         "tempo": 147,
@@ -80,7 +73,6 @@
     "8": {
       "dynamicsMedian": -26.035,
       "timbreLogMedian": 6.785160100013071,
-      "tempoLogMedian": 4.59015484560874,
       "beats": 207,
       "usable": {
         "tempo": 206,
@@ -91,7 +83,6 @@
     "9": {
       "dynamicsMedian": -25.564999999999998,
       "timbreLogMedian": 7.091114549639002,
-      "tempoLogMedian": 4.103964682981148,
       "beats": 129,
       "usable": {
         "tempo": 128,
@@ -102,7 +93,6 @@
     "10": {
       "dynamicsMedian": -29.8,
       "timbreLogMedian": 6.8023503178921825,
-      "tempoLogMedian": 3.8218794555751803,
       "beats": 134,
       "usable": {
         "tempo": 133,
@@ -113,7 +103,6 @@
     "11": {
       "dynamicsMedian": -32.81,
       "timbreLogMedian": 6.812971960362081,
-      "tempoLogMedian": 3.8969093676180977,
       "beats": 178,
       "usable": {
         "tempo": 175,
@@ -124,7 +113,6 @@
     "12": {
       "dynamicsMedian": -31.71,
       "timbreLogMedian": 6.772599710955681,
-      "tempoLogMedian": 3.585738695194423,
       "beats": 96,
       "usable": {
         "tempo": 95,
@@ -135,7 +123,6 @@
     "13": {
       "dynamicsMedian": -26.32,
       "timbreLogMedian": 6.934329047917168,
-      "tempoLogMedian": 4.478812997111569,
       "beats": 188,
       "usable": {
         "tempo": 187,
@@ -146,7 +133,6 @@
     "14": {
       "dynamicsMedian": -28.67,
       "timbreLogMedian": 6.856619866867367,
-      "tempoLogMedian": 3.863882630100211,
       "beats": 135,
       "usable": {
         "tempo": 131,
@@ -157,7 +143,6 @@
     "15": {
       "dynamicsMedian": -29.6,
       "timbreLogMedian": 6.714995432302367,
-      "tempoLogMedian": 3.778263015248622,
       "beats": 86,
       "usable": {
         "tempo": 85,
@@ -168,7 +153,6 @@
     "16": {
       "dynamicsMedian": -28.630000000000003,
       "timbreLogMedian": 6.789195735858298,
-      "tempoLogMedian": 4.556460371924674,
       "beats": 144,
       "usable": {
         "tempo": 140,
@@ -179,7 +163,6 @@
     "17": {
       "dynamicsMedian": -27.07,
       "timbreLogMedian": 6.9107308475836655,
-      "tempoLogMedian": 4.167285186623816,
       "beats": 196,
       "usable": {
         "tempo": 195,
@@ -190,7 +173,6 @@
     "18": {
       "dynamicsMedian": -20.71,
       "timbreLogMedian": 7.150481825632056,
-      "tempoLogMedian": 4.572440361365173,
       "beats": 76,
       "usable": {
         "tempo": 75,
@@ -201,7 +183,6 @@
     "19": {
       "dynamicsMedian": -29.0,
       "timbreLogMedian": 6.661829164770683,
-      "tempoLogMedian": 4.076180591594429,
       "beats": 88,
       "usable": {
         "tempo": 85,
@@ -212,7 +193,6 @@
     "20": {
       "dynamicsMedian": -28.52,
       "timbreLogMedian": 6.888796695380839,
-      "tempoLogMedian": 3.828641396489095,
       "beats": 168,
       "usable": {
         "tempo": 165,
@@ -223,7 +203,6 @@
     "21": {
       "dynamicsMedian": -28.96,
       "timbreLogMedian": 6.598372779551017,
-      "tempoLogMedian": 3.2805352052549286,
       "beats": 124,
       "usable": {
         "tempo": 123,
@@ -234,7 +213,6 @@
     "22": {
       "dynamicsMedian": -19.74,
       "timbreLogMedian": 6.957468826225979,
-      "tempoLogMedian": 4.496024738727294,
       "beats": 128,
       "usable": {
         "tempo": 127,
@@ -245,7 +223,6 @@
     "23": {
       "dynamicsMedian": -28.47,
       "timbreLogMedian": 6.680089015606939,
-      "tempoLogMedian": 3.7360015611826713,
       "beats": 99,
       "usable": {
         "tempo": 95,
@@ -256,7 +233,6 @@
     "24": {
       "dynamicsMedian": -32.39,
       "timbreLogMedian": 6.490829741085419,
-      "tempoLogMedian": 3.939540508151966,
       "beats": 183,
       "usable": {
         "tempo": 182,

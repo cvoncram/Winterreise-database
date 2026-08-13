@@ -11,10 +11,33 @@ Centering uses the median, scaling uses the scaled median absolute deviation
 (MAD). Both are robust against the isolated extremes that are characteristic
 of this material (single fortissimo climaxes, barely audible pianissimi).
 
+Every scale figure is pooled across all recordings, so that one unit means the
+same thing in every recording. What varies is the level at which the residuals
+are formed beforehand, and it has to match the question being asked:
+
+    pieces        residuals against the piece level, kept apart per piece.
+                  Used when a single piece (or a range of measures) is
+                  compared, where only variation within that piece is at
+                  stake.
+    cycle         residuals against the recording's overall level. Used when
+                  whole cycles or halves are compared, where the differences
+                  between loud and quiet pieces belong to the question.
+    piecesPooled  as `pieces`, but with the pieces thrown together into a
+                  single figure. Not used for normalization at present; it is
+                  the only yardstick that is identical for every piece and
+                  therefore the only basis on which distances measured in
+                  different pieces may be compared with each other.
+
+Dynamics and timbre are centred on the recording's own median, since a
+generally louder or brighter recording reflects recording technique. Tempo is
+not: a recording being generally faster is interpretive information. Its
+centre is therefore formed across all recordings, which also means it cancels
+out of any comparison between two of them.
+
 Outputs, relative to the repository root:
 
-    stats/corpus.json              corpus-wide scale figures
-    stats/recordings/<name>.json   per-recording and per-piece medians
+    stats/corpus.json              scale figures and tempo centres
+    stats/recordings/<name>.json   per-recording dynamics and timbre medians
     stats/report.json              data-quality report
 
 Standard library only — no third-party dependencies.
@@ -27,6 +50,7 @@ import math
 import re
 import statistics
 import sys
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
@@ -146,15 +170,18 @@ def main() -> None:
     recordings: dict[str, dict] = {}
     problems: list[dict] = []
 
-    # Corpus-wide residual pools. "VsPiece" residuals are centred on each
-    # piece's own median, "VsPerformance" on the recording's overall median;
-    # the two produce genuinely different spreads and must be kept apart.
-    pool: dict[str, list[float]] = {
-        "dynamicsVsPiece": [],
-        "dynamicsVsPerformance": [],
-        "timbreVsPiece": [],
-        "timbreVsPerformance": [],
-    }
+    # Residual pools, each gathering across all recordings. `piece_pool` keeps
+    # the pieces apart, `cycle_pool` throws them together at the recording
+    # level; the two produce genuinely different spreads and must not be mixed.
+    #
+    # Note the asymmetry between the parameters. Dynamics and timbre are
+    # centred per recording, so their residuals have to be formed while the
+    # recording is still in hand. Tempo is centred across recordings, so its
+    # pool collects values and the centre is formed from the pool afterwards.
+    piece_pool: dict[int, dict[str, list[float]]] = defaultdict(
+        lambda: {"dynamics": [], "timbre": [], "tempo": []}
+    )
+    cycle_pool: dict[str, list[float]] = {"dynamics": [], "timbre": []}
     all_log_tempo: list[float] = []
 
     for name, pieces in files.items():
@@ -200,10 +227,11 @@ def main() -> None:
             dyn_median = median(values["dynamics"])
             tbr_log_median = median(log_timbre)
 
+            # No tempo median here: tempo is not centred per recording, so
+            # there is nothing recording-specific about it to store.
             piece_entries[str(piece_num)] = {
                 "dynamicsMedian": dyn_median,
                 "timbreLogMedian": tbr_log_median,
-                "tempoLogMedian": median(log_tempo),
                 "beats": len(values["_beats"]),
                 "usable": {
                     "tempo": len(values["tempo"]),
@@ -212,18 +240,18 @@ def main() -> None:
                 },
             }
 
-            # Residuals feed the corpus-wide scale figures.
+            entry = piece_pool[piece_num]
             if dyn_median is not None:
-                pool["dynamicsVsPiece"] += [v - dyn_median for v in values["dynamics"]]
-            if overall_dyn_median is not None:
-                pool["dynamicsVsPerformance"] += [v - overall_dyn_median for v in values["dynamics"]]
+                entry["dynamics"] += [v - dyn_median for v in values["dynamics"]]
             if tbr_log_median is not None:
-                pool["timbreVsPiece"] += [v - tbr_log_median for v in log_timbre]
-            if overall_tbr_log_median is not None:
-                pool["timbreVsPerformance"] += [v - overall_tbr_log_median for v in log_timbre]
+                entry["timbre"] += [v - tbr_log_median for v in log_timbre]
+            entry["tempo"] += log_tempo
 
-            # Tempo is not centred per recording: a recording being generally
-            # faster is interpretive information, not a recording artefact.
+            if overall_dyn_median is not None:
+                cycle_pool["dynamics"] += [v - overall_dyn_median for v in values["dynamics"]]
+            if overall_tbr_log_median is not None:
+                cycle_pool["timbre"] += [v - overall_tbr_log_median for v in log_timbre]
+
             all_log_tempo += log_tempo
 
         recordings[name] = {
@@ -234,27 +262,47 @@ def main() -> None:
             },
         }
 
+    # The pooled figures are the per-piece pools thrown together — the same
+    # residuals, differing only in that the pieces are no longer kept apart.
+    # Tempo has to be centred first, since its pool holds values.
+    pooled_dynamics = [v for e in piece_pool.values() for v in e["dynamics"]]
+    pooled_timbre = [v for e in piece_pool.values() for v in e["timbre"]]
+    pooled_tempo: list[float] = []
+    for e in piece_pool.values():
+        centre = median(e["tempo"])
+        if centre is not None:
+            pooled_tempo += [v - centre for v in e["tempo"]]
+
     corpus = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "madScaleFactor": MAD_SCALE,
-        "tempo": {
-            "logMedian": median(all_log_tempo),
-            "mad": mad(all_log_tempo),
+        "pieces": {
+            str(piece_num): {
+                "dynamics": {"mad": mad(e["dynamics"])},
+                "timbre": {"mad": mad(e["timbre"])},
+                "tempo": {"logMedian": median(e["tempo"]), "mad": mad(e["tempo"])},
+            }
+            for piece_num, e in sorted(piece_pool.items())
         },
-        "dynamics": {
-            "madVsPiece": mad(pool["dynamicsVsPiece"]),
-            "madVsPerformance": mad(pool["dynamicsVsPerformance"]),
+        "cycle": {
+            "dynamics": {"mad": mad(cycle_pool["dynamics"])},
+            "timbre": {"mad": mad(cycle_pool["timbre"])},
+            "tempo": {"logMedian": median(all_log_tempo), "mad": mad(all_log_tempo)},
         },
-        "timbre": {
-            "madVsPiece": mad(pool["timbreVsPiece"]),
-            "madVsPerformance": mad(pool["timbreVsPerformance"]),
+        # No tempo centre here: these figures share the per-piece centres
+        # above and differ from them only in the scale.
+        "piecesPooled": {
+            "dynamics": {"mad": mad(pooled_dynamics)},
+            "timbre": {"mad": mad(pooled_timbre)},
+            "tempo": {"mad": mad(pooled_tempo)},
         },
         "counts": {
             "recordings": len(recordings),
             "pieces": sum(len(r["pieces"]) for r in recordings.values()),
+            "distinctPieces": len(piece_pool),
             "tempoValues": len(all_log_tempo),
-            "dynamicsResiduals": len(pool["dynamicsVsPiece"]),
-            "timbreResiduals": len(pool["timbreVsPiece"]),
+            "dynamicsResiduals": len(pooled_dynamics),
+            "timbreResiduals": len(pooled_timbre),
         },
     }
 
@@ -285,9 +333,17 @@ def write_output(root: Path, corpus: dict, recordings: dict, problems: list) -> 
     )
 
     print(f"{corpus['counts']['recordings']} recordings, "
-          f"{corpus['counts']['pieces']} pieces")
-    for key, section in (("tempo", "mad"), ("dynamics", "madVsPiece"), ("timbre", "madVsPiece")):
-        print(f"  {key:9s} {section}: {corpus[key][section]}")
+          f"{corpus['counts']['pieces']} pieces "
+          f"({corpus['counts']['distinctPieces']} distinct)")
+
+    # Print the pooled figures against the cycle ones: the gap between them is
+    # the variation between pieces, which is what the two levels differ by.
+    print(f"  {'':9s} {'pooled':>12s} {'cycle':>12s}")
+    for param in ("tempo", "dynamics", "timbre"):
+        pooled = corpus["piecesPooled"][param]["mad"]
+        cycle = corpus["cycle"][param]["mad"]
+        fmt = lambda v: f"{v:12.4f}" if v is not None else f"{'-':>12s}"
+        print(f"  {param:9s} {fmt(pooled)} {fmt(cycle)}")
     if report["warnings"]:
         print(f"\n{len(report['warnings'])} warning(s):")
         for w in report["warnings"][:20]:
