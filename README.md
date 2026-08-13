@@ -13,8 +13,8 @@ Der Workflow läuft bei jedem Push auf main, der Dateien unterhalb von performan
 ### Was erzeugt wird
 
 ```
-stats/corpus.json              korpusweite Streuungsmaße (MAD)
-stats/recordings/<name>.json   Mediane je Lied und je Aufnahme
+stats/corpus.json              korpusweite Streuungsmaße (MAD) und Tempo-Mediane
+stats/recordings/<name>.json   Mediane je Aufnahme: liedweise und gesamter Zyklus 
 stats/report.json              Datenqualitätsbericht
 ```
 
