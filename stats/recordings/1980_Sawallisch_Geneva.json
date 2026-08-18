@@ -1,13 +1,13 @@
 {
   "pieces": {
     "1": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -18.11,
+      "timbreLogMedian": 6.742102030870952,
       "beats": 274,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 273,
+        "dynamics": 273,
+        "timbre": 273
       }
     },
     "2": {
@@ -242,7 +242,7 @@
     }
   },
   "overall": {
-    "dynamicsMedian": null,
-    "timbreLogMedian": null
+    "dynamicsMedian": -18.11,
+    "timbreLogMedian": 6.742102030870952
   }
 }
