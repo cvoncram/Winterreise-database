@@ -101,13 +101,13 @@
       }
     },
     "11": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -27.7,
+      "timbreLogMedian": 7.174019620559854,
       "beats": 178,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 175,
+        "dynamics": 175,
+        "timbre": 175
       }
     },
     "12": {
@@ -242,7 +242,7 @@
     }
   },
   "overall": {
-    "dynamicsMedian": -25.025,
-    "timbreLogMedian": 7.103211036550023
+    "dynamicsMedian": -25.18,
+    "timbreLogMedian": 7.109691536918525
   }
 }
