@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-18T06:44:39+00:00",
+  "generated": "2026-08-18T06:45:11+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 620,
     "distinctPieces": 24,
-    "tempoValues": 94054,
-    "dynamicsResiduals": 94062,
-    "timbreResiduals": 94059
+    "tempoValues": 94163,
+    "dynamicsResiduals": 94171,
+    "timbreResiduals": 94168
   },
   "problems": [],
   "warnings": [
     "piece 1: usable tempo values range 0–273 (100% spread; fewest in 1980_Sawallisch_Geneva)",
     "piece 2: usable tempo values range 0–102 (100% spread; fewest in 1980_Sawallisch_Geneva)",
-    "piece 3: usable tempo values range 0–110 (100% spread; fewest in 1980_Sawallisch_Geneva, 1980_Sawallisch_Milan)",
+    "piece 3: usable tempo values range 0–110 (100% spread; fewest in 1980_Sawallisch_Geneva)",
     "piece 4: usable tempo values range 0–436 (100% spread; fewest in 1980_Sawallisch_Geneva)",
     "piece 5: usable tempo values range 0–246 (100% spread; fewest in 1980_Sawallisch_Geneva)",
     "piece 6: usable tempo values range 0–180 (100% spread; fewest in 1980_Sawallisch_Geneva)",
@@ -106,9 +106,6 @@
     "1980_Sawallisch_Geneva piece 24: only 0/183 usable tempo values",
     "1980_Sawallisch_Geneva piece 24: only 0/183 usable dynamics values",
     "1980_Sawallisch_Geneva piece 24: only 0/183 usable timbre values",
-    "1980_Sawallisch_Milan piece 3: only 0/112 usable tempo values",
-    "1980_Sawallisch_Milan piece 3: only 0/112 usable dynamics values",
-    "1980_Sawallisch_Milan piece 3: only 0/112 usable timbre values",
     "1980_Sawallisch_Milan piece 11: only 0/178 usable tempo values",
     "1980_Sawallisch_Milan piece 11: only 0/178 usable dynamics values",
     "1980_Sawallisch_Milan piece 11: only 0/178 usable timbre values",
