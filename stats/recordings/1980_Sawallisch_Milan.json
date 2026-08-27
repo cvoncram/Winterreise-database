@@ -11,23 +11,23 @@
       }
     },
     "2": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -18.45,
+      "timbreLogMedian": 7.118243083102442,
       "beats": 104,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 101,
+        "dynamics": 101,
+        "timbre": 101
       }
     },
     "3": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -24.69,
+      "timbreLogMedian": 7.107138782732008,
       "beats": 112,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 109,
+        "dynamics": 109,
+        "timbre": 109
       }
     },
     "4": {
@@ -101,13 +101,13 @@
       }
     },
     "11": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -27.7,
+      "timbreLogMedian": 7.174019620559854,
       "beats": 178,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 175,
+        "dynamics": 175,
+        "timbre": 175
       }
     },
     "12": {
@@ -131,13 +131,13 @@
       }
     },
     "14": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -27.86,
+      "timbreLogMedian": 7.322721772297964,
       "beats": 135,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 131,
+        "dynamics": 131,
+        "timbre": 131
       }
     },
     "15": {
@@ -151,13 +151,13 @@
       }
     },
     "16": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -26.665,
+      "timbreLogMedian": 7.195460732443488,
       "beats": 144,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 140,
+        "dynamics": 140,
+        "timbre": 140
       }
     },
     "17": {
@@ -181,23 +181,23 @@
       }
     },
     "19": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -25.69,
+      "timbreLogMedian": 7.041376667556903,
       "beats": 88,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 85,
+        "dynamics": 85,
+        "timbre": 85
       }
     },
     "20": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -26.35,
+      "timbreLogMedian": 7.107376332854153,
       "beats": 168,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 165,
+        "dynamics": 165,
+        "timbre": 165
       }
     },
     "21": {
@@ -221,13 +221,13 @@
       }
     },
     "23": {
-      "dynamicsMedian": null,
-      "timbreLogMedian": null,
+      "dynamicsMedian": -21.13,
+      "timbreLogMedian": 7.242719235863972,
       "beats": 99,
       "usable": {
-        "tempo": 0,
-        "dynamics": 0,
-        "timbre": 0
+        "tempo": 95,
+        "dynamics": 95,
+        "timbre": 95
       }
     },
     "24": {
@@ -242,7 +242,7 @@
     }
   },
   "overall": {
-    "dynamicsMedian": -25.32,
-    "timbreLogMedian": 7.099664061652912
+    "dynamicsMedian": -25.34,
+    "timbreLogMedian": 7.11842940919795
   }
 }
