@@ -11,16 +11,19 @@
     "Label": "RIAS",
     "Studio/Institution": "no value",
     "City": "Berlin",
+    "Exact place": "unknown",
     "Country": "Germany",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/release/14584172-Schubert-Dietrich-Fischer-Dieskau-Klaus-Billing-Winterreise-D-911-Op-89",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/release/14584172-Schubert-Dietrich-Fischer-Dieskau-Klaus-Billing-Winterreise-D-911-Op-89",
+    "misc": "no value",
+    "coordinates": "52.522640521897415, 13.408265240815025"
   },
   {
     "No": 2.0,
     "XML UUID": "dwdfd71e2d36d-f80d-4a74-b59c-c2a050a7165c",
     "Recording Date": 4,
-    "Recording Month": "dec",
+    "Recording Month": "December",
     "Recording Year": 1952.0,
     "Date - Standardized": "1952-12-04",
     "Pianist": "Reutter, Hermann",
@@ -28,10 +31,13 @@
     "Label": "Audite",
     "Studio/Institution": "no value",
     "City": "Cologne",
+    "Exact place": "unknown",
     "Country": "Germany",
     "Recording Context": "Radio Broadcast",
     "source": "https://audite.de/de/product/CD/95580-f_schubert_die_winterreise_1952.html ",
-    "misc": "no value"
+    "further information online": "https://audite.de/de/product/CD/95580-f_schubert_die_winterreise_1952.html",
+    "misc": "no value",
+    "coordinates": "50.93551736130386, 6.967292603020772"
   },
   {
     "No": 3.0,
@@ -45,10 +51,13 @@
     "Label": "Verona",
     "Studio/Institution": "no value",
     "City": "Verona",
+    "Exact place": "unknown",
     "Country": "Italy",
     "Recording Context": "Radio Broadcast",
     "source": "https://www.discogs.com/release/14636100-Dietrich-Fischer-Dieskau-Schubert-Hermann-Reutter-Die-Winterreise/image/SW1hZ2U6NDM4OTYzMTI= ",
-    "misc": "Possible duplicate of Audite"
+    "further information online": "https://www.discogs.com/release/14636100-Dietrich-Fischer-Dieskau-Schubert-Hermann-Reutter-Die-Winterreise/image/SW1hZ2U6NDM4OTYzMTI=",
+    "misc": "Possible duplicate of Audite (Recording no. 2)",
+    "coordinates": "45.43853018541045, 10.99201567278404"
   },
   {
     "No": 4.0,
@@ -62,10 +71,13 @@
     "Label": "Archipel",
     "Studio/Institution": "no value",
     "City": "Berlin",
+    "Exact place": "unknown",
     "Country": "Germany",
     "Recording Context": "Recital",
     "source": "https://www.discogs.com/release/15174236-Schubert-Dietrich-Fischer-Dieskau-Hertha-Klust-Winterreise ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/release/15174236-Schubert-Dietrich-Fischer-Dieskau-Hertha-Klust-Winterreise",
+    "misc": "no value",
+    "coordinates": "52.522640521897415, 13.408265240815025"
   },
   {
     "No": 5.0,
@@ -79,10 +91,13 @@
     "Label": "Warner Classics",
     "Studio/Institution": "Gemeindehaus",
     "City": "Berlin",
+    "Exact place": "unknown",
     "Country": "Germany",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/master/614695-Franz-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/master/614695-Franz-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise",
+    "misc": "no value",
+    "coordinates": "52.522640521897415, 13.408265240815025"
   },
   {
     "No": 6.0,
@@ -96,10 +111,13 @@
     "Label": "INA, Mémoire Vive",
     "Studio/Institution": "Prades Festival",
     "City": "Prades",
+    "Exact place": "unknown",
     "Country": "France",
     "Recording Context": "Recital",
     "source": "https://www.discogs.com/release/11106157-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise-Prades-1955 ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/release/11106157-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise-Prades-1955",
+    "misc": "no value",
+    "coordinates": "42.618305874133945, 2.4255729971855406"
   },
   {
     "No": 7.0,
@@ -111,12 +129,15 @@
     "Pianist": "Moore, Gerald",
     "GND number": "118583867",
     "Label": "EMI",
-    "Studio/Institution": "EMI Studie",
+    "Studio/Institution": "EMI Studio",
     "City": "London",
+    "Exact place": "EMI Studio/Abbey Road",
     "Country": "UK",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/master/1304876-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Die-Winterreise?redirected=true ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/master/1304876-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Die-Winterreise?redirected=true",
+    "misc": "no value",
+    "coordinates": "51.53227595174919, -0.1778115276292981"
   },
   {
     "No": 8.0,
@@ -130,10 +151,13 @@
     "Label": "Deutsche Gramophone",
     "Studio/Institution": "UFA-Studio",
     "City": "Berlin",
+    "Exact place": "UFA-Studio Tempelhof",
     "Country": "Germany",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/master/1715297-Franz-Schubert-Dietrich-Fischer-Dieskau-J%C3%B6rg-Demus-Winterreise-6-Lieder ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/master/1715297-Franz-Schubert-Dietrich-Fischer-Dieskau-J%C3%B6rg-Demus-Winterreise-6-Lieder",
+    "misc": "no value",
+    "coordinates": "52.46453467096458, 13.411028584713693"
   },
   {
     "No": 9.0,
@@ -147,10 +171,13 @@
     "Label": "Private",
     "Studio/Institution": "Carnegie Hall",
     "City": "New York",
+    "Exact place": "Carnegie Hall",
     "Country": "USA",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "40.765387478673006, -73.97989719342097"
   },
   {
     "No": 10.0,
@@ -164,10 +191,13 @@
     "Label": "Private",
     "Studio/Institution": "Salzburger Festival",
     "City": "Salzburg",
+    "Exact place": "Stiftung Mozarteum Großer Saal",
     "Country": "Austria",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "https://www.salzburgerfestspiele.at/p/5-liederabend-dietrich-fischer-dieskau-joerg-demus-1967",
+    "misc": "no value",
+    "coordinates": "47.80374281384798, 13.041507528620011"
   },
   {
     "No": 11.0,
@@ -181,10 +211,13 @@
     "Label": "Polydor International GmbH/Deutsche Gramophone",
     "Studio/Institution": "UFA-Tonstudio",
     "City": "Berlin",
+    "Exact place": "UFA-Studio Tempelhof",
     "Country": "Germany",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/master/256741-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise?redirected=true",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/master/256741-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise?redirected=true",
+    "misc": "no value",
+    "coordinates": "52.46453467096458, 13.411028584713693"
   },
   {
     "No": 12.0,
@@ -198,10 +231,13 @@
     "Label": "Private",
     "Studio/Institution": "San Francisco Opera House",
     "City": "San Francisco",
+    "Exact place": "Opera House",
     "Country": "USA",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "37.77830871989954, -122.42086624549934"
   },
   {
     "No": 13.0,
@@ -215,10 +251,13 @@
     "Label": "Private",
     "Studio/Institution": "Edinburgh Festival",
     "City": "Edinburgh",
+    "Exact place": "unknown",
     "Country": "UK",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "55.95367665099482, -3.187144670333918"
   },
   {
     "No": 14.0,
@@ -232,10 +271,13 @@
     "Label": "Orfeo",
     "Studio/Institution": "Salzburg Festival",
     "City": "Salzburg",
+    "Exact place": "Kleines Festspielhaus",
     "Country": "Austria",
     "Recording Context": "Recital",
     "source": "https://www.discogs.com/release/20216776-Schubert-Dietrich-Fischer-Dieskau-Maurizio-Pollini-Winterreise ",
-    "misc": "no value"
+    "further information online": "https://www.salzburgerfestspiele.at/p/dietrich-fischer-dieskau-1978",
+    "misc": "no value",
+    "coordinates": "47.7978931664559, 13.04252231428478"
   },
   {
     "No": 15.0,
@@ -249,10 +291,13 @@
     "Label": "TDK",
     "Studio/Institution": "Siemens-Villa",
     "City": "Berlin",
+    "Exact place": "Siemensvilla/Herrenhaus Correns",
     "Country": "Germany",
     "Recording Context": "TV Production",
     "source": "https://www.discogs.com/release/15024710-Franz-Schubert-Dietrich-Fischer-Dieskau-Alfred-Brendel-Winterreise-Winter-Journey-Voyage-D-Hiver ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/release/15024710-Franz-Schubert-Dietrich-Fischer-Dieskau-Alfred-Brendel-Winterreise-Winter-Journey-Voyage-D-Hiver",
+    "misc": "no value",
+    "coordinates": "52.438746651515125, 13.328406788702814"
   },
   {
     "No": 16.0,
@@ -266,10 +311,13 @@
     "Label": "Deutsche Gramophone",
     "Studio/Institution": "Studio Lankwitz",
     "City": "Berlin",
+    "Exact place": "Siemensvilla/Herrenhaus Correns",
     "Country": "Germany",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/release/12122486-Schubert-Dietrich-Fischer-Dieskau-Daniel-Barenboim-Winterreise/image/SW1hZ2U6MTE1ODM4NDQ3 ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/release/12122486-Schubert-Dietrich-Fischer-Dieskau-Daniel-Barenboim-Winterreise/image/SW1hZ2U6MTE1ODM4NDQ3",
+    "misc": "no value",
+    "coordinates": "52.438746651515125, 13.328406788702814"
   },
   {
     "No": 17.0,
@@ -283,10 +331,13 @@
     "Label": "Private",
     "Studio/Institution": "La Scala",
     "City": "Milan",
+    "Exact place": "La Scala",
     "Country": "Italy",
     "Recording Context": "Recital",
     "source": "https://www.youtube.com/watch?v=bqj9SAVv-vY&list=RDbqj9SAVv-vY&start_radio=1&t=98s",
-    "misc": "no value"
+    "further information online": "https://www.youtube.com/watch?v=bqj9SAVv-vY&list=RDbqj9SAVv-vY&start_radio=1&t=98s",
+    "misc": "no value",
+    "coordinates": "45.46758265369521, 9.189583383815068"
   },
   {
     "No": 18.0,
@@ -300,10 +351,13 @@
     "Label": "Private",
     "Studio/Institution": "Grand Théatre",
     "City": "Geneva",
+    "Exact place": "Grand Théatre",
     "Country": "Switzerland",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "46.20185037873212, 6.142722912683221"
   },
   {
     "No": 19.0,
@@ -317,10 +371,13 @@
     "Label": "Private",
     "Studio/Institution": "Schubertiade Hohenems",
     "City": "Bregenz",
+    "Exact place": "Festspielhaus",
     "Country": "Austria",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "47.50464164425891, 9.737337936665677"
   },
   {
     "No": 20.0,
@@ -334,10 +391,13 @@
     "Label": "Private",
     "Studio/Institution": "Schubertiade Hohenems",
     "City": "Bregenz",
+    "Exact place": "Festspielhaus",
     "Country": "Austria",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "https://www.schubertiade.at/en/produktionen/dietrich-fischer-dieskau-alfred-brendel-.html?ID_Vorstellung=2129&m=81",
+    "misc": "no value",
+    "coordinates": "47.50464164425891, 9.737337936665677"
   },
   {
     "No": 21.0,
@@ -351,10 +411,13 @@
     "Label": "Private",
     "Studio/Institution": "Concertgebouw",
     "City": "Amsterdam",
+    "Exact place": "Concertgebouw",
     "Country": "Netherlands",
     "Recording Context": "Recital",
     "source": "https://classical-pianists.net/generation-x/alfred-brendel/performance-chronology-2/ ",
-    "misc": "no value"
+    "further information online": "https://classical-pianists.net/generation-x/alfred-brendel/performance-chronology-2/",
+    "misc": "no value",
+    "coordinates": "52.35631968238884, 4.879123480993944"
   },
   {
     "No": 22.0,
@@ -368,10 +431,13 @@
     "Label": "Philips",
     "Studio/Institution": "no value",
     "City": "Berlin",
+    "Exact place": "unknown",
     "Country": "Germany",
     "Recording Context": "Studio",
     "source": "https://www.discogs.com/master/456815-Franz-Schubert-Dietrich-Fischer-Dieskau-Alfred-Brendel-Winterreise ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/master/456815-Franz-Schubert-Dietrich-Fischer-Dieskau-Alfred-Brendel-Winterreise",
+    "misc": "no value",
+    "coordinates": "52.522640521897415, 13.408265240815025"
   },
   {
     "No": 23.0,
@@ -379,16 +445,19 @@
     "Recording Date": 7,
     "Recording Month": "February",
     "Recording Year": 1986.0,
-    "Date - Standardized": "1986-07-07",
+    "Date - Standardized": "1986-02-07",
     "Pianist": "Höll, Hartmut",
     "GND number": "131777270",
     "Label": "Private",
     "Studio/Institution": "Philharmonie",
     "City": "Berlin",
+    "Exact place": "Philharmonie",
     "Country": "Germany",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "52.5101559381765, 13.369639353464311"
   },
   {
     "No": 24.0,
@@ -402,10 +471,13 @@
     "Label": "Private",
     "Studio/Institution": "Beethovenhalle",
     "City": "Bonn",
+    "Exact place": "Beethovenhalle",
     "Country": "Germany",
     "Recording Context": "Recital",
     "source": "Teilmitschnitt - Ohne: 12-15, Anfang 16, Abschluss 24, Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "no value",
+    "misc": "no value",
+    "coordinates": "50.741139392771714, 7.104816895707155"
   },
   {
     "No": 25.0,
@@ -418,11 +490,14 @@
     "GND number": "118514997",
     "Label": "Private",
     "Studio/Institution": "Schubertiade Hohenems",
-    "City": "Feldkirche",
+    "City": "Feldkirch",
+    "Exact place": "Stadtsaal",
     "Country": "Austria",
     "Recording Context": "Recital",
     "source": "Recording held at the Hochschule für Musik Franz Liszt, Weimar",
-    "misc": "no value"
+    "further information online": "https://www.schubertiade.at/en/produktionen/dietrich-fischer-dieskau-alfred-brendel.html?ID_Vorstellung=2010&m=81",
+    "misc": "no value",
+    "coordinates": "47.23595359526983, 9.597931067526911"
   },
   {
     "No": 26.0,
@@ -436,9 +511,12 @@
     "Label": "Sony Classical",
     "Studio/Institution": "Siemens-Villa",
     "City": "Berlin",
+    "Exact place": "Siemensvilla/Herrenhaus Correns",
     "Country": "Germany",
     "Recording Context": "TV Production",
     "source": "https://www.discogs.com/master/3167778-Franz-Schubert-Dietrich-Fischer-Dieskau-Murray-Perahia-Winterreise-D911 ",
-    "misc": "no value"
+    "further information online": "https://www.discogs.com/master/3167778-Franz-Schubert-Dietrich-Fischer-Dieskau-Murray-Perahia-Winterreise-D911",
+    "misc": "no value",
+    "coordinates": "52.438746651515125, 13.328406788702814"
   }
 ]
