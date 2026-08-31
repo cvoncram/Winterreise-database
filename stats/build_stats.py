@@ -11,6 +11,18 @@ Centering uses the median, scaling uses the scaled median absolute deviation
 (MAD). Both are robust against the isolated extremes that are characteristic
 of this material (single fortissimo climaxes, barely audible pianissimi).
 
+Every figure is also produced in its classical form — arithmetic mean and
+standard deviation — and written alongside under its own key. These are not
+used for normalization; they exist so that the two families can be compared
+and the choice of robust statistics can be shown to make a difference rather
+than merely asserted. Both are formed in the same pass, since the cost of the
+run is almost entirely the parsing of the performance files.
+
+The residuals have to be pooled twice, because a residual depends on what it
+was centred on: mean-centred and median-centred residuals are different
+numbers, and the centring happens per recording while that recording is still
+open.
+
 Every scale figure is pooled across all recordings, so that one unit means the
 same thing in every recording. What varies is the level at which the residuals
 are formed beforehand, and it has to match the question being asked:
@@ -37,7 +49,7 @@ out of any comparison between two of them.
 Outputs, relative to the repository root:
 
     stats/corpus.json              scale figures and tempo centres
-    stats/recordings/<name>.json   per-recording dynamics and timbre medians
+    stats/recordings/<name>.json   per-recording dynamics and timbre centres
     stats/report.json              data-quality report
 
 Standard library only — no third-party dependencies.
@@ -112,13 +124,23 @@ def parse_rows(xml_text: str) -> list[dict]:
 
 
 def _as_float(value: Optional[str]) -> Optional[float]:
-    """Dynamics carries non-numeric values such as 'extreme' in rare cases."""
+    """
+    Parse a measurement, or None where there is none to be had.
+
+    Dynamics carries non-numeric values such as 'extreme' in rare cases, and
+    the timbre extraction has been seen to emit a literal 'inf' — which
+    `float()` accepts without complaint. Infinities are rejected here rather
+    than left to propagate: an infinite spectral centroid is not a measurement,
+    and once it enters a pool it turns residuals into NaN, which the median
+    silently sorts into an arbitrary position instead of raising.
+    """
     if value is None:
         return None
     try:
-        return float(value)
+        number = float(value)
     except ValueError:
         return None
+    return number if math.isfinite(number) else None
 
 
 # ------------------------------------------------------------- statistics
@@ -135,6 +157,28 @@ def mad(values: list[float], scale: float = MAD_SCALE) -> Optional[float]:
     centre = statistics.median(values)
     spread = statistics.median([abs(v - centre) for v in values])
     return scale * spread if spread > 0 else None
+
+
+def mean(values: list[float]) -> Optional[float]:
+    """Arithmetic mean — the classical counterpart of `median`."""
+    return statistics.fmean(values) if values else None
+
+
+def sd(values: list[float]) -> Optional[float]:
+    """
+    Standard deviation, the classical counterpart of `mad`.
+
+    The divisor is N, not N−1: these figures describe the corpus that exists
+    rather than estimating one it was drawn from, which is the same footing the
+    MAD stands on. At the sizes involved the distinction is immaterial anyway.
+
+    A degenerate spread is reported as None, as in `mad`, so that a caller
+    dividing by it cannot silently produce infinities.
+    """
+    if not values:
+        return None
+    spread = statistics.pstdev(values)
+    return spread if spread > 0 else None
 
 
 def logs(values: list[float]) -> list[float]:
@@ -184,6 +228,16 @@ def main() -> None:
     cycle_pool: dict[str, list[float]] = {"dynamics": [], "timbre": []}
     all_log_tempo: list[float] = []
 
+    # The same pools once more, but with the residuals taken against the mean
+    # instead of the median. They cannot be derived from the ones above after
+    # the fact: a residual carries its centre with it. Tempo needs no second
+    # pool, being centred across recordings rather than within one — the same
+    # values serve both, and only the centre and spread drawn from them differ.
+    piece_pool_mean: dict[int, dict[str, list[float]]] = defaultdict(
+        lambda: {"dynamics": [], "timbre": []}
+    )
+    cycle_pool_mean: dict[str, list[float]] = {"dynamics": [], "timbre": []}
+
     for name, pieces in files.items():
         parsed: dict[int, dict[str, list[float]]] = {}
 
@@ -217,6 +271,8 @@ def main() -> None:
 
         overall_dyn_median = median(overall_dynamics)
         overall_tbr_log_median = median(overall_log_timbre)
+        overall_dyn_mean = mean(overall_dynamics)
+        overall_tbr_log_mean = mean(overall_log_timbre)
 
         piece_entries: dict[str, dict] = {}
 
@@ -226,12 +282,16 @@ def main() -> None:
 
             dyn_median = median(values["dynamics"])
             tbr_log_median = median(log_timbre)
+            dyn_mean = mean(values["dynamics"])
+            tbr_log_mean = mean(log_timbre)
 
-            # No tempo median here: tempo is not centred per recording, so
+            # No tempo centre here: tempo is not centred per recording, so
             # there is nothing recording-specific about it to store.
             piece_entries[str(piece_num)] = {
                 "dynamicsMedian": dyn_median,
                 "timbreLogMedian": tbr_log_median,
+                "dynamicsMean": dyn_mean,
+                "timbreLogMean": tbr_log_mean,
                 "beats": len(values["_beats"]),
                 "usable": {
                     "tempo": len(values["tempo"]),
@@ -247,10 +307,21 @@ def main() -> None:
                 entry["timbre"] += [v - tbr_log_median for v in log_timbre]
             entry["tempo"] += log_tempo
 
+            entry_mean = piece_pool_mean[piece_num]
+            if dyn_mean is not None:
+                entry_mean["dynamics"] += [v - dyn_mean for v in values["dynamics"]]
+            if tbr_log_mean is not None:
+                entry_mean["timbre"] += [v - tbr_log_mean for v in log_timbre]
+
             if overall_dyn_median is not None:
                 cycle_pool["dynamics"] += [v - overall_dyn_median for v in values["dynamics"]]
             if overall_tbr_log_median is not None:
                 cycle_pool["timbre"] += [v - overall_tbr_log_median for v in log_timbre]
+
+            if overall_dyn_mean is not None:
+                cycle_pool_mean["dynamics"] += [v - overall_dyn_mean for v in values["dynamics"]]
+            if overall_tbr_log_mean is not None:
+                cycle_pool_mean["timbre"] += [v - overall_tbr_log_mean for v in log_timbre]
 
             all_log_tempo += log_tempo
 
@@ -259,6 +330,8 @@ def main() -> None:
             "overall": {
                 "dynamicsMedian": overall_dyn_median,
                 "timbreLogMedian": overall_tbr_log_median,
+                "dynamicsMean": overall_dyn_mean,
+                "timbreLogMean": overall_tbr_log_mean,
             },
         }
 
@@ -273,28 +346,58 @@ def main() -> None:
         if centre is not None:
             pooled_tempo += [v - centre for v in e["tempo"]]
 
+    pooled_dynamics_mean = [v for e in piece_pool_mean.values() for v in e["dynamics"]]
+    pooled_timbre_mean = [v for e in piece_pool_mean.values() for v in e["timbre"]]
+    pooled_tempo_mean: list[float] = []
+    for e in piece_pool.values():
+        centre = mean(e["tempo"])
+        if centre is not None:
+            pooled_tempo_mean += [v - centre for v in e["tempo"]]
+
     corpus = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "madScaleFactor": MAD_SCALE,
         "pieces": {
             str(piece_num): {
-                "dynamics": {"mad": mad(e["dynamics"])},
-                "timbre": {"mad": mad(e["timbre"])},
-                "tempo": {"logMedian": median(e["tempo"]), "mad": mad(e["tempo"])},
+                "dynamics": {
+                    "mad": mad(e["dynamics"]),
+                    "sd": sd(piece_pool_mean[piece_num]["dynamics"]),
+                },
+                "timbre": {
+                    "mad": mad(e["timbre"]),
+                    "sd": sd(piece_pool_mean[piece_num]["timbre"]),
+                },
+                "tempo": {
+                    "logMedian": median(e["tempo"]),
+                    "mad": mad(e["tempo"]),
+                    "logMean": mean(e["tempo"]),
+                    "sd": sd(e["tempo"]),
+                },
             }
             for piece_num, e in sorted(piece_pool.items())
         },
         "cycle": {
-            "dynamics": {"mad": mad(cycle_pool["dynamics"])},
-            "timbre": {"mad": mad(cycle_pool["timbre"])},
-            "tempo": {"logMedian": median(all_log_tempo), "mad": mad(all_log_tempo)},
+            "dynamics": {
+                "mad": mad(cycle_pool["dynamics"]),
+                "sd": sd(cycle_pool_mean["dynamics"]),
+            },
+            "timbre": {
+                "mad": mad(cycle_pool["timbre"]),
+                "sd": sd(cycle_pool_mean["timbre"]),
+            },
+            "tempo": {
+                "logMedian": median(all_log_tempo),
+                "mad": mad(all_log_tempo),
+                "logMean": mean(all_log_tempo),
+                "sd": sd(all_log_tempo),
+            },
         },
         # No tempo centre here: these figures share the per-piece centres
         # above and differ from them only in the scale.
         "piecesPooled": {
-            "dynamics": {"mad": mad(pooled_dynamics)},
-            "timbre": {"mad": mad(pooled_timbre)},
-            "tempo": {"mad": mad(pooled_tempo)},
+            "dynamics": {"mad": mad(pooled_dynamics), "sd": sd(pooled_dynamics_mean)},
+            "timbre": {"mad": mad(pooled_timbre), "sd": sd(pooled_timbre_mean)},
+            "tempo": {"mad": mad(pooled_tempo), "sd": sd(pooled_tempo_mean)},
         },
         "counts": {
             "recordings": len(recordings),
@@ -338,12 +441,16 @@ def write_output(root: Path, corpus: dict, recordings: dict, problems: list) -> 
 
     # Print the pooled figures against the cycle ones: the gap between them is
     # the variation between pieces, which is what the two levels differ by.
-    print(f"  {'':9s} {'pooled':>12s} {'cycle':>12s}")
+    # Each is shown in both its robust and its classical form, so that the
+    # effect of outliers on the spread is visible at a glance.
+    fmt = lambda v: f"{v:9.4f}" if v is not None else f"{'-':>9s}"
+    print(f"  {'':9s} {'pooled MAD':>10s} {'pooled SD':>10s}"
+          f" {'cycle MAD':>10s} {'cycle SD':>10s}")
     for param in ("tempo", "dynamics", "timbre"):
-        pooled = corpus["piecesPooled"][param]["mad"]
-        cycle = corpus["cycle"][param]["mad"]
-        fmt = lambda v: f"{v:12.4f}" if v is not None else f"{'-':>12s}"
-        print(f"  {param:9s} {fmt(pooled)} {fmt(cycle)}")
+        pooled = corpus["piecesPooled"][param]
+        cycle = corpus["cycle"][param]
+        print(f"  {param:9s} {fmt(pooled['mad'])}  {fmt(pooled['sd'])} "
+              f" {fmt(cycle['mad'])}  {fmt(cycle['sd'])}")
     if report["warnings"]:
         print(f"\n{len(report['warnings'])} warning(s):")
         for w in report["warnings"][:20]:
@@ -390,11 +497,26 @@ def build_report(corpus: dict, recordings: dict, problems: list) -> dict:
                         f"usable {kind} values"
                     )
 
+    # How far the classical spread exceeds the robust one, per piece and
+    # parameter. For data without outliers the two are close; a large ratio
+    # means a few extreme beats are pulling the standard deviation up, and
+    # points at exactly the passages worth listening to again.
+    spread_ratios: dict[str, dict[str, float]] = {}
+    for piece, entry in corpus["pieces"].items():
+        ratios = {}
+        for param in ("tempo", "dynamics", "timbre"):
+            robust, classical = entry[param]["mad"], entry[param]["sd"]
+            if robust and classical:
+                ratios[param] = round(classical / robust, 3)
+        if ratios:
+            spread_ratios[piece] = ratios
+
     return {
         "generated": corpus["generated"],
         "counts": corpus["counts"],
         "problems": problems,
         "warnings": warnings,
+        "spreadRatios": spread_ratios,
     }
 
 

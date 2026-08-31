@@ -1,22 +1,19 @@
 {
-  "generated": "2026-08-27T17:17:59+00:00",
+  "generated": "2026-08-31T12:17:31+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 620,
     "distinctPieces": 24,
-    "tempoValues": 98575,
-    "dynamicsResiduals": 98583,
-    "timbreResiduals": 98580
+    "tempoValues": 98590,
+    "dynamicsResiduals": 98598,
+    "timbreResiduals": 98464
   },
   "problems": [],
   "warnings": [
     "piece 12: usable tempo values range 60–96 (38% spread; fewest in 1980_Sawallisch_Milan)",
-    "piece 14: usable tempo values range 116–132 (12% spread; fewest in 1980_Sawallisch_Geneva)",
     "piece 16: usable tempo values range 122–141 (13% spread; fewest in 1986_Höll_Bonn)",
     "piece 24: usable tempo values range 83–183 (55% spread; fewest in 1986_Höll_Bonn)",
-    "1980_Sawallisch_Geneva piece 14: only 116/135 usable tempo values",
-    "1980_Sawallisch_Geneva piece 14: only 116/135 usable dynamics values",
-    "1980_Sawallisch_Geneva piece 14: only 116/135 usable timbre values",
+    "1980_Sawallisch_Geneva piece 14: only 0/135 usable timbre values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable tempo values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable dynamics values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable timbre values",
@@ -26,5 +23,127 @@
     "1986_Höll_Bonn piece 24: only 83/183 usable tempo values",
     "1986_Höll_Bonn piece 24: only 83/183 usable dynamics values",
     "1986_Höll_Bonn piece 24: only 83/183 usable timbre values"
-  ]
+  ],
+  "spreadRatios": {
+    "1": {
+      "tempo": 1.387,
+      "dynamics": 0.991,
+      "timbre": 1.048
+    },
+    "2": {
+      "tempo": 2.038,
+      "dynamics": 1.1,
+      "timbre": 1.023
+    },
+    "3": {
+      "tempo": 1.205,
+      "dynamics": 0.989,
+      "timbre": 1.151
+    },
+    "4": {
+      "tempo": 1.809,
+      "dynamics": 1.06,
+      "timbre": 1.156
+    },
+    "5": {
+      "tempo": 1.218,
+      "dynamics": 1.087,
+      "timbre": 1.059
+    },
+    "6": {
+      "tempo": 1.056,
+      "dynamics": 1.282,
+      "timbre": 1.13
+    },
+    "7": {
+      "tempo": 1.236,
+      "dynamics": 0.928,
+      "timbre": 1.085
+    },
+    "8": {
+      "tempo": 1.376,
+      "dynamics": 0.991,
+      "timbre": 1.057
+    },
+    "9": {
+      "tempo": 1.184,
+      "dynamics": 1.065,
+      "timbre": 1.079
+    },
+    "10": {
+      "tempo": 2.169,
+      "dynamics": 1.019,
+      "timbre": 1.044
+    },
+    "11": {
+      "tempo": 0.898,
+      "dynamics": 1.044,
+      "timbre": 1.161
+    },
+    "12": {
+      "tempo": 1.43,
+      "dynamics": 0.937,
+      "timbre": 1.059
+    },
+    "13": {
+      "tempo": 1.135,
+      "dynamics": 1.159,
+      "timbre": 1.148
+    },
+    "14": {
+      "tempo": 1.637,
+      "dynamics": 1.072,
+      "timbre": 1.006
+    },
+    "15": {
+      "tempo": 1.802,
+      "dynamics": 1.176,
+      "timbre": 1.119
+    },
+    "16": {
+      "tempo": 1.162,
+      "dynamics": 1.016,
+      "timbre": 1.07
+    },
+    "17": {
+      "tempo": 1.244,
+      "dynamics": 1.163,
+      "timbre": 1.237
+    },
+    "18": {
+      "tempo": 1.147,
+      "dynamics": 1.142,
+      "timbre": 1.113
+    },
+    "19": {
+      "tempo": 1.613,
+      "dynamics": 1.142,
+      "timbre": 1.132
+    },
+    "20": {
+      "tempo": 1.449,
+      "dynamics": 0.955,
+      "timbre": 1.094
+    },
+    "21": {
+      "tempo": 1.124,
+      "dynamics": 1.093,
+      "timbre": 1.089
+    },
+    "22": {
+      "tempo": 1.087,
+      "dynamics": 1.402,
+      "timbre": 0.895
+    },
+    "23": {
+      "tempo": 1.018,
+      "dynamics": 0.958,
+      "timbre": 0.992
+    },
+    "24": {
+      "tempo": 1.11,
+      "dynamics": 1.186,
+      "timbre": 1.131
+    }
+  }
 }

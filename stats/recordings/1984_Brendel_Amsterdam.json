@@ -3,6 +3,8 @@
     "1": {
       "dynamicsMedian": -18.88,
       "timbreLogMedian": 7.314879010813171,
+      "dynamicsMean": -19.02168498168498,
+      "timbreLogMean": 7.298827695566408,
       "beats": 274,
       "usable": {
         "tempo": 273,
@@ -13,6 +15,8 @@
     "2": {
       "dynamicsMedian": -19.13,
       "timbreLogMedian": 7.432335867980464,
+      "dynamicsMean": -20.215346534653467,
+      "timbreLogMean": 7.34925136179557,
       "beats": 104,
       "usable": {
         "tempo": 101,
@@ -23,6 +27,8 @@
     "3": {
       "dynamicsMedian": -24.56,
       "timbreLogMedian": 7.397965865536361,
+      "dynamicsMean": -24.468532110091743,
+      "timbreLogMean": 7.4180029919585735,
       "beats": 112,
       "usable": {
         "tempo": 109,
@@ -33,6 +39,8 @@
     "4": {
       "dynamicsMedian": -20.42,
       "timbreLogMedian": 7.331014462648559,
+      "dynamicsMean": -20.992689655172413,
+      "timbreLogMean": 7.314014146674843,
       "beats": 436,
       "usable": {
         "tempo": 435,
@@ -43,6 +51,8 @@
     "5": {
       "dynamicsMedian": -26.41,
       "timbreLogMedian": 7.436587801040585,
+      "dynamicsMean": -26.10922448979592,
+      "timbreLogMean": 7.448471778804978,
       "beats": 246,
       "usable": {
         "tempo": 245,
@@ -53,6 +63,8 @@
     "6": {
       "dynamicsMedian": -29.78,
       "timbreLogMedian": 7.6081114124877525,
+      "dynamicsMean": -29.875977653631285,
+      "timbreLogMean": 7.668432976449744,
       "beats": 180,
       "usable": {
         "tempo": 179,
@@ -63,6 +75,8 @@
     "7": {
       "dynamicsMedian": -23.74,
       "timbreLogMedian": 7.451363628771743,
+      "dynamicsMean": -24.948707482993196,
+      "timbreLogMean": 7.507841687366932,
       "beats": 148,
       "usable": {
         "tempo": 147,
@@ -73,6 +87,8 @@
     "8": {
       "dynamicsMedian": -20.23,
       "timbreLogMedian": 7.282479845290229,
+      "dynamicsMean": -20.85868932038835,
+      "timbreLogMean": 7.296144558799755,
       "beats": 207,
       "usable": {
         "tempo": 206,
@@ -83,6 +99,8 @@
     "9": {
       "dynamicsMedian": -27.485,
       "timbreLogMedian": 7.659569744697498,
+      "dynamicsMean": -27.830234375,
+      "timbreLogMean": 7.696791055213574,
       "beats": 129,
       "usable": {
         "tempo": 128,
@@ -93,6 +111,8 @@
     "10": {
       "dynamicsMedian": -26.42,
       "timbreLogMedian": 7.512666696934569,
+      "dynamicsMean": -25.914736842105263,
+      "timbreLogMean": 7.493877438220427,
       "beats": 134,
       "usable": {
         "tempo": 133,
@@ -103,6 +123,8 @@
     "11": {
       "dynamicsMedian": -26.96,
       "timbreLogMedian": 7.483969687309283,
+      "dynamicsMean": -26.150285714285715,
+      "timbreLogMean": 7.509963895448169,
       "beats": 178,
       "usable": {
         "tempo": 175,
@@ -113,6 +135,8 @@
     "12": {
       "dynamicsMedian": -25.82,
       "timbreLogMedian": 7.528396280755203,
+      "dynamicsMean": -25.03189473684211,
+      "timbreLogMean": 7.520369689432742,
       "beats": 96,
       "usable": {
         "tempo": 95,
@@ -123,6 +147,8 @@
     "13": {
       "dynamicsMedian": -26.17,
       "timbreLogMedian": 7.426334763720555,
+      "dynamicsMean": -25.61101604278075,
+      "timbreLogMean": 7.445783729004213,
       "beats": 188,
       "usable": {
         "tempo": 187,
@@ -133,6 +159,8 @@
     "14": {
       "dynamicsMedian": -32.28,
       "timbreLogMedian": 7.739581206777498,
+      "dynamicsMean": -32.1775572519084,
+      "timbreLogMean": 7.784177902969792,
       "beats": 135,
       "usable": {
         "tempo": 131,
@@ -143,6 +171,8 @@
     "15": {
       "dynamicsMedian": -26.58,
       "timbreLogMedian": 7.432187906154344,
+      "dynamicsMean": -26.38129411764706,
+      "timbreLogMean": 7.434697106512753,
       "beats": 86,
       "usable": {
         "tempo": 85,
@@ -153,6 +183,8 @@
     "16": {
       "dynamicsMedian": -28.060000000000002,
       "timbreLogMedian": 7.561416124149079,
+      "dynamicsMean": -27.944857142857146,
+      "timbreLogMean": 7.541531229194527,
       "beats": 144,
       "usable": {
         "tempo": 140,
@@ -163,6 +195,8 @@
     "17": {
       "dynamicsMedian": -28.64,
       "timbreLogMedian": 7.445995660595464,
+      "dynamicsMean": -29.470666666666666,
+      "timbreLogMean": 7.516646913672134,
       "beats": 196,
       "usable": {
         "tempo": 195,
@@ -173,6 +207,8 @@
     "18": {
       "dynamicsMedian": -19.97,
       "timbreLogMedian": 7.332833453937375,
+      "dynamicsMean": -20.078133333333334,
+      "timbreLogMean": 7.3459455779703555,
       "beats": 76,
       "usable": {
         "tempo": 75,
@@ -183,6 +219,8 @@
     "19": {
       "dynamicsMedian": -28.59,
       "timbreLogMedian": 7.372721240460534,
+      "dynamicsMean": -28.271529411764703,
+      "timbreLogMean": 7.3981296935358,
       "beats": 88,
       "usable": {
         "tempo": 85,
@@ -193,6 +231,8 @@
     "20": {
       "dynamicsMedian": -28.87,
       "timbreLogMedian": 7.4590277869232935,
+      "dynamicsMean": -28.86490909090909,
+      "timbreLogMean": 7.492112953311122,
       "beats": 168,
       "usable": {
         "tempo": 165,
@@ -203,6 +243,8 @@
     "21": {
       "dynamicsMedian": -30.98,
       "timbreLogMedian": 7.616672456901067,
+      "dynamicsMean": -30.608130081300814,
+      "timbreLogMean": 7.628964618367859,
       "beats": 124,
       "usable": {
         "tempo": 123,
@@ -213,6 +255,8 @@
     "22": {
       "dynamicsMedian": -20.03,
       "timbreLogMedian": 7.393300017159121,
+      "dynamicsMean": -21.469606299212597,
+      "timbreLogMean": 7.358370885882432,
       "beats": 128,
       "usable": {
         "tempo": 127,
@@ -223,6 +267,8 @@
     "23": {
       "dynamicsMedian": -31.97,
       "timbreLogMedian": 7.635303886259415,
+      "dynamicsMean": -31.519263157894738,
+      "timbreLogMean": 7.661429875370376,
       "beats": 99,
       "usable": {
         "tempo": 95,
@@ -233,6 +279,8 @@
     "24": {
       "dynamicsMedian": -32.435,
       "timbreLogMedian": 7.613524755140961,
+      "dynamicsMean": -32.82791208791209,
+      "timbreLogMean": 7.619916675949752,
       "beats": 183,
       "usable": {
         "tempo": 182,
@@ -243,6 +291,8 @@
   },
   "overall": {
     "dynamicsMedian": -25.14,
-    "timbreLogMedian": 7.454598412526227
+    "timbreLogMedian": 7.454598412526227,
+    "dynamicsMean": -25.614208595387844,
+    "timbreLogMean": 7.470878097725198
   }
 }
