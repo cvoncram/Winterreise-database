@@ -289,16 +289,16 @@
               <add>
                 <tempo tstamp.ges="1" mm="187.21" type="performed"/>
                 <tempo tstamp.ges="2" mm="181.22" type="performed"/>
-                <tempo tstamp.ges="3" mm="109.01" type="performed"/>
-                <tempo tstamp.ges="4" mm="408.46" type="performed"/>
+                <tempo tstamp.ges="3" mm="181.51" type="performed"/>
+                <tempo tstamp.ges="4" mm="163.58" type="performed"/>
                 <dynam tstamp.ges="1" n="-21.73" type="performed" label="mp+2"/>
                 <dynam tstamp.ges="2" n="-21.47" type="performed" label="mp+3"/>
                 <dynam tstamp.ges="3" n="-21.64" type="performed" label="mp+2"/>
-                <dynam tstamp.ges="4" n="-24.91" type="performed" label="mp-1"/>
+                <dynam tstamp.ges="4" n="-23.28" type="performed" label="mp-1"/>
                 <annot tstamp.ges="1" label="spectral centroid (Hz)" n="936.05" type="performed"/>
                 <annot tstamp.ges="2" label="spectral centroid (Hz)" n="913.44" type="performed"/>
                 <annot tstamp.ges="3" label="spectral centroid (Hz)" n="861.64" type="performed"/>
-                <annot tstamp.ges="4" label="spectral centroid (Hz)" n="841.56" type="performed"/>
+                <annot tstamp.ges="4" label="spectral centroid (Hz)" n="861.64" type="performed"/>
               </add>
             </measure>
             <measure xml:id="m1yuh72d" n="15">
