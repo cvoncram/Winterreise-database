@@ -39,8 +39,8 @@
     "4": {
       "dynamicsMedian": -21.35,
       "timbreLogMedian": 6.941161041107822,
-      "dynamicsMean": -21.158505747126437,
-      "timbreLogMean": 6.908183121784504,
+      "dynamicsMean": -21.154758620689655,
+      "timbreLogMean": 6.908237329227455,
       "beats": 436,
       "usable": {
         "tempo": 435,
@@ -292,7 +292,7 @@
   "overall": {
     "dynamicsMedian": -23.52,
     "timbreLogMedian": 6.903546432392867,
-    "dynamicsMean": -24.4224161651516,
-    "timbreLogMean": 6.906005265060508
+    "dynamicsMean": -24.421988680231593,
+    "timbreLogMean": 6.9060114508521355
   }
 }
