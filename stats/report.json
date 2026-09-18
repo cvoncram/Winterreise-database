@@ -1,16 +1,17 @@
 {
-  "generated": "2026-09-17T11:16:29+00:00",
+  "generated": "2026-09-18T09:14:13+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 620,
     "distinctPieces": 24,
-    "tempoValues": 98590,
-    "dynamicsResiduals": 98598,
-    "timbreResiduals": 98464
+    "tempoValues": 98584,
+    "dynamicsResiduals": 98592,
+    "timbreResiduals": 98458
   },
   "problems": [],
   "warnings": [
     "piece 12: usable tempo values range 60–96 (38% spread; fewest in 1980_Sawallisch_Milan)",
+    "piece 15: usable tempo values range 79–86 (8% spread; fewest in 1974_Barenboim)",
     "piece 16: usable tempo values range 122–141 (13% spread; fewest in 1986_Höll_Bonn)",
     "piece 24: usable tempo values range 83–183 (55% spread; fewest in 1986_Höll_Bonn)",
     "1980_Sawallisch_Geneva piece 14: only 0/135 usable timbre values",
@@ -96,9 +97,9 @@
       "timbre": 1.006
     },
     "15": {
-      "tempo": 1.802,
-      "dynamics": 1.176,
-      "timbre": 1.119
+      "tempo": 1.662,
+      "dynamics": 1.177,
+      "timbre": 1.107
     },
     "16": {
       "tempo": 1.162,
