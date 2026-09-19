@@ -1263,16 +1263,16 @@
             </measure>
             <measure xml:id="m4609wc" n="75">
               <add>
-                <tempo tstamp.ges="1" mm="113.38" type="performed"/>
-                <tempo tstamp.ges="2" mm="274.25" type="performed"/>
-                <tempo tstamp.ges="3" mm="180.86" type="performed"/>
+                <tempo tstamp.ges="1" mm="158.48" type="performed"/>
+                <tempo tstamp.ges="2" mm="168.06" type="performed"/>
+                <tempo tstamp.ges="3" mm="174.35" type="performed"/>
                 <tempo tstamp.ges="4" mm="143.58" type="performed"/>
                 <dynam tstamp.ges="1" n="-22.25" type="performed" label="mp+3"/>
-                <dynam tstamp.ges="2" n="-22.78" type="performed" label="mp+2"/>
+                <dynam tstamp.ges="2" n="-22.48" type="performed" label="mp+2"/>
                 <dynam tstamp.ges="3" n="-22.81" type="performed" label="mp+2"/>
                 <dynam tstamp.ges="4" n="-22.34" type="performed" label="mp+3"/>
                 <annot tstamp.ges="1" label="spectral centroid (Hz)" n="2047.68" type="performed"/>
-                <annot tstamp.ges="2" label="spectral centroid (Hz)" n="2085.26" type="performed"/>
+                <annot tstamp.ges="2" label="spectral centroid (Hz)" n="2354.49" type="performed"/>
                 <annot tstamp.ges="3" label="spectral centroid (Hz)" n="2910.59" type="performed"/>
                 <annot tstamp.ges="4" label="spectral centroid (Hz)" n="1851.11" type="performed"/>
               </add>
