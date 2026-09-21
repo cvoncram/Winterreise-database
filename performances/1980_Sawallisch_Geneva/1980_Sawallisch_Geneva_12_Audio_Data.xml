@@ -82,34 +82,34 @@
           <section xml:id="sf8uk52">
             <measure xml:id="myn2c1q2" n="1">
               <add>
-                <tempo tstamp.ges="1" mm="646.00" type="performed"/>
-                <tempo tstamp.ges="2" mm="1378.12" type="performed"/>
-                <dynam tstamp.ges="1" n="-43.52" type="performed" label="mp-4"/>
-                <dynam tstamp.ges="2" n="-42.15" type="performed" label="mp-2"/>
-                <annot tstamp.ges="1" label="spectral centroid (Hz)" n="2913.95" type="performed"/>
-                <annot tstamp.ges="2" label="spectral centroid (Hz)" n="2608.17" type="performed"/>
-              </add>
+    <tempo tstamp.ges="1" mm="" type="performed"/>
+    <tempo tstamp.ges="2" mm="" type="performed"/>
+    <dynam tstamp.ges="1" n="" type="performed"/>
+    <dynam tstamp.ges="2" n="" type="performed"/>
+    <annot tstamp.ges="1" label="spectral centroid (Hz)" n="" type="performed"/>
+    <annot tstamp.ges="2" label="spectral centroid (Hz)" n="" type="performed"/>
+</add>
             </measure>
-            <measure xml:id="m8o68qv2" n="2">
-              <add>
-                <tempo tstamp.ges="1" mm="597.02" type="performed"/>
-                <tempo tstamp.ges="2" mm="492.19" type="performed"/>
-                <dynam tstamp.ges="1" n="-41.91" type="performed" label="mp-2"/>
-                <dynam tstamp.ges="2" n="-39.02" type="performed" label="mp+1"/>
-                <annot tstamp.ges="1" label="spectral centroid (Hz)" n="2511.04" type="performed"/>
-                <annot tstamp.ges="2" label="spectral centroid (Hz)" n="2026.37" type="performed"/>
-              </add>
-            </measure>
-            <measure xml:id="m4bck4x2" n="3">
-              <add>
-                <tempo tstamp.ges="1" mm="492.19" type="performed"/>
-                <tempo tstamp.ges="2" mm="394.69" type="performed"/>
-                <dynam tstamp.ges="1" n="-39.58" type="performed" label="mp"/>
-                <dynam tstamp.ges="2" n="-39.37" type="performed" label="mp+1"/>
-                <annot tstamp.ges="1" label="spectral centroid (Hz)" n="2017.05" type="performed"/>
-                <annot tstamp.ges="2" label="spectral centroid (Hz)" n="2215.08" type="performed"/>
-              </add>
-            </measure>
+                  <measure xml:id="m8o68qv2" n="2">
+                    <add>
+    <tempo tstamp.ges="1" mm="" type="performed"/>
+    <tempo tstamp.ges="2" mm="" type="performed"/>
+    <dynam tstamp.ges="1" n="" type="performed"/>
+    <dynam tstamp.ges="2" n="" type="performed"/>
+    <annot tstamp.ges="1" label="spectral centroid (Hz)" n="" type="performed"/>
+    <annot tstamp.ges="2" label="spectral centroid (Hz)" n="" type="performed"/>
+</add>
+                  </measure>
+                  <measure xml:id="m4bck4x2" n="3">
+                    <add>
+    <tempo tstamp.ges="1" mm="" type="performed"/>
+    <tempo tstamp.ges="2" mm="" type="performed"/>
+    <dynam tstamp.ges="1" n="" type="performed"/>
+    <dynam tstamp.ges="2" n="" type="performed"/>
+    <annot tstamp.ges="1" label="spectral centroid (Hz)" n="" type="performed"/>
+    <annot tstamp.ges="2" label="spectral centroid (Hz)" n="" type="performed"/>
+</add>
+                  </measure>
             <measure xml:id="mk0e2ru2" n="4">
               <add>
                 <tempo tstamp.ges="1" mm="45.94" type="performed"/>
