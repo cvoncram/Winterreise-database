@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-21T13:59:24+00:00",
+  "generated": "2026-09-21T14:01:14+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 620,
     "distinctPieces": 24,
-    "tempoValues": 98554,
-    "dynamicsResiduals": 98562,
+    "tempoValues": 98539,
+    "dynamicsResiduals": 98547,
     "timbreResiduals": 98428
   },
   "problems": [],
@@ -18,6 +18,8 @@
     "1972_Shetler piece 14: only 101/135 usable tempo values",
     "1972_Shetler piece 14: only 101/135 usable dynamics values",
     "1972_Shetler piece 14: only 101/135 usable timbre values",
+    "1980_Sawallisch_Geneva piece 14: only 116/135 usable tempo values",
+    "1980_Sawallisch_Geneva piece 14: only 116/135 usable dynamics values",
     "1980_Sawallisch_Geneva piece 14: only 0/135 usable timbre values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable tempo values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable dynamics values",
@@ -96,8 +98,8 @@
       "timbre": 1.148
     },
     "14": {
-      "tempo": 1.287,
-      "dynamics": 1.072,
+      "tempo": 1.188,
+      "dynamics": 1.065,
       "timbre": 1.008
     },
     "15": {
