@@ -1,19 +1,23 @@
 {
-  "generated": "2026-09-19T15:20:13+00:00",
+  "generated": "2026-09-21T13:59:24+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 620,
     "distinctPieces": 24,
-    "tempoValues": 98584,
-    "dynamicsResiduals": 98592,
-    "timbreResiduals": 98458
+    "tempoValues": 98554,
+    "dynamicsResiduals": 98562,
+    "timbreResiduals": 98428
   },
   "problems": [],
   "warnings": [
     "piece 12: usable tempo values range 60–96 (38% spread; fewest in 1980_Sawallisch_Milan)",
+    "piece 14: usable tempo values range 101–132 (23% spread; fewest in 1972_Shetler)",
     "piece 15: usable tempo values range 79–86 (8% spread; fewest in 1974_Barenboim)",
     "piece 16: usable tempo values range 122–141 (13% spread; fewest in 1986_Höll_Bonn)",
     "piece 24: usable tempo values range 83–183 (55% spread; fewest in 1986_Höll_Bonn)",
+    "1972_Shetler piece 14: only 101/135 usable tempo values",
+    "1972_Shetler piece 14: only 101/135 usable dynamics values",
+    "1972_Shetler piece 14: only 101/135 usable timbre values",
     "1980_Sawallisch_Geneva piece 14: only 0/135 usable timbre values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable tempo values",
     "1980_Sawallisch_Milan piece 12: only 60/96 usable dynamics values",
@@ -92,9 +96,9 @@
       "timbre": 1.148
     },
     "14": {
-      "tempo": 1.637,
+      "tempo": 1.287,
       "dynamics": 1.072,
-      "timbre": 1.006
+      "timbre": 1.008
     },
     "15": {
       "tempo": 1.662,
