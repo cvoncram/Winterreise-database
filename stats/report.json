@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T14:34:47+00:00",
+  "generated": "2026-09-21T14:35:46+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 619,
@@ -85,9 +85,9 @@
       "timbre": 1.079
     },
     "10": {
-      "tempo": 1.996,
-      "dynamics": 1.017,
-      "timbre": 1.043
+      "tempo": 1.913,
+      "dynamics": 1.021,
+      "timbre": 1.045
     },
     "11": {
       "tempo": 0.886,
