@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-21T14:29:35+00:00",
+  "generated": "2026-09-21T14:30:59+00:00",
   "counts": {
     "recordings": 26,
     "pieces": 619,
     "distinctPieces": 24,
     "tempoValues": 98402,
     "dynamicsResiduals": 98410,
-    "timbreResiduals": 98291
+    "timbreResiduals": 98292
   },
   "problems": [
     {
@@ -85,9 +85,9 @@
       "timbre": 1.079
     },
     "10": {
-      "tempo": 2.169,
-      "dynamics": 1.019,
-      "timbre": 1.044
+      "tempo": 1.996,
+      "dynamics": 1.017,
+      "timbre": 1.043
     },
     "11": {
       "tempo": 0.898,
