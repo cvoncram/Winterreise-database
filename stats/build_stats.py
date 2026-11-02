@@ -181,6 +181,47 @@ def sd(values: list[float]) -> Optional[float]:
     return spread if spread > 0 else None
 
 
+# The order the covariance matrix is written in, and the fewest beats that
+# make one worth reporting.
+COVARIANCE_ORDER = ("tempo", "dynamics", "timbre")
+MIN_COVARIANCE_BEATS = 200
+
+
+def covariance(triples: list[tuple[float, float, float]]) -> Optional[dict]:
+    """
+    Covariance between the three parameters, in natural units: log tempo,
+    decibels, log spectral centroid.
+
+    Left unscaled on purpose. Dividing by a scale is what turns this into the
+    covariance of the normalized values, and which scale that is depends on
+    the method the application is asked for — mean with standard deviation or
+    median with scaled MAD. Consumed as it is, one matrix serves both.
+
+    The centring the caller used does not matter either: covariance subtracts
+    its own means.
+    """
+    n = len(triples)
+    if n < MIN_COVARIANCE_BEATS:
+        return None
+
+    sums = [0.0, 0.0, 0.0]
+    cross = [[0.0] * 3 for _ in range(3)]
+    for t in triples:
+        for a in range(3):
+            sums[a] += t[a]
+            for b in range(a, 3):
+                cross[a][b] += t[a] * t[b]
+
+    means = [s / n for s in sums]
+    matrix = [[0.0] * 3 for _ in range(3)]
+    for a in range(3):
+        for b in range(a, 3):
+            value = cross[a][b] / n - means[a] * means[b]
+            matrix[a][b] = matrix[b][a] = value
+
+    return {"order": list(COVARIANCE_ORDER), "matrix": matrix, "beats": n}
+
+
 def logs(values: list[float]) -> list[float]:
     """Log-transform, dropping non-positive values (log is undefined there)."""
     return [math.log(v) for v in values if v > 0]
@@ -238,6 +279,15 @@ def main() -> None:
     )
     cycle_pool_mean: dict[str, list[float]] = {"dynamics": [], "timbre": []}
 
+    # Beats where all three parameters were measured, kept as triples rather
+    # than as three separate lists: only a beat's values taken together say
+    # anything about how the parameters covary, which is what the Mahalanobis
+    # metric needs. Estimating that from whatever recordings a user happens to
+    # select gives a different shape every time — on the same data the
+    # correlation between dynamics and timbre ranged from -0.17 to +0.60.
+    piece_joint: dict[int, list[tuple[float, float, float]]] = defaultdict(list)
+    cycle_joint: list[tuple[float, float, float]] = []
+
     for name, pieces in files.items():
         parsed: dict[int, dict[str, list[float]]] = {}
 
@@ -258,6 +308,16 @@ def main() -> None:
                 "tempo": [r["tempo"] for r in rows if r["tempo"] is not None],
                 "dynamics": [r["dynamics"] for r in rows if r["dynamics"] is not None],
                 "timbre": [r["timbre"] for r in rows if r["timbre"] is not None],
+                # Complete beats only, and the same test the application
+                # applies: the two log-transformed parameters need a positive
+                # value, so a zero counts as missing here as well.
+                "_complete": [
+                    (r["tempo"], r["dynamics"], r["timbre"])
+                    for r in rows
+                    if r["tempo"] is not None and r["tempo"] > 0
+                    and r["dynamics"] is not None
+                    and r["timbre"] is not None and r["timbre"] > 0
+                ],
                 "_beats": [1] * len(rows),
             }
 
@@ -325,6 +385,17 @@ def main() -> None:
 
             all_log_tempo += log_tempo
 
+            if dyn_mean is not None and tbr_log_mean is not None:
+                piece_joint[piece_num] += [
+                    (math.log(t), d - dyn_mean, math.log(c) - tbr_log_mean)
+                    for t, d, c in values["_complete"]
+                ]
+            if overall_dyn_mean is not None and overall_tbr_log_mean is not None:
+                cycle_joint += [
+                    (math.log(t), d - overall_dyn_mean, math.log(c) - overall_tbr_log_mean)
+                    for t, d, c in values["_complete"]
+                ]
+
         recordings[name] = {
             "pieces": piece_entries,
             "overall": {
@@ -373,6 +444,7 @@ def main() -> None:
                     "logMean": mean(e["tempo"]),
                     "sd": sd(e["tempo"]),
                 },
+                "covariance": covariance(piece_joint[piece_num]),
             }
             for piece_num, e in sorted(piece_pool.items())
         },
@@ -391,6 +463,7 @@ def main() -> None:
                 "logMean": mean(all_log_tempo),
                 "sd": sd(all_log_tempo),
             },
+            "covariance": covariance(cycle_joint),
         },
         # No tempo centre here: these figures share the per-piece centres
         # above and differ from them only in the scale.
@@ -406,6 +479,7 @@ def main() -> None:
             "tempoValues": len(all_log_tempo),
             "dynamicsResiduals": len(pooled_dynamics),
             "timbreResiduals": len(pooled_timbre),
+            "completeBeats": len(cycle_joint),
         },
     }
 
