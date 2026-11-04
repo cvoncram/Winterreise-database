@@ -24,7 +24,7 @@ stats/                         normalization statistics and data-quality report
 ```
 
 **`scores/`**: the scores including Fischer-Dieskau's handwritten entries,
-encoded in MEI.
+encoded in MEI. These additions are still ongoing and not yet included in every file. 
 
 **`performances/`**: 26 folders, usually with 24 files each. Each file mirrors
 the measures of the score; per measure, an `<add>` block holds one value per
@@ -103,7 +103,7 @@ stats/                         Normalisierungsgrößen und Datenqualitätsberich
 ```
 
 **`scores/`**: die Partituren einschließlich der handschriftlichen
-Eintragungen Fischer-Dieskaus, in MEI kodiert.
+Eintragungen Fischer-Dieskaus, in MEI kodiert. Diese Annotationen werden gegenwärtig noch hinzugefügt und liegen noch nicht für jedes Stück vor.
 
 **`performances/`**: 26 Ordner mit in der Regel je 24 Dateien. Jede Datei
 bildet die Takte der Partitur ab; je Takt enthält ein `<add>`-Block einen Wert
