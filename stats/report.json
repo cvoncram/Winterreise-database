@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-06T15:28:35+00:00",
+  "generated": "2026-11-06T15:43:52+00:00",
   "counts": {
-    "recordings": 28,
-    "pieces": 667,
+    "recordings": 26,
+    "pieces": 619,
     "distinctPieces": 24,
-    "tempoValues": 106046,
-    "dynamicsResiduals": 106062,
-    "timbreResiduals": 105944,
-    "completeBeats": 105928
+    "tempoValues": 98401,
+    "dynamicsResiduals": 98409,
+    "timbreResiduals": 98292,
+    "completeBeats": 98284
   },
   "problems": [
     {
@@ -41,124 +41,124 @@
   ],
   "spreadRatios": {
     "1": {
-      "tempo": 1.355,
-      "dynamics": 0.989,
-      "timbre": 1.036
+      "tempo": 1.387,
+      "dynamics": 0.991,
+      "timbre": 1.048
     },
     "2": {
-      "tempo": 2.082,
-      "dynamics": 1.105,
-      "timbre": 1.01
+      "tempo": 2.038,
+      "dynamics": 1.1,
+      "timbre": 1.023
     },
     "3": {
-      "tempo": 1.127,
-      "dynamics": 0.979,
-      "timbre": 1.15
+      "tempo": 1.205,
+      "dynamics": 0.989,
+      "timbre": 1.151
     },
     "4": {
-      "tempo": 1.76,
-      "dynamics": 1.055,
-      "timbre": 1.153
+      "tempo": 1.753,
+      "dynamics": 1.057,
+      "timbre": 1.155
     },
     "5": {
-      "tempo": 1.227,
-      "dynamics": 1.078,
-      "timbre": 1.061
+      "tempo": 1.218,
+      "dynamics": 1.087,
+      "timbre": 1.059
     },
     "6": {
-      "tempo": 1.054,
-      "dynamics": 1.278,
-      "timbre": 1.126
+      "tempo": 1.056,
+      "dynamics": 1.282,
+      "timbre": 1.13
     },
     "7": {
-      "tempo": 1.214,
-      "dynamics": 0.932,
-      "timbre": 1.096
+      "tempo": 1.236,
+      "dynamics": 0.928,
+      "timbre": 1.085
     },
     "8": {
-      "tempo": 1.378,
-      "dynamics": 0.987,
-      "timbre": 1.046
-    },
-    "9": {
-      "tempo": 1.19,
-      "dynamics": 1.056,
-      "timbre": 1.081
-    },
-    "10": {
-      "tempo": 1.906,
-      "dynamics": 1.017,
-      "timbre": 1.041
-    },
-    "11": {
-      "tempo": 0.884,
-      "dynamics": 1.042,
-      "timbre": 1.165
-    },
-    "12": {
-      "tempo": 1.217,
-      "dynamics": 0.926,
+      "tempo": 1.376,
+      "dynamics": 0.991,
       "timbre": 1.057
     },
+    "9": {
+      "tempo": 1.184,
+      "dynamics": 1.065,
+      "timbre": 1.079
+    },
+    "10": {
+      "tempo": 1.913,
+      "dynamics": 1.021,
+      "timbre": 1.045
+    },
+    "11": {
+      "tempo": 0.886,
+      "dynamics": 1.04,
+      "timbre": 1.16
+    },
+    "12": {
+      "tempo": 1.206,
+      "dynamics": 0.932,
+      "timbre": 1.056
+    },
     "13": {
-      "tempo": 1.064,
-      "dynamics": 1.151,
-      "timbre": 1.145
+      "tempo": 1.072,
+      "dynamics": 1.158,
+      "timbre": 1.147
     },
     "14": {
-      "tempo": 1.117,
-      "dynamics": 1.073,
-      "timbre": 0.998
+      "tempo": 1.134,
+      "dynamics": 1.071,
+      "timbre": 1.003
     },
     "15": {
-      "tempo": 1.686,
+      "tempo": 1.662,
       "dynamics": 1.177,
-      "timbre": 1.08
+      "timbre": 1.107
     },
     "16": {
-      "tempo": 1.168,
-      "dynamics": 1.042,
-      "timbre": 1.074
+      "tempo": 1.162,
+      "dynamics": 1.016,
+      "timbre": 1.07
     },
     "17": {
-      "tempo": 1.238,
-      "dynamics": 1.159,
-      "timbre": 1.24
+      "tempo": 1.244,
+      "dynamics": 1.163,
+      "timbre": 1.237
     },
     "18": {
-      "tempo": 1.116,
-      "dynamics": 1.15,
-      "timbre": 1.129
+      "tempo": 1.147,
+      "dynamics": 1.142,
+      "timbre": 1.113
     },
     "19": {
-      "tempo": 1.59,
-      "dynamics": 1.145,
-      "timbre": 1.137
+      "tempo": 1.613,
+      "dynamics": 1.142,
+      "timbre": 1.132
     },
     "20": {
-      "tempo": 1.38,
-      "dynamics": 0.96,
-      "timbre": 1.102
+      "tempo": 1.449,
+      "dynamics": 0.955,
+      "timbre": 1.094
     },
     "21": {
-      "tempo": 1.117,
-      "dynamics": 1.113,
-      "timbre": 1.092
+      "tempo": 1.124,
+      "dynamics": 1.093,
+      "timbre": 1.089
     },
     "22": {
-      "tempo": 1.066,
-      "dynamics": 1.398,
-      "timbre": 0.897
+      "tempo": 1.07,
+      "dynamics": 1.402,
+      "timbre": 0.895
     },
     "23": {
-      "tempo": 1.024,
-      "dynamics": 0.956,
-      "timbre": 0.983
+      "tempo": 1.018,
+      "dynamics": 0.958,
+      "timbre": 0.992
     },
     "24": {
-      "tempo": 1.101,
-      "dynamics": 1.193,
-      "timbre": 1.122
+      "tempo": 1.11,
+      "dynamics": 1.186,
+      "timbre": 1.131
     }
   }
 }
