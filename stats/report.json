@@ -1,22 +1,15 @@
 {
-  "generated": "2026-11-06T15:43:52+00:00",
+  "generated": "2026-11-10T17:22:54+00:00",
   "counts": {
     "recordings": 26,
-    "pieces": 619,
+    "pieces": 620,
     "distinctPieces": 24,
-    "tempoValues": 98401,
-    "dynamicsResiduals": 98409,
-    "timbreResiduals": 98292,
-    "completeBeats": 98284
+    "tempoValues": 98532,
+    "dynamicsResiduals": 98540,
+    "timbreResiduals": 98423,
+    "completeBeats": 98415
   },
-  "problems": [
-    {
-      "recording": "1980_Sawallisch_Milan",
-      "piece": 14,
-      "file": "1980_Sawallisch_Milan_14_Audio_Data.xml",
-      "error": "unparseable XML: junk after document element: line 670, column 0"
-    }
-  ],
+  "problems": [],
   "warnings": [
     "piece 12: usable tempo values range 60–96 (38% spread; fewest in 1980_Sawallisch_Milan)",
     "piece 14: usable tempo values range 101–132 (23% spread; fewest in 1972_Shetler)",
@@ -106,9 +99,9 @@
       "timbre": 1.147
     },
     "14": {
-      "tempo": 1.134,
-      "dynamics": 1.071,
-      "timbre": 1.003
+      "tempo": 1.14,
+      "dynamics": 1.066,
+      "timbre": 1.009
     },
     "15": {
       "tempo": 1.662,
